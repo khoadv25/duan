@@ -64,6 +64,13 @@
                                 <option <?= $user['role'] == 0 ? 'selected' : null ?> value="0">Member</option>
                             </select>
                         </div>
+                        <div class="mb-3 mt-3">
+                            <label for="type" class="form-label">Active:</label>
+                            <select name="role" id="type" class="form-control">
+                                <option <?= $user['role'] == 1 ? 'selected' : null ?> value="1">Hoạt động</option>
+                                <option <?= $user['role'] == 0 ? 'selected' : null ?> value="0">Ngưng hoạt động</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
 

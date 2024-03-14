@@ -36,6 +36,7 @@ function categoryCreate()
         
         $data = [
             "name" => $_POST['name'] ?? null,
+            "status" => $_POST['status'] ?? null
         ];
 
         $errors = validateCategoryCreate($data);
@@ -69,8 +70,15 @@ function validateCategoryCreate($data) {
     else if(strlen($data['name']) > 50) {
         $errors[] = 'Trường name độ dài tối đa 50 ký tự';
     } 
-    else if(! checkUniqueName('categories', $data['name'])) {
+    else if(! checkUniqueName('categories', $data['category_name'])) {
         $errors[] = 'Name đã được sử dụng';
+    }
+
+
+    if ($data['status'] === null) {
+        $errors[] = 'Trường role là bắt buộc';
+    } else if (!in_array($data['status'], [0, 1])) {
+        $errors[] = 'Trường role phải là 0 or 1';
     }
 
     return $errors;
@@ -90,6 +98,8 @@ function categoryUpdate($id)
     if (!empty($_POST)) {
         $data = [
             "name" => $_POST['name'] ?? null,
+            "status" => $_POST['status'] ?? null
+
         ];
 
         $errors = validateCategoryUpdate($id, $data);
@@ -123,7 +133,12 @@ function validateCategoryUpdate($id, $data) {
     else if(! checkUniqueNameForUpdate('categories', $id, $data['name'])) {
         $errors[] = 'Name đã được sử dụng';
     }
-
+    
+    if ($data['status'] === null) {
+        $errors[] = 'Trường role là bắt buộc';
+    } else if (!in_array($data['status'], [0, 1])) {
+        $errors[] = 'Trường role phải là 0 or 1';
+    }
     return $errors;
 }
 

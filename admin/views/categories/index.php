@@ -28,6 +28,7 @@
                         <tr>
                             <th>ID</th>
                             <th>Name</th>
+                            <th>status</th>
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -35,6 +36,7 @@
                         <tr>
                             <th>ID</th>
                             <th>Name</th>
+                            <th>status</th>
                             <th>Action</th>
                         </tr>
                     </tfoot>
@@ -43,12 +45,14 @@
                             <tr>
                                 <td><?= $category['id'] ?></td>
                                 <td><?= $category['name'] ?></td>
+                                <td><?= $category['status']
+                                        ? '<span class="badge badge-success">Hoạt động</span>'
+                                        : '<span class="badge badge-warning">Ngưng Hoạt động</span>' ?>
+                                </td>
                                 <td>
                                     <a href="<?= BASE_URL_ADMIN ?>?act=category-detail&id=<?= $category['id'] ?>" class="btn btn-info">Show</a>
                                     <a href="<?= BASE_URL_ADMIN ?>?act=category-update&id=<?= $category['id'] ?>" class="btn btn-warning">Update</a>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=category-delete&id=<?= $category['id'] ?>" 
-                                        onclick="return confirm('Bạn có chắc chắn xóa không?')"
-                                        class="btn btn-danger">Delete</a>
+                                    <a href="<?= BASE_URL_ADMIN ?>?act=category-delete&id=<?= $category['id'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')" class="btn btn-danger">Delete</a>
                                 </td>
                             </tr>
                         <?php endforeach; ?>

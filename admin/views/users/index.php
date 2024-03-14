@@ -34,6 +34,7 @@
                             <th>Email</th>
                             <th>Chức Vụ</th>
                             <th>Action</th>
+                            <th>Trạng thái</th>
                         </tr>
                     </thead>
                     <tfoot>
@@ -46,6 +47,8 @@
                             <th>Email</th>
                             <th>Chức Vụ</th>
                             <th>Action</th>
+                            <th>Trạng thái</th>
+
                         </tr>
                     </tfoot>
                     <tbody>
@@ -60,12 +63,14 @@
                                 <td><?= $user['role']
                                         ? '<span class="badge badge-success">Admin</span>'
                                         : '<span class="badge badge-warning">Member</span>' ?></td>
+                                <td><?= $user['status']
+                                        ? '<span class="badge badge-success">Hoạt động</span>'
+                                        : '<span class="badge badge-warning">Ngưng Hoạt động</span>' ?></td>
+
                                 <td>
                                     <a href="<?= BASE_URL_ADMIN ?>?act=user-detail&id=<?= $user['id'] ?>" class="btn btn-info">Show</a>
                                     <a href="<?= BASE_URL_ADMIN ?>?act=user-update&id=<?= $user['id'] ?>" class="btn btn-warning">Update</a>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=user-delete&id=<?= $user['id'] ?>" 
-                                        onclick="return confirm('Bạn có chắc chắn xóa không?')"
-                                        class="btn btn-danger">Delete</a>
+                                    <a href="<?= BASE_URL_ADMIN ?>?act=user-delete&id=<?= $user['id'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')" class="btn btn-danger">Delete</a>
                                 </td>
                             </tr>
                         <?php endforeach; ?>

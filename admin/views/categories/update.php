@@ -38,6 +38,13 @@
                         </div>
                     </div>
                 </div>
+                <div class="mb-3 mt-3">
+                            <label for="type" class="form-label">Active:</label>
+                            <select name="status" id="type" class="form-control">
+                                <option <?= $category['status'] == 1 ? 'selected' : null ?> value="1">Hoạt động</option>
+                                <option <?= $category['status'] == 0 ? 'selected' : null ?> value="0">Ngưng hoạt động</option>
+                            </select>
+                        </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
                 <a href="<?= BASE_URL_ADMIN ?>?act=categories" class="btn btn-danger">Back to list</a>

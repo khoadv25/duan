@@ -30,6 +30,11 @@
                                         ? '<span class="badge badge-success">Admin</span>'
                                         : '<span class="badge badge-warning">Member</span>';
                                     break;
+                                case 'status':
+                                    echo $value
+                                        ? '<span class="badge badge-warning">Ngưng Hoạt động</span>'
+                                        : '<span class="badge badge-success">Hoạt động</span>';
+                                    break;
                                 default:
                                     echo $value;
                                     break;

@@ -53,8 +53,10 @@
         </div>
     </li>
 
+    
+    
     <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse4">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
             <i class="fab fa-apple"></i>
             <span>Quản lý category</span>
         </a>
@@ -65,6 +67,7 @@
             </div>
         </div>
     </li>
+
 
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">

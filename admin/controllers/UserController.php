@@ -21,7 +21,7 @@ function userShowOne($id)
         e404();
     }
 
-    $title = 'Chi tiết User: ' . $user['name'];
+    $title = 'Chi tiết User: ' . $user['fullname'];
     $view = 'users/show';
 
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
@@ -42,6 +42,7 @@ function userCreate()
             "phone" => $_POST['phone'] ?? null,
             "password" => $_POST['password'] ?? null,
             "role" => $_POST['role'] ?? null,
+            "status" => $_POST['status'] ?? null,
         ];
 
         $errors = validateUserCreate($data);
@@ -113,6 +114,12 @@ function validateUserCreate($data)
         $errors[] = 'Trường role phải là 0 or 1';
     }
 
+    if ($data['status'] === null) {
+        $errors[] = 'Trường role là bắt buộc';
+    } else if (!in_array($data['status'], [0, 1])) {
+        $errors[] = 'Trường role phải là 0 or 1';
+    }
+
     return $errors;
 }
 
@@ -136,6 +143,8 @@ function userUpdate($id)
             "phone" => $_POST['phone'] ?? null,
             "password" => $_POST['password'] ?? null,
             "role" => $_POST['role'] ?? null,
+            "status" => $_POST['role'] ?? null,
+            
         ];
 
         $errors = validateUserUpdate($id, $data);

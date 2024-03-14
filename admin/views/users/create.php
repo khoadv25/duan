@@ -60,6 +60,13 @@
                                 <option <?= isset($_SESSION['data']) && $_SESSION['data']['role'] == 0 ? 'selected' : null ?> value="0">Member</option>
                             </select>
                         </div>
+                        <div class="mb-3 mt-3">
+                            <label for="type" class="form-label">Trạng Thai:</label>
+                            <select name="status" id="type" class="form-control">
+                                <option <?= isset($_SESSION['data']) && $_SESSION['data']['role'] == 1 ? 'selected' : null ?> value="1">Hoạt Động</option>
+                                <option <?= isset($_SESSION['data']) && $_SESSION['data']['role'] == 0 ? 'selected' : null ?> value="0">ngưng hoạt động</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
 
