@@ -2,7 +2,7 @@
 
 function tagListAll()
 {
-    $title = 'Danh sách tag';
+    $title = 'Danh sách tags';
     $view = 'tags/index';
     $script = 'datatable';
     $script2 = 'tags/script';
