@@ -31,7 +31,7 @@ function userCreate()
 {
     $title = 'Danh sách User';
     $view = 'users/create';
-
+// test
     if (!empty($_POST)) {
 
         $data = [
