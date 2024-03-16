@@ -39,6 +39,27 @@ match($act) {
     'tag-update' => tagUpdate($_GET['id']),
     'tag-delete' => tagDelete($_GET['id']),
 
+    // CRUD size
+    'size' => sizeListAll(),
+    'size-detail' => sizeShowOne($_GET['id']),
+    'size-create' => sizeCreate(),
+    'size-update' => sizeUpdate($_GET['id']),
+    'size-delete' => sizeDelete($_GET['id']),
+
+    // CRUD brand
+    'brand' => brandListAll(),
+    'brand-detail' => brandShowOne($_GET['id']),
+    'brand-create' => brandCreate(),
+    'brand-update' => brandUpdate($_GET['id']),
+    'brand-delete' => brandDelete($_GET['id']),
+
+    // CRUD color
+    'color' => colorListAll(),
+    'color-detail' => colorShowOne($_GET['id']),
+    'color-create' => colorCreate(),
+    'color-update' => colorUpdate($_GET['id']),
+    'color-delete' => colorDelete($_GET['id']),
+    
     // CRUD author
     'authors' => authorListAll(),
     'author-detail' => authorShowOne($_GET['id']),
