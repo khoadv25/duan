@@ -37,7 +37,7 @@ function colorCreate()
         $data = [
             "name" => $_POST['name'] ?? null,
             "status" => $_POST['status'] ?? null,
-            "code" => $_POST['code'] ?? null,
+            "color_code" => $_POST['color_code'] ?? null,
         ];
 
         $errors = validateColorCreate($data);
@@ -73,9 +73,9 @@ function validateColorCreate($data)
     else if(strlen($data['name']) > 50) {
         $errors[] = 'Trường name độ dài tối đa 50 ký tự';
     } 
-    else if(! checkUniqueName('size', $data['size_name'])) {
-        $errors[] = 'Name đã được sử dụng';
-    }
+    // else if(! checkUniqueName('color', $data['color_name'])) {
+    //     $errors[] = 'Name đã được sử dụng';
+    // }
 
 
     if ($data['status'] === null) {
@@ -84,11 +84,11 @@ function validateColorCreate($data)
         $errors[] = 'Trường role phải là 0 or 1';
     }
 
-    if (empty($data['code'])) {
-        $errors[] = 'Trường code là bắt buộc';
-    } else if (strlen($data['code']) > 50) {
-        $errors[] = 'Trường code độ dài tối đa 50 ký tự';
-    }
+    // if (empty($data['code'])) {
+    //     $errors[] = 'Trường code là bắt buộc';
+    // } else if (strlen($data['code']) > 50) {
+    //     $errors[] = 'Trường code độ dài tối đa 50 ký tự';
+    // }
 
     return $errors;
 }
@@ -107,7 +107,7 @@ function colorUpdate($id)
     if (!empty($_POST)) {
         $data = [
             "name" => $_POST['name'] ?? null,
-            "code" => $_POST['code'] ?? null,
+            "color_code" => $_POST['color_code'] ?? null,
             "status" => $_POST['status'] ?? null
             
         ];
@@ -146,11 +146,11 @@ function validateColorUpdate($id, $data)
     else if(! checkUniqueNameForUpdate('size', $id, $data['name'])) {
         $errors[] = 'Name đã được sử dụng';
     }
-    if (empty($data['code'])) {
-        $errors[] = 'Trường code là bắt buộc';
-    } else if (strlen($data['code']) > 50) {
-        $errors[] = 'Trường code độ dài tối đa 50 ký tự';
-    }
+    // if (empty($data['code'])) {
+    //     $errors[] = 'Trường code là bắt buộc';
+    // } else if (strlen($data['code']) > 50) {
+    //     $errors[] = 'Trường code độ dài tối đa 50 ký tự';
+    // }
     if ($data['status'] === null) {
         $errors[] = 'Trường role là bắt buộc';
     } else if (!in_array($data['status'], [0, 1])) {

@@ -78,7 +78,7 @@ function validateBillStatusCreate($data)
 
 function billStatusUpdate($id)
 {
-    $user = showOne('billstatus', $id);
+    $billStatus = showOne('billstatus', $id);
 
     if (empty($user)) {
         e404();

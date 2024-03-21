@@ -32,12 +32,12 @@ match($act) {
     'category-update' => categoryUpdate($_GET['id']),
     'category-delete' => categoryDelete($_GET['id']),
 
-    // CRUD tag
-    'tags' => tagListAll(),
-    'tag-detail' => tagShowOne($_GET['id']),
-    'tag-create' => tagCreate(),
-    'tag-update' => tagUpdate($_GET['id']),
-    'tag-delete' => tagDelete($_GET['id']),
+    // CRUD product
+    'product' => productsListAll(),
+    'product-detail' => productShowOne($_GET['id']),
+    'product-create' => productCreate(),
+    'product-update' => productUpdate($_GET['id']),
+    'product-delete' => productDelete($_GET['id']),
 
     // CRUD size
     'size' => sizeListAll(),

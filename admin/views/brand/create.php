@@ -10,7 +10,7 @@
             </h6>
         </div>
         <div class="card-body">
-
+            
             <?php if (isset($_SESSION['errors'])) : ?>
                 <div class="alert alert-danger">
                     <ul>
@@ -31,12 +31,12 @@
                         </div>
                     </div>
                     <div class="mb-3 mt-3">
-                        <label for="type" class="form-label">Trạng Thai:</label>
-                        <select name="status" id="type" class="form-control">
-                            <option <?= isset($_SESSION['data']) && $_SESSION['data']['status'] == 1 ? 'selected' : null ?> value="1">Hoạt Động</option>
-                            <option <?= isset($_SESSION['data']) && $_SESSION['data']['status'] == 0 ? 'selected' : null ?> value="0">ngưng hoạt động</option>
-                        </select>
-                    </div>
+                            <label for="type" class="form-label">Trạng Thai:</label>
+                            <select name="status" id="type" class="form-control">
+                                <option <?= isset($_SESSION['data']) && $_SESSION['data']['status'] == 1 ? 'selected' : null ?> value="1">Hoạt Động</option>
+                                <option <?= isset($_SESSION['data']) && $_SESSION['data']['status'] == 0 ? 'selected' : null ?> value="0">ngưng hoạt động</option>
+                            </select>
+                        </div>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>

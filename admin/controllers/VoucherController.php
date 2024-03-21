@@ -1,6 +1,6 @@
 <?php
 
-function userListAll()
+function voucherListAll()
 {
     $title = 'Danh sách Voucher: ';
     $view = 'vouchers/index';

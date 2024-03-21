@@ -16,24 +16,17 @@
                     <th>Dữ liệu</th>
                 </tr>
 
-                <?php foreach ($user as $fieldName => $value) : ?>
+                <?php foreach ($color as $fieldName => $value) : ?>
                     <tr>
                         <td><?= ucfirst($fieldName) ?></td>
-                        <td>
+
+                       <td>
                             <?php
                             switch ($fieldName) {
-                                case 'password':
-                                    echo '**********';
-                                    break;
-                                case 'role':
-                                    echo $value
-                                        ? '<span class="badge badge-success">Admin</span>'
-                                        : '<span class="badge badge-warning">Member</span>';
-                                    break;
                                 case 'status':
                                     echo $value
                                         ? '<span class="badge badge-success">Hoạt động</span>'
-                                        : '<span class="badge badge-warning">Ngưng Hoạt động</span>';
+                                        : '<span class="badge badge-warning ">Ngưng Hoạt động</span>';
                                     break;
                                 default:
                                     echo $value;
@@ -42,10 +35,12 @@
                             ?>
                         </td>
                     </tr>
+
+
                 <?php endforeach; ?>
             </table>
 
-            <a href="<?= BASE_URL_ADMIN ?>?act=users" class="btn btn-danger">Back to list</a>
+            <a href="<?= BASE_URL_ADMIN ?>?act=color" class="btn btn-danger">Back to list</a>
         </div>
     </div>
 </div>

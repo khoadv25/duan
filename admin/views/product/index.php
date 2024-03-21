@@ -3,7 +3,7 @@
     <h1 class="h3 mb-2 text-gray-800">
         <?= $title ?>
 
-        <a href="<?= BASE_URL_ADMIN ?>?act=author-create" class="btn btn-primary">Create</a>
+        <a href="<?= BASE_URL_ADMIN ?>?act=product-create" class="btn btn-primary">Create</a>
     </h1>
 
     <!-- DataTales Example -->
@@ -41,10 +41,10 @@
                         </tr>
                     </tfoot>
                     <tbody>
-                        <?php foreach ($authors as $author) : ?>
+                        <?php foreach ($product as $product) : ?>
                             <tr>
-                                <td><?= $author['id'] ?></td>
-                                <td><?= $author['name'] ?></td>
+                                <td><?= $product['id'] ?></td>
+                                <td><?= $product['name'] ?></td>
                                 <td>
                                     <img src="<?= BASE_URL . $author['avatar'] ?>" alt="" width="100px">
                                 </td>

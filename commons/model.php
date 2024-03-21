@@ -48,6 +48,8 @@ if (!function_exists('insert')) {
             }
 
             $stmt->execute();
+
+            return $GLOBALS['conn']->lastInsertId();
         } catch (\Exception $e) {
             debug($e);
         }

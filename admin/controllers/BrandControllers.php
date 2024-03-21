@@ -8,7 +8,7 @@ function brandListAll()
     $script2 = 'brand/script';
     $style = 'datatable';
 
-    $color = listAll('brand');
+    $brand = listAll('brand');
 
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
 }
@@ -37,7 +37,7 @@ function brandCreate()
         $data = [
             "name" => $_POST['name'] ?? null,
             "status" => $_POST['status'] ?? null,
-            "origin" => $_POST['origin'] ?? null,
+            // "origin" => $_POST['origin'] ?? null,
         ];
 
         $errors = validateBrandCreate($data);
@@ -84,11 +84,11 @@ function validateBrandCreate($data)
         $errors[] = 'Trường role phải là 0 or 1';
     }
 
-    if (empty($data['origin'])) {
-        $errors[] = 'Trường code là bắt buộc';
-    } else if (strlen($data['origin']) > 50) {
-        $errors[] = 'Trường origin độ dài tối đa 50 ký tự';
-    }
+    // if (empty($data['origin'])) {
+    //     $errors[] = 'Trường code là bắt buộc';
+    // } else if (strlen($data['origin']) > 50) {
+    //     $errors[] = 'Trường origin độ dài tối đa 50 ký tự';
+    // }
 
     return $errors;
 }
@@ -146,11 +146,11 @@ function validateBrandUpdate($id, $data)
     else if(! checkUniqueNameForUpdate('brand', $id, $data['name'])) {
         $errors[] = 'Name đã được sử dụng';
     }
-    if (empty($data['origin'])) {
-        $errors[] = 'Trường origin là bắt buộc';
-    } else if (strlen($data['origin']) > 50) {
-        $errors[] = 'Trường origin độ dài tối đa 50 ký tự';
-    }
+    // if (empty($data['origin'])) {
+    //     $errors[] = 'Trường origin là bắt buộc';
+    // } else if (strlen($data['origin']) > 50) {
+    //     $errors[] = 'Trường origin độ dài tối đa 50 ký tự';
+    // }
     if ($data['status'] === null) {
         $errors[] = 'Trường role là bắt buộc';
     } else if (!in_array($data['status'], [0, 1])) {

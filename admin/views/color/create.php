@@ -10,7 +10,7 @@
             </h6>
         </div>
         <div class="card-body">
-
+            
             <?php if (isset($_SESSION['errors'])) : ?>
                 <div class="alert alert-danger">
                     <ul>
@@ -29,14 +29,19 @@
                             <label for="name" class="form-label">Name:</label>
                             <input type="text" class="form-control" id="name" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['name'] : null ?>" placeholder="Enter name" name="name">
                         </div>
+                        <div class="mb-3 mt-3">
+                            <label for="name" class="form-label">Mã màu:</label>
+                            <input type="text" class="form-control" id="name" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['name'] : null ?>" placeholder="Enter name" name="color_code">
+                        </div>
                     </div>
+                    
                     <div class="mb-3 mt-3">
-                        <label for="type" class="form-label">Trạng Thai:</label>
-                        <select name="status" id="type" class="form-control">
-                            <option <?= isset($_SESSION['data']) && $_SESSION['data']['status'] == 1 ? 'selected' : null ?> value="1">Hoạt Động</option>
-                            <option <?= isset($_SESSION['data']) && $_SESSION['data']['status'] == 0 ? 'selected' : null ?> value="0">ngưng hoạt động</option>
-                        </select>
-                    </div>
+                            <label for="type" class="form-label">Trạng Thai:</label>
+                            <select name="status" id="type" class="form-control">
+                                <option <?= isset($_SESSION['data']) && $_SESSION['data']['status'] == 1 ? 'selected' : null ?> value="1">Hoạt Động</option>
+                                <option <?= isset($_SESSION['data']) && $_SESSION['data']['status'] == 0 ? 'selected' : null ?> value="0">ngưng hoạt động</option>
+                            </select>
+                        </div>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
