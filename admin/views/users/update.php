@@ -28,7 +28,7 @@
                 <?php unset($_SESSION['errors']); ?>
             <?php endif; ?>
 
-            <form action="" method="POST">
+            <form action="" method="POST" >
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mb-3 mt-3">
