@@ -19,7 +19,7 @@
     <?php 
         if (isset($style) && $style) {
             require_once PATH_VIEW_ADMIN . 'styles/' . $style . '.php';
-        }
+        } 
 
         if (isset($style2) && $style2) {
             require_once PATH_VIEW_ADMIN . $style2 . '.php';
