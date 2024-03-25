@@ -165,7 +165,7 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="client-rv">
+                                                <!-- <div class="client-rv">
                                                     <div class="client-pic">
                                                         <img src="assets/img/avatar/comments/img_02.jpg" alt>
                                                     </div>
@@ -219,7 +219,7 @@
                                                             <p>Helplessly as he looked What's happened to me he thought. It wasn't a dreamtrated magazine and housed in a nice, gilded frame. It showed a lady fitted</p>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div> <!-- end col -->
 
                                             <div class="col-lg-6 col-sm-12 col-xs-12 review-form-wrapper">
