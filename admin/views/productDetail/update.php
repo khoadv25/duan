@@ -24,41 +24,47 @@
 
             <form action="" method="POST" enctype="multipart/form-data">
                 <div class="row">
-                   
 
-                <!-- bảng bien thẻ -->
+
+                    <!-- bảng bien thẻ -->
 
                     <div class="col-md-6">
                         <div class="mb-3 mt-3">
                             <label for="cars">Dung Lượng:</label>
                             <select name="size" id="cars">
-                                <?php foreach ($size as $key => $value) : ?>
-                                    <option value="<?= $value['id'] ?>"><?= $value['name'] ?></option>
+                                <?php foreach ($size as $key => $sz) : ?>
+                                    <option value="<?= $sz['id'] ?>" <?= $productDetail['size_id'] ?> <?= ($sz['id'] == $productDetail['size_id']) ? "selected" : "" ?>><?= $sz['name'] ?></option>
+                                    </option>
                                 <?php endforeach ?>
                             </select>
                         </div>
+
+
+
+
                         <div class="mb-3 mt-3">
                             <label for="name" class="form-label">số lượng:</label>
-                            <input type="text" class="form-control" id="name" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['name'] : null ?>" placeholder="Enter name" name="soluong">
+                            <input type="text" class="form-control" id="name" value="<?= $productDetail['quantity'] ?>" placeholder="Enter name" name="soluong">
                         </div>
                         <div class="mb-3 mt-3">
                             <label for="cars">Màu:</label>
                             <select name="color" id="cars">
-                                <?php foreach ($color as $key => $value) : ?>
-                                    <option value="<?= $value['id'] ?>"><?= $value['name'] ?></option>
+                                <?php foreach ($color as $key => $col) : ?>
+                                    <option value="<?= $col['id'] ?>" <?= $productDetail['color_id'] ?> <?= ($col['id'] == $productDetail['color_id']) ? "selected" : "" ?>><?= $col['name'] ?></option>
+                                    </option>
                                 <?php endforeach ?>
                             </select>
                         </div>
-                        
+
                         <div class="mb-3 mt-3">
                             <label for="name" class="form-label">Giá :</label>
-                            <input type="text" class="form-control" id="name" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['name'] : null ?>" placeholder="Enter name" name="price">
+                            <input type="text" class="form-control" id="name" value="<?= $productDetail['price'] ?>" placeholder="Enter name" name="price">
                         </div>
                         <div class="mb-3 mt-3">
                             <label for="avatar" class="form-label">image:</label>
                             <input type="file" class="form-control" id="avatar" name="images">
                         </div>
-                        
+
                         <div class="mb-3 mt-3">
                             <label for="name" class="form-label">sale :</label>
                             <input type="text" class="form-control" id="name" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['name'] : null ?>" placeholder="Enter name" name="sale">
@@ -69,7 +75,7 @@
 
                 <button type="submit" class="btn btn-primary">Submit</button>
                 <a href="<?= BASE_URL_ADMIN ?>?act=product" class="btn btn-danger">Back to list</a>
-            </form> 
+            </form>
         </div>
     </div>
 </div>

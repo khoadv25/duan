@@ -121,15 +121,18 @@ function productsDetailUpdate($id)
 
     if (!empty($_POST)) {
         $data = [
-            'image_url' => $_POST['images'] ?$_POST['images'] : $image['image_url'],
+            'image_url' => $_FILES['images']['name'] ? $_FILES['images']['name'] : $image['image_url'],
             'product_id' => $productDetail['product_id'],
         ];
+        // print_r($data['image_url']);
+        // die;
         // co bảng image : gồm name và product_id
-        $img = $_FILES['images'] ?? null;
+        $img = $_FILES['images'] ? $_FILES['images'] : $image['image_url'] ;
         if (!empty($img)) {
             $data['image_url'] = upload_file($img, 'uploads/product/');    
         }
-
+        // print_r($data['image_url']);
+        // die;
        $img = $image['id'];
         $image_id = update('image', $img, $data);
 
@@ -150,7 +153,7 @@ function productsDetailUpdate($id)
         $_SESSION['success'] = 'Thao tác thành công!';
 
 
-        header('Location: ' . BASE_URL_ADMIN . '?act=product-update&id=' . $id);
+        header('Location: ' . BASE_URL_ADMIN . '?act=product-s-update&id=' . $id);
         exit();
     }
 
