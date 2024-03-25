@@ -46,7 +46,7 @@ match($act) {
 
     // CRUD product
     'product-s' => productsDetailListAll($_GET['id']),
-    'product-s-detail' => productsDetailShowOne($_GET['id']),
+    // 'product-s-detail' => productsDetailShowOne($_GET['id']),
     'product-s-create' => productsDetailCreate(),
     'product-s-update' => productsDetailUpdate($_GET['id']),
     'product-s-delete' => productsDetailtDelete($_GET['id']),

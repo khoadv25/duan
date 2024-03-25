@@ -107,7 +107,7 @@ function brandUpdate($id)
     if (!empty($_POST)) {
         $data = [
             "name" => $_POST['name'] ?? null,
-            "origin" => $_POST['origin'] ?? null,
+            // "origin" => $_POST['origin'] ?? null,
             "status" => $_POST['status'] ?? null
             
         ];

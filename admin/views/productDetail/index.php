@@ -3,7 +3,7 @@
     <h1 class="h3 mb-2 text-gray-800">
         <?= $title ?>
 
-        <a href="<?= BASE_URL_ADMIN ?>?act=product-create" class="btn btn-primary">Create</a>
+        <a href="<?= BASE_URL_ADMIN ?>?act=product-s-create" class="btn btn-primary">Create</a>
     </h1>
 
     <!-- DataTales Example -->
@@ -66,9 +66,9 @@
                                 <td><?= $productDetail['sale'] ?? '' ?></td>
                            
                                 <td>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=product-s" class="btn btn-info">Show Biến thể</a>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=product-update&id=<?= $product['id'] ?>" class="btn btn-warning">Update</a>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=product-delete&id=<?= $product['id'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')" class="btn btn-danger">Delete</a>
+                                    <!-- <a href="<?= BASE_URL_ADMIN ?>?act=product-s" class="btn btn-info">.</a> -->
+                                    <a href="<?= BASE_URL_ADMIN ?>?act=product-s-update&id=<?= $productDetail['id'] ?>" class="btn btn-warning">Update</a>
+                                    <a href="<?= BASE_URL_ADMIN ?>?act=product-delete&id=<?= $productDetail['id'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')" class="btn btn-danger">Delete</a>
                                 </td>
 
                             

@@ -45,13 +45,17 @@ function productCreate()
             "description" => $_POST['mota'] ?? null,
             "brand_id" => $_POST['brand'] ?? null,
             "category_id" => $_POST['cate'] ?? null,
-            "thumbnail" => $_FILES['avatar'] ?? null,
+            "thumbnail" => $_FILES['avatar']['name'] ?? null,
         ];
+
+        // print_r($data['thumbnail']);
+       
+        // die;
 
         validateProductCreate($data);
 
-        
-        
+        // print_r($_FILES['avatar']);
+        // die;
         $img = $_FILES['avatar'];
         if (!empty($img)) {
             $data['thumbnail'] = upload_file($img, 'uploads/product/');    
@@ -123,7 +127,7 @@ function validateProductCreate($data) {
     //     $errors[] = 'Trường cate là bắt buộc';
     // } 
    
-    if (!empty($data['thumbnail']) && $data['thumbnail']['size'] > 0) {
+    if (!empty($data['thumbnail']['name']) && $data['thumbnail']['size'] > 0) {
         $typeImage = ['image/png', 'image/jpg', 'image/jpeg'];
 
         if ($data['thumbnail']['size'] > 2 * 1024 * 1024) {
@@ -160,18 +164,22 @@ function productUpdate($id)
     $view = 'product/update';
 
     if (!empty($_POST)) {
+
+       
         $data = [
             "name" => $_POST['name'] ?? $product['name'],
             "description" => $_POST['mota'] ?? $product['description'],
             "brand_id" => $_POST['brand'] ?? $product['brand_id'],
             "category_id" => $_POST['cate'] ?? $product['category_id'],
-            "thumbnail" => $_FILES['avatar'] ?? $product['thumbnail'],
+            "thumbnail" => $_FILES['avatar']['name'] ? $_FILES['avatar']['name'] : $product['thumbnail'],
 
         ];
-        // print_r($data['thumbnail']);
-        // echo '<pre>';
-        // print_r($product['thumbnail']);
-        // die;
+       
+        $img = $_FILES['avatar'];
+        if (!empty($img)) {
+            $data['thumbnail'] = upload_file($img, 'uploads/product/');    
+        }
+        
 
         $errors = validateProductUpdate($id, $data);
         if (!empty($errors)) {
@@ -183,10 +191,7 @@ function productUpdate($id)
             $_SESSION['success'] = 'Thao tác thành công!';
         }
 
-        $img = $_FILES['avatar'];
-        if (!empty($img)) {
-            $data['thumbnail'] = upload_file($img, 'uploads/product/');    
-        }
+       
 
         header('Location: ' . BASE_URL_ADMIN . '?act=product-update&id=' . $id);
         exit();
@@ -209,6 +214,25 @@ function validateProductUpdate($id, $data) {
     // else if(! checkUniqueNameForUpdate('product', $id, $data['name'])) {
     //     $errors[] = 'Name đã được sử dụng';
     // }
+    if (!empty($data['thumbnail']['name']) && $data['thumbnail']['size'] > 0) {
+        $typeImage = ['image/png', 'image/jpg', 'image/jpeg'];
+
+        if ($data['thumbnail']['size'] > 2 * 1024 * 1024) {
+            $errors[] = 'Trường avatar có dung lượng nhỏ hơn 2M';
+        } else if (!in_array($data['thumbnail']['type'], $typeImage)) {
+            $errors[] = 'Trường avatar chỉ chấp nhận định dạng file: png, jpg, jpeg';
+        }
+    }
+
+    if (!empty($errors)) {
+        $_SESSION['errors'] = $errors;
+        $_SESSION['data'] = $data;
+
+        header('Location: ' . BASE_URL_ADMIN . '?act=product-create');
+        exit();
+    }
+
+
 
     return $errors;
 }

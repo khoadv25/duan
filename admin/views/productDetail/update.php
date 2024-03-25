@@ -6,17 +6,10 @@
     <div class="card shadow mb-4">
         <div class="card-header py-3">
             <h6 class="m-0 font-weight-bold text-primary">
-                Update
+                Create
             </h6>
         </div>
         <div class="card-body">
-
-            <?php if (isset($_SESSION['success'])) : ?>
-                <div class="alert alert-success">
-                    <?= $_SESSION['success'] ?>
-                </div>
-                <?php unset($_SESSION['success']); ?>
-            <?php endif; ?>
 
             <?php if (isset($_SESSION['errors'])) : ?>
                 <div class="alert alert-danger">
@@ -31,46 +24,56 @@
 
             <form action="" method="POST" enctype="multipart/form-data">
                 <div class="row">
+                   
 
-                    <div class="col-md-8">
+                <!-- bảng bien thẻ -->
+
+                    <div class="col-md-6">
                         <div class="mb-3 mt-3">
-                            <label for="name" class="form-label">Name:</label>
-                            <input type="text" class="form-control" id="name" value="<?= $product['name'] ?>" placeholder="Enter name" name="name">
+                            <label for="cars">Dung Lượng:</label>
+                            <select name="size" id="cars">
+                                <?php foreach ($size as $key => $value) : ?>
+                                    <option value="<?= $value['id'] ?>"><?= $value['name'] ?></option>
+                                <?php endforeach ?>
+                            </select>
                         </div>
-
                         <div class="mb-3 mt-3">
-                            <label for="name" class="form-label">Mô tả :</label>
-                            <input type="text" class="form-control" id="name" value="<?= $product['description'] ?>" placeholder="Enter name" name="description">
+                            <label for="name" class="form-label">số lượng:</label>
+                            <input type="text" class="form-control" id="name" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['name'] : null ?>" placeholder="Enter name" name="soluong">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="cars">Màu:</label>
+                            <select name="color" id="cars">
+                                <?php foreach ($color as $key => $value) : ?>
+                                    <option value="<?= $value['id'] ?>"><?= $value['name'] ?></option>
+                                <?php endforeach ?>
+                            </select>
                         </div>
                         
-                        <label for="cars">Brand:</label>
-                        <select name="brand" id="cars">
-                            <?php foreach ($brand as $key => $br) : ?>
-                                <option value="<?= $br['id'] ?>" <?= $product['brand_id'] ?> <?= ($br['id'] == $product['brand_id']) ? "selected" : "" ?>><?= $br['name'] ?></option>
-                                </option>
-                            <?php endforeach ?>
-                        </select>
-
-                        <label for="cars">Danh mục:</label>
-                        <select name="cate" id="cars">
-                            <?php foreach ($categories as $key => $cate) : ?>
-                                <option value="<?= $cate['id'] ?>" <?= $product['category_id'] ?> <?= ($cate['id'] == $product['category_id']) ? "selected" : "" ?>><?= $cate['name'] ?></option>
-                            <?php endforeach ?>
-                        </select>
                         <div class="mb-3 mt-3">
-                            <label for="avatar" class="form-label">Avatar:</label>
-                            <input type="file" class="form-control"  name="avatar" value="" name="avatar">
-                            <img src="<?= BASE_URL . $product['thumbnail'] ?>" alt="" width="100px">
+                            <label for="name" class="form-label">Giá :</label>
+                            <input type="text" class="form-control" id="name" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['name'] : null ?>" placeholder="Enter name" name="price">
                         </div>
-
+                        <div class="mb-3 mt-3">
+                            <label for="avatar" class="form-label">image:</label>
+                            <input type="file" class="form-control" id="avatar" name="images">
+                        </div>
+                        
+                        <div class="mb-3 mt-3">
+                            <label for="name" class="form-label">sale :</label>
+                            <input type="text" class="form-control" id="name" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['name'] : null ?>" placeholder="Enter name" name="sale">
+                        </div>
                     </div>
-                    
 
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
                 <a href="<?= BASE_URL_ADMIN ?>?act=product" class="btn btn-danger">Back to list</a>
-            </form>
+            </form> 
         </div>
     </div>
 </div>
+
+<?php if (isset($_SESSION['data'])) {
+    unset($_SESSION['data']);
+} ?>
