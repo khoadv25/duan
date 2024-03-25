@@ -14,9 +14,13 @@ require_file(PATH_MODEL_ADMIN);
 
 // Điều hướng
 $act = $_GET['act'] ?? '/';
+middleware_auth_check($act);
 
 match($act) {
     '/' => dashboard(),
+    // login & logout
+    'login' => authenShowFormLogin(),
+    'logout' => authenLogout(),
 
     // CRUD User
     'users' => userListAll(),
@@ -38,6 +42,15 @@ match($act) {
     'product-create' => productCreate(),
     'product-update' => productUpdate($_GET['id']),
     'product-delete' => productDelete($_GET['id']),
+
+
+    // CRUD product
+    'product-s' => productsDetailListAll($_GET['id']),
+    'product-s-detail' => productsDetailShowOne($_GET['id']),
+    'product-s-create' => productsDetailCreate(),
+    'product-s-update' => productsDetailUpdate($_GET['id']),
+    'product-s-delete' => productsDetailtDelete($_GET['id']),
+
 
     // CRUD size
     'size' => sizeListAll(),

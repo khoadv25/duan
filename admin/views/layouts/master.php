@@ -48,7 +48,7 @@
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-                <?php require_once PATH_VIEW_ADMIN . $view . '.php'; ?>
+                <?php require_once PATH_VIEW . $view . '.php'; ?>
                 <!-- /.container-fluid -->
 
             </div>

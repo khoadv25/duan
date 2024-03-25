@@ -27,44 +27,52 @@
                     <thead>
                         <tr>
                             <th>ID</th>
-                            <th>Name</th>
-                            <th>mô tả</th>
-                            <th>Brand</th>
-                            <th>danh mục</th>
-                            <th>ảnh đại diện</th>
+                            <th>DUng Lượng</th>
+                            <th>Số Lượng</th>
+                            <th>Màu</th>
+                            <th>Giá SP</th>
+                            <th>Ảnh sản phẩm</th>
+                            <th>Sản Phẩm Gốc</th>
+                            <th>Sale</th>
                             <th>Thao Tác</th>
-
                         </tr>
                     </thead>
                     <tfoot>
                         <tr>
                             <th>ID</th>
-                            <th>Name</th>
-                            <th>mô tả</th>
-                            <th>Brand</th>
-                            <th>danh mục</th>
-                            <th>ảnh đại diện</th>
+                            <th>DUng Lượng</th>
+                            <th>Số Lượng</th>
+                            <th>Màu</th>
+                            <th>Giá SP</th>
+                            <th>Ảnh sản phẩm</th>
+                            <th>Sản Phẩm Gốc</th>
+                            <th>Sale</th>
                             <th>Thao Tác</th>
                         </tr>
                     </tfoot>
                     <tbody>
-                        <?php foreach ($product as $product) : ?>
+                       
+
                             <tr>
-                                <td><?= $product['id'] ?></td>
-                                <td><?= $product['product_name'] ?></td>
-                                <td><?= $product['description'] ?></td>
-                                <td><?= $product['brand_name'] ?></td>
-                                <td><?= $product['category_name'] ?></td>
+                                <td><?= $productDetail['id'] ?? '' ?></td>
+                                <td><?= $productDetail['size_id']?? ''  ?></td>
+                                <td><?= $productDetail['quantity']?? ''  ?></td>
+                                <td><?= $productDetail['color_id'] ?? '' ?></td>
+                                <td><?= $productDetail['price']?? ''  ?></td>
                                 <td>
-                                    <img src="<?= BASE_URL . $product['thumbnail'] ?>" alt="" width="100px">
+                                    <img src="<?= BASE_URL . $value['image_id']?? ''  ?>" alt="" width="100px">
                                 </td>
+                                <td><?= $productDetail['product_id']?? ''  ?></td>
+                                <td><?= $productDetail['sale'] ?? '' ?></td>
+                           
                                 <td>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=product-s&id=<?= $product['id'] ?>" class="btn btn-info">Show Biến thể</a>
+                                    <a href="<?= BASE_URL_ADMIN ?>?act=product-s" class="btn btn-info">Show Biến thể</a>
                                     <a href="<?= BASE_URL_ADMIN ?>?act=product-update&id=<?= $product['id'] ?>" class="btn btn-warning">Update</a>
                                     <a href="<?= BASE_URL_ADMIN ?>?act=product-delete&id=<?= $product['id'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')" class="btn btn-danger">Delete</a>
                                 </td>
-                            </tr>
-                        <?php endforeach; ?>
+
+                            
+                           
 
                     </tbody>
                 </table>

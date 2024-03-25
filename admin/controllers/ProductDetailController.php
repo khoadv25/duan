@@ -1,19 +1,18 @@
 <?php
 
-function productsListAll()
+function productsDetailListAll($id)
 {
     $title = 'Danh sách Product';
-    $view = 'product/index';
+    $view = 'productDetail/index';
     $script = 'datatable';
-    $script2 = 'product/script';
+    $script2 = 'productDetail/script';
     $style = 'datatable';
-    
-    $product = showList('product');
+    $productDetail = showDetail('product_detail',$id);
 
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
 }
 
-function productShowOne($id)
+function productsDetailShowOne($id)
 {
     $product = showOne('product', $id);
 
@@ -27,7 +26,7 @@ function productShowOne($id)
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
 }
 
-function productCreate()
+function productsDetailCreate()
 {
     $title = 'Danh sách product';
     $view = 'product/create';
@@ -48,11 +47,16 @@ function productCreate()
             "thumbnail" => $_FILES['avatar'] ?? null,
         ];
 
-        validateProductCreate($data);
+        $errors = validateProductsDetailCreate($data);
+        if (!empty($errors)) {
+            $_SESSION['errors'] = $errors;
+            $_SESSION['data'] = $data;
 
+            header('Location: ' . BASE_URL_ADMIN . '?act=product-create');
+            exit();
+        }
         
-        
-        $img = $_FILES['avatar'];
+        $img = $_FILES['avatar'] ?? null;
         if (!empty($img)) {
             $data['thumbnail'] = upload_file($img, 'uploads/product/');    
         }
@@ -89,7 +93,7 @@ function productCreate()
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
 }
 
-function validateProductCreate($data) {
+function validateProductsDetailCreate($data) {
     // name - bắt buộc, độ dài tối đa 50 ký tự, Không được trùng
 
     $errors = [];
@@ -104,48 +108,10 @@ function validateProductCreate($data) {
         $errors[] = 'Name đã được sử dụng';
     }
 
-    if (empty($data['description'])) {
-        $errors[] = 'Trường mô tả là bắt buộc';
-    } 
-    else if(strlen($data['description']) > 100) {
-        $errors[] = 'Trường mô tả độ dài tối đa 100 ký tự';
-    } 
-   
-
-
-    // if (empty($data['brand_id'])) {
-    //     $errors[] = 'Trường brand là bắt buộc';
-    // } 
-    
-
-
-    // if (empty($data['category_id'])) {
-    //     $errors[] = 'Trường cate là bắt buộc';
-    // } 
-   
-    if (!empty($data['thumbnail']) && $data['thumbnail']['size'] > 0) {
-        $typeImage = ['image/png', 'image/jpg', 'image/jpeg'];
-
-        if ($data['thumbnail']['size'] > 2 * 1024 * 1024) {
-            $errors[] = 'Trường avatar có dung lượng nhỏ hơn 2M';
-        } else if (!in_array($data['thumbnail']['type'], $typeImage)) {
-            $errors[] = 'Trường avatar chỉ chấp nhận định dạng file: png, jpg, jpeg';
-        }
-    }
-
-    if (!empty($errors)) {
-        $_SESSION['errors'] = $errors;
-        $_SESSION['data'] = $data;
-
-        header('Location: ' . BASE_URL_ADMIN . '?act=product-create');
-        exit();
-    }
-
-
     return $errors;
 }
 
-function productUpdate($id)
+function productsDetailUpdate($id)
 {
     $product = showOne('product', $id);
     $brand = listAll('brand');
@@ -173,7 +139,7 @@ function productUpdate($id)
         // print_r($product['thumbnail']);
         // die;
 
-        $errors = validateProductUpdate($id, $data);
+        $errors = validateProductsDetailUpdate($id, $data);
         if (!empty($errors)) {
             $_SESSION['errors'] = $errors;
         } 
@@ -183,7 +149,7 @@ function productUpdate($id)
             $_SESSION['success'] = 'Thao tác thành công!';
         }
 
-        $img = $_FILES['avatar'];
+        $img = $_FILES['avatar'] ?? $product['thumbnail'];
         if (!empty($img)) {
             $data['thumbnail'] = upload_file($img, 'uploads/product/');    
         }
@@ -195,7 +161,7 @@ function productUpdate($id)
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
 }
 
-function validateProductUpdate($id, $data) {
+function validateProductsDetailUpdate($id, $data) {
     // name - bắt buộc, độ dài tối đa 50 ký tự, Không được trùng
 
     $errors = [];
@@ -213,7 +179,7 @@ function validateProductUpdate($id, $data) {
     return $errors;
 }
 
-function productDelete($id)
+function productsDetailtDelete($id)
 {
     delete2('product', $id);
 
