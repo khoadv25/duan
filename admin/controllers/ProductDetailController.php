@@ -8,9 +8,10 @@ function productsDetailListAll($id)
     $script2 = 'productDetail/script';
     $style = 'datatable';
     $productDetail = showDetail('product_detail', $id);
+    $show = showBienThe($id);
 
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
-    $_SESSION['productDetail']['product_id'] = $id;
+    $_SESSION['show']['product_id'] = $id;
     return $id;
 }
 
@@ -38,7 +39,7 @@ function productsDetailCreate()
     //     session_start();
 
     //  Lấy ID sản phẩm từ session
-    $product_id = $_SESSION['productDetail']['product_id'];
+    $product_id = $_SESSION['show']['product_id'];
     // session_destroy($product_id);
     // print_r($product_id);
     // die;
@@ -81,7 +82,7 @@ function productsDetailCreate()
 
         $_SESSION['success'] = 'Thao tác thành công!';
 
-        header('Location: ' . BASE_URL_ADMIN . '?act=product');
+        // header('Location: ' . BASE_URL_ADMIN . '?act=product');
         exit();
     }
 
@@ -114,8 +115,7 @@ function productsDetailUpdate($id)
     if (empty($productDetail)) {
         e404();
     }
-    // var_dump($product['thumbnail']);
-    // die;
+
     $title = 'Cập nhật product Detail: ' ;
     $view = 'productDetail/update';
 
@@ -151,9 +151,9 @@ function productsDetailUpdate($id)
         update('product_detail', $dt, $data1);
 
         $_SESSION['success'] = 'Thao tác thành công!';
+        
 
-
-        header('Location: ' . BASE_URL_ADMIN . '?act=product-s-update&id=' . $id);
+        header('Location: ' . BASE_URL_ADMIN . '?act=product-s&id=' . $id);
         exit();
     }
 

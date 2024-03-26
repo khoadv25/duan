@@ -1,245 +1,62 @@
+<!doctype html>
+<html lang="zxx">
 
 
+<!-- Mirrored from html.themexriver.com/radios/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 10 Mar 2024 12:11:53 GMT -->
+<head>
 
+    <!--========= Required meta tags =========-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-            <div class="container">
-                <div class="header__middle ul_li_between justify-content-xs-center">
-                    <div class="header__logo">
-                        <a href="index.html">
-                            <img src="assets/img/logo/logo.svg" alt="">
-                        </a>
-                    </div>
-                    <form class="header__search-box" action="#">
-						<div class="select-box">
-							<select id="category" name="category">
-								<option value="">All Categories</option>
-								<option value="4">Summer collections</option>
-								<option value="5">Breakfast & Dairy</option>
-								<option value="6">Beverage & Drinks</option>
-								<option value="7">Cocolate Box</option>
-								<option value="8">Dried Food Corner</option>
-								<option value="9">Frozen Foods</option>
-								<option value="10">Baby Food Corner</option>
-								<option value="11">Milk & Juices</option>
-								<option value="12">Organic & Snacks</option>
-							</select>
-						</div>
-						<input type="text" name="search" id="search" placeholder="Search For Products"
-							required />
-						<button type="submit"><i class="far fa-search"></i>
-						</button>
-					</form>
-                    <div class="header__lang ul_li">
-                        <div class="header__language mr-15">
-                            <ul>
-                                <li><a href="#!" class="lang-btn">USD <i class="far fa-chevron-down"></i></a>
-                                    <ul class="lang_sub_list">
-                                        <li><a href="#">USD</a></li>
-                                        <li><a href="#">BDT</a></li> 
-                                        <li><a href="#">EUR</a></li> 
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="header__language">
-                            <ul>
-                                <li><a href="#!" class="lang-btn"><img src="assets/img/icon/usd_flag.png" alt="">English <i class="far fa-chevron-down"></i></a>
-                                    <ul class="lang_sub_list">
-                                        <li><a href="#">English</a></li>
-                                        <li><a href="#">Arabic</a></li> 
-                                        <li><a href="#">Bangla</a></li> 
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="header__icons ul_li">
-                        <div class="icon">
-                            <a href="#!"><img src="assets/img/icon/user.svg" alt=""></a>
-                        </div>
-                        <div class="icon wishlist-icon">
-                            <a href="#!">
-                                <img src="assets/img/icon/heart.svg" alt="">
-                                <span class="count">0</span>
-                            </a>
-                        </div>
-                        <div class="cart_btn icon">
-                            <img src="assets/img/icon/shopping_bag.svg" alt="">
-                            <span class="count">0</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="header__cat-wrap" data-uk-sticky="top: 250; animation: uk-animation-slide-top;">
-                <div class="container">
-                    <div class="header__wrap ul_li_between">
-                        <div class="header__cat ul_li" >
-                            <div class="hamburger_menu">
-                                <a href="javascript:void(0);" class="active">
-                                    <div class="icon bar">
-                                        <span><i class="fal fa-bars"></i></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <ul class="category ul_li">
-                                <li><a href="#!"><span><img src="assets/img/icon/hc_01.svg" alt=""></span>Laptops & Computers</a></li>
-                                <li><a href="#!"><span><img src="assets/img/icon/hc_02.svg" alt=""></span>CC Tv & Camera</a></li>
-                                <li><a href="#!"><span><img src="assets/img/icon/hc_03.svg" alt=""></span>Home Equipment</a></li>
-                                <li><a href="#!"><span><img src="assets/img/icon/hc_04.svg" alt=""></span>Tv & Audios</a></li>
-                                <li><a href="#!"><span><img src="assets/img/icon/hc_05.svg" alt=""></span>Printers & Ink</a></li>
-                                <li><a href="#!"><span><img src="assets/img/icon/hc_06.svg" alt=""></span>Gaming & Fun</a></li>
-                            </ul>
-                        </div>
-                        <div class="login-sign-btn">
-                            <a class="thm-btn" href="account.html">
-                                <span class="btn-wrap">
-                                    <span>Login / Sign Up</span>
-                                    <span>Login / Sign Up</span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+    <title>Radios - Electronics Store WooCommerce Template</title>
+
+    <link rel="shortcut icon" href="<?= PATH_VIEW ?> client/assets/img/favicon.png" type="images/x-icon"/>
+
+    <!-- css include -->
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/client/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/client/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/client/assets/css/animate.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/client/assets/css/metisMenu.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/client/assets/css/uikit.min.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/client/assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/client/assets/css/slick.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/client/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/client/assets/css/main.css">
+</head>
+
+<body>
+
+<div class="body_wrap">
+
+        <!-- preloder start  -->
+        
+        <!-- preloder end  --> 
+
+        <!-- back to top start -->
+        <div class="progress-wrap">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+            </svg>
+        </div>
+        <!-- back to top end -->
+
+        <!-- header start -->
+        <?php require_once  "layouts/header.php"; ?>
         <!-- header end -->
 
          <!-- slide-bar start -->
-         <aside class="slide-bar">
-            <div class="close-mobile-menu">
-                <a href="javascript:void(0);"><i class="fal fa-times"></i></a>
-            </div>
-
-            <!-- sidebar-info start -->
-            <div class="cart_sidebar">
-                <button type="button" class="cart_close_btn"><i class="fal fa-times"></i></button>
-                <h2 class="heading_title text-uppercase">Cart Items - <span>4</span></h2>
-                <div class="cart_items_list">
-                    <div class="cart_item">
-                        <div class="item_image">
-                            <img src="assets/img/product/img_01.png" alt="image_not_found">
-                        </div>
-                        <div class="item_content">
-                            <h4 class="item_title">
-                                Rorem ipsum dolor sit amet.
-                            </h4>
-                            <span class="item_price">$19.00</span>
-                            <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
-                        </div>
-                    </div>
-                    <div class="cart_item">
-                        <div class="item_image">
-                            <img src="assets/img/product/img_02.png" alt="image_not_found">
-                        </div>
-                        <div class="item_content">
-                            <h4 class="item_title">
-                                Rorem ipsum dolor sit amet.
-                            </h4>
-                            <span class="item_price">$22.00</span>
-                            <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
-                        </div>
-                    </div>
-                    <div class="cart_item">
-                        <div class="item_image">
-                            <img src="assets/img/product/img_03.png" alt="image_not_found">
-                        </div>
-                        <div class="item_content">
-                            <h4 class="item_title">
-                                Rorem ipsum dolor sit amet.
-                            </h4>
-                            <span class="item_price">$43.00</span>
-                            <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
-                        </div>
-                    </div>
-                    <div class="cart_item">
-                        <div class="item_image">
-                            <img src="assets/img/product/img_04.png" alt="image_not_found">
-                        </div>
-                        <div class="item_content">
-                            <h4 class="item_title">
-                                Rorem ipsum dolor sit amet.
-                            </h4>
-                            <span class="item_price">$14.00</span>
-                            <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="total_price text-uppercase">
-                    <span>Sub Total:</span>
-                    <span>$87.00</span>
-                </div>
-                <ul class="btns_group ul_li">
-                    <li><a href="cart.html" class="thm-btn">
-                        <span class="btn-wrap">
-                            <span>View Cart</span>
-                            <span>View Cart</span>
-                        </span>
-                    </a></li>
-                    <li><a href="checkout.html" class="thm-btn thm-btn__black">
-                        <span class="btn-wrap">
-                            <span>Checkout</span>
-                            <span>Checkout</span>
-                        </span>
-                    </a></li>
-                </ul>
-            </div>
-            <!-- sidebar-info end -->
-
-            <!-- side-mobile-menu start -->
-            <nav class="side-mobile-menu">
-                <div class="header-mobile-search">
-                    <form role="search" method="get" action="#">
-                        <input type="text" placeholder="Search Keywords">
-                        <button type="submit"><i class="ti-search"></i></button>
-                    </form>
-                </div>
-                <ul id="mobile-menu-active">
-                    <li class="dropdown"><a href="index.html">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.html">Home One</a></li>
-                            <li><a href="home-2.html">Home Two</a></li>
-                            <li><a href="home-3.html">Home Three</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">Shop</a>
-                        <ul class="sub-menu">
-                            <li><a href="shop.html">Shop Default</a></li>
-                            <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
-                            <li><a href="shop-single.html">Shop Single</a></li>
-                            <li><a href="cart.html">Shop Cart</a></li>
-                            <li><a href="checkout.html">Shop Checkout</a></li>
-                            <li><a href="account.html">Account</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="shop.html">Accesories</a></li>
-                    <li class="dropdown">
-                        <a href="#!">Blog</a>
-                        <ul class="sub-menu">
-                            <li><a href="news.html">Blog</a></li>
-                            <li><a href="news-single.html">Blog Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#!">Pages</a>
-                        <ul class="submenu">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="about.html">Account</a></li>
-                            <li><a href="404.html">404</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <!-- side-mobile-menu end -->
-        </aside>
+        <?php require_once  "layouts/sidebar.php"; ?>
+         
         <div class="body-overlay"></div>
         <!-- slide-bar end -->
 
         <main>
 
             <!-- hero start -->
-            <div class="hero hero__height ul_li" data-background="assets/img/bg/hero_bg.jpg">
+            <div class="hero hero__height ul_li" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/hero_bg.jpg">
                 <div class="container">
                     <div class="row align-items-center mt-none-30">
                         <div class="col-lg-9 mt-30">
@@ -249,45 +66,45 @@
                                         <div class="hero__product-wrap">
                                             <div class="hero__product-carousel">
                                                 <div class="hero__product-item">
-                                                    <img src="assets/img/product/img_52.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_52.png" alt="">
                                                 </div>
                                                 <div class="hero__product-item">
-                                                    <img src="assets/img/product/img_53.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_53.png" alt="">
                                                 </div>
                                                 <div class="hero__product-item">
-                                                    <img src="assets/img/product/img_54.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_54.png" alt="">
                                                 </div>
                                                 <div class="hero__product-item">
-                                                    <img src="assets/img/product/img_52.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_52.png" alt="">
                                                 </div>
                                                 <div class="hero__product-item">
-                                                    <img src="assets/img/product/img_54.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_54.png" alt="">
                                                 </div>
                                             </div>
                                             <div class="hero__product-carousel-nav">
                                                 <div class="hero__product-item-nav">
                                                     <div class="image">
-                                                        <img src="assets/img/product/img_52.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_52.png" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="hero__product-item-nav">
                                                     <div class="image">
-                                                        <img src="assets/img/product/img_53.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_53.png" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="hero__product-item-nav">
                                                     <div class="image">
-                                                        <img src="assets/img/product/img_54.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_54.png" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="hero__product-item-nav">
                                                     <div class="image">
-                                                        <img src="assets/img/product/img_52.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_52.png" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="hero__product-item-nav">
                                                     <div class="image">
-                                                        <img src="assets/img/product/img_54.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_54.png" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -325,7 +142,7 @@
                                     <div class="hot-deal__item text-center">
                                         <div class="thumb">
                                             <a href="#!">
-                                                <img src="assets/img/product/img_55.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_55.png" alt="">
                                             </a>
                                         </div>
                                         <div class="content">
@@ -352,7 +169,7 @@
                                     <div class="hot-deal__item text-center">
                                         <div class="thumb">
                                             <a href="#!">
-                                                <img src="assets/img/product/img_55.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_55.png" alt="">
                                             </a>
                                         </div>
                                         <div class="content">
@@ -379,7 +196,7 @@
                                     <div class="hot-deal__item text-center">
                                         <div class="thumb">
                                             <a href="#!">
-                                                <img src="assets/img/product/img_55.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_55.png" alt="">
                                             </a>
                                         </div>
                                         <div class="content">
@@ -417,7 +234,7 @@
                     <div class="feature__wrap ul_li">
                         <div class="feature__item ul_li">
                             <div class="icon">
-                                <img src="assets/img/icon/feat_01.svg" alt="">
+                                <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_01.svg" alt="">
                             </div>
                             <div class="content">
                                 <h3>Free Shipping</h3>
@@ -426,7 +243,7 @@
                         </div>
                         <div class="feature__item ul_li">
                             <div class="icon">
-                                <img src="assets/img/icon/feat_02.svg" alt="">
+                                <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_02.svg" alt="">
                             </div>
                             <div class="content">
                                 <h3>Payment Secure</h3>
@@ -435,7 +252,7 @@
                         </div>
                         <div class="feature__item ul_li">
                             <div class="icon">
-                                <img src="assets/img/icon/feat_03.svg" alt="">
+                                <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_03.svg" alt="">
                             </div>
                             <div class="content">
                                 <h3>Support 24/7</h3>
@@ -444,7 +261,7 @@
                         </div>
                         <div class="feature__item ul_li">
                             <div class="icon">
-                                <img src="assets/img/icon/feat_04.svg" alt="">
+                                <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_04.svg" alt="">
                             </div>
                             <div class="content">
                                 <h3>100% Money Back</h3>
@@ -453,7 +270,7 @@
                         </div>
                         <div class="feature__item ul_li">
                             <div class="icon">
-                                <img src="assets/img/icon/feat_05.svg" alt="">
+                                <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_05.svg" alt="">
                             </div>
                             <div class="content">
                                 <h3>Quality Products</h3>
@@ -494,7 +311,7 @@
                                 <div class="tab-product__slide tx-arrow">
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_01.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -519,7 +336,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_02.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -544,7 +361,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_03.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -569,7 +386,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_04.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -594,7 +411,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_05.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_05.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -619,7 +436,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_06.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_06.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -644,7 +461,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_02.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -669,7 +486,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_03.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -698,7 +515,7 @@
                                 <div class="tab-product__slide tx-arrow">
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_01.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -723,7 +540,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_02.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -748,7 +565,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_03.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -773,7 +590,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_04.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -798,7 +615,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_05.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_05.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -823,7 +640,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_06.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_06.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -848,7 +665,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_02.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -873,7 +690,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_03.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -902,7 +719,7 @@
                                 <div class="tab-product__slide tx-arrow">
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_01.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -927,7 +744,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_02.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -952,7 +769,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_03.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -977,7 +794,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_04.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1002,7 +819,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_05.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_05.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1027,7 +844,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_06.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_06.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1052,7 +869,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_02.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1077,7 +894,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_03.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1106,7 +923,7 @@
                                 <div class="tab-product__slide tx-arrow">
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_01.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1131,7 +948,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_02.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1156,7 +973,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_03.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1181,7 +998,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_04.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1206,7 +1023,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_05.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_05.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1231,7 +1048,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_06.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_06.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1256,7 +1073,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_02.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1281,7 +1098,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_03.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1310,7 +1127,7 @@
                                 <div class="tab-product__slide tx-arrow">
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_01.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1335,7 +1152,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_02.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1360,7 +1177,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_03.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1385,7 +1202,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_04.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1410,7 +1227,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_05.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_05.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1435,7 +1252,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_06.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_06.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1460,7 +1277,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_02.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1485,7 +1302,7 @@
                                     </div>
                                     <div class="tab-product__item tx-product text-center">
                                         <div class="thumb">
-                                            <a href="shop-single.html"><img src="assets/img/product/img_03.png" alt=""></a>
+                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <div class="product__review ul_li_center">
@@ -1521,19 +1338,19 @@
                 <div class="container">
                     <div class="row mt-none-30">
                         <div class="col-lg-3 mt-30">
-                            <div class="product-category" data-background="assets/img/bg/cat_bg.jpg">
+                            <div class="product-category" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/cat_bg.jpg">
                                 <h2 class="section-heading mb-25"><span><span>Catagory</span></span></h2>
                                 <ul class="list-unstyled">
-                                    <li class="cat-item-has-children"><a href="#!"><img src="assets/img/icon/cat_01.svg" alt="">Bluetooth speaker</a></li>
-                                    <li class="cat-item-has-children"><a href="#!"><img src="assets/img/icon/cat_02.svg" alt="">Digital camera</a></li>
-                                    <li class="cat-item-has-children"><a href="#!"><img src="assets/img/icon/cat_03.svg" alt="">Laser printer</a></li>
-                                    <li><a href="#!"><img src="assets/img/icon/cat_04.svg" alt="">Electric frying pan</a></li>
-                                    <li class="cat-item-has-children"><a href="#!"><img src="assets/img/icon/cat_05.svg" alt="">Robotics vacuum</a></li>
-                                    <li class="cat-item-has-children"><a href="#!"><img src="assets/img/icon/cat_06.svg" alt="">external hard drive</a></li>
-                                    <li><a href="#!"><img src="assets/img/icon/cat_07.svg" alt="">Electric razor</a></li>
-                                    <li><a href="#!"><img src="assets/img/icon/cat_08.svg" alt="">Washing machine</a></li>
-                                    <li class="cat-item-has-children"><a href="#!"><img src="assets/img/icon/cat_09.svg" alt="">Rice cooker</a></li>
-                                    <li><a href="#!"><img src="assets/img/icon/cat_10.svg" alt="">Telivsion & Monitor</a></li>
+                                    <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_01.svg" alt="">Bluetooth speaker</a></li>
+                                    <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_02.svg" alt="">Digital camera</a></li>
+                                    <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_03.svg" alt="">Laser printer</a></li>
+                                    <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_04.svg" alt="">Electric frying pan</a></li>
+                                    <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_05.svg" alt="">Robotics vacuum</a></li>
+                                    <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_06.svg" alt="">external hard drive</a></li>
+                                    <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_07.svg" alt="">Electric razor</a></li>
+                                    <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_08.svg" alt="">Washing machine</a></li>
+                                    <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_09.svg" alt="">Rice cooker</a></li>
+                                    <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_10.svg" alt="">Telivsion & Monitor</a></li>
                                     <li class="more-item"><a href="#!">+ More item</a></li>
                                 </ul>
                             </div>
@@ -1545,7 +1362,7 @@
                                     <div class="rd-product__slide-item">
                                         <div class="product__item">
                                             <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="assets/img/product/img_07.png" alt=""></a>
+                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_07.png" alt=""></a>
                                             </div>
                                             <div class="product__content">
                                                 <div class="product__review ul_li_center">
@@ -1570,7 +1387,7 @@
                                         </div>
                                         <div class="product__item">
                                             <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="assets/img/product/img_08.png" alt=""></a>
+                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_08.png" alt=""></a>
                                             </div>
                                             <div class="product__content">
                                                 <div class="product__review ul_li_center">
@@ -1597,7 +1414,7 @@
                                     <div class="rd-product__slide-item">
                                         <div class="product__item">
                                             <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="assets/img/product/img_09.png" alt=""></a>
+                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_09.png" alt=""></a>
                                             </div>
                                             <div class="product__content">
                                                 <div class="product__review ul_li_center">
@@ -1622,7 +1439,7 @@
                                         </div>
                                         <div class="product__item">
                                             <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="assets/img/product/img_10.png" alt=""></a>
+                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_10.png" alt=""></a>
                                             </div>
                                             <div class="product__content">
                                                 <div class="product__review ul_li_center">
@@ -1649,7 +1466,7 @@
                                     <div class="rd-product__slide-item">
                                         <div class="product__item">
                                             <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="assets/img/product/img_11.png" alt=""></a>
+                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_11.png" alt=""></a>
                                             </div>
                                             <div class="product__content">
                                                 <div class="product__review ul_li_center">
@@ -1674,7 +1491,7 @@
                                         </div>
                                         <div class="product__item">
                                             <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="assets/img/product/img_12.png" alt=""></a>
+                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_12.png" alt=""></a>
                                             </div>
                                             <div class="product__content">
                                                 <div class="product__review ul_li_center">
@@ -1701,7 +1518,7 @@
                                     <div class="rd-product__slide-item">
                                         <div class="product__item">
                                             <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="assets/img/product/img_13.png" alt=""></a>
+                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_13.png" alt=""></a>
                                             </div>
                                             <div class="product__content">
                                                 <div class="product__review ul_li_center">
@@ -1726,7 +1543,7 @@
                                         </div>
                                         <div class="product__item">
                                             <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="assets/img/product/img_14.png" alt=""></a>
+                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_14.png" alt=""></a>
                                             </div>
                                             <div class="product__content">
                                                 <div class="product__review ul_li_center">
@@ -1753,7 +1570,7 @@
                                     <div class="rd-product__slide-item">
                                         <div class="product__item">
                                             <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="assets/img/product/img_08.png" alt=""></a>
+                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_08.png" alt=""></a>
                                             </div>
                                             <div class="product__content">
                                                 <div class="product__review ul_li_center">
@@ -1778,7 +1595,7 @@
                                         </div>
                                         <div class="product__item">
                                             <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="assets/img/product/img_09.png" alt=""></a>
+                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_09.png" alt=""></a>
                                             </div>
                                             <div class="product__content">
                                                 <div class="product__review ul_li_center">
@@ -1841,7 +1658,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_15.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_15.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -1862,7 +1679,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_16.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_16.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -1883,7 +1700,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_17.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_17.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -1904,7 +1721,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_18.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_18.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -1931,21 +1748,21 @@
                                             <div class="tab-pane fade show active" id="m-home1" role="tabpanel" aria-labelledby="m-home-tab1">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="m-profile1" role="tabpanel" aria-labelledby="m-profile-tab1">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="m-contact1" role="tabpanel" aria-labelledby="m-contact-tab1">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1975,17 +1792,17 @@
                                             <ul class="nav nav-tabs rd-img-nav" id="m-myTab1" role="tablist">
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link active" id="m-home-tab1" data-bs-toggle="tab" data-bs-target="#m-home1" type="button" role="tab" aria-controls="m-home1" aria-selected="true">
-                                                    <img src="assets/img/product/img_20.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_20.png" alt="">
                                                   </button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link" id="m-profile-tab1" data-bs-toggle="tab" data-bs-target="#m-profile1" type="button" role="tab" aria-controls="m-profile1" aria-selected="false">
-                                                    <img src="assets/img/product/img_21.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_21.png" alt="">
                                                   </button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link" id="m-contact-tab1" data-bs-toggle="tab" data-bs-target="#m-contact1" type="button" role="tab" aria-controls="m-contact1" aria-selected="false">
-                                                    <img src="assets/img/product/img_22.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_22.png" alt="">
                                                   </button>
                                                 </li>
                                               </ul>
@@ -1997,7 +1814,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_23.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_23.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2018,7 +1835,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_24.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_24.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2039,7 +1856,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_25.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_25.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2060,7 +1877,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_26.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_26.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2089,7 +1906,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_15.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_15.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2110,7 +1927,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_16.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_16.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2131,7 +1948,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_17.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_17.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2152,7 +1969,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_18.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_18.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2179,21 +1996,21 @@
                                             <div class="tab-pane fade show active" id="m-home2" role="tabpanel" aria-labelledby="m-home-tab2">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="m-profile2" role="tabpanel" aria-labelledby="m-profile-tab2">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="m-contact2" role="tabpanel" aria-labelledby="m-contact-tab2">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2223,17 +2040,17 @@
                                             <ul class="nav nav-tabs rd-img-nav" id="m-myTab2" role="tablist">
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link active" id="m-home-tab2" data-bs-toggle="tab" data-bs-target="#m-home2" type="button" role="tab" aria-controls="m-home2" aria-selected="true">
-                                                    <img src="assets/img/product/img_20.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_20.png" alt="">
                                                   </button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link" id="m-profile-tab2" data-bs-toggle="tab" data-bs-target="#m-profile2" type="button" role="tab" aria-controls="m-profile2" aria-selected="false">
-                                                    <img src="assets/img/product/img_21.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_21.png" alt="">
                                                   </button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link" id="m-contact-tab2" data-bs-toggle="tab" data-bs-target="#m-contact2" type="button" role="tab" aria-controls="m-contact2" aria-selected="false">
-                                                    <img src="assets/img/product/img_22.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_22.png" alt="">
                                                   </button>
                                                 </li>
                                               </ul>
@@ -2246,7 +2063,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_23.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_23.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2267,7 +2084,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_24.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_24.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2288,7 +2105,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_25.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_25.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2309,7 +2126,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_26.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_26.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2338,7 +2155,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_15.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_15.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2359,7 +2176,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_16.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_16.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2380,7 +2197,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_17.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_17.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2401,7 +2218,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_18.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_18.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2428,21 +2245,21 @@
                                             <div class="tab-pane fade show active" id="m-home3" role="tabpanel" aria-labelledby="m-home-tab3">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="m-profile3" role="tabpanel" aria-labelledby="m-profile-tab3">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="m-contact3" role="tabpanel" aria-labelledby="m-contact-tab3">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2472,17 +2289,17 @@
                                             <ul class="nav nav-tabs rd-img-nav" id="m-myTab3" role="tablist">
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link active" id="m-home-tab3" data-bs-toggle="tab" data-bs-target="#m-home3" type="button" role="tab" aria-controls="m-home3" aria-selected="true">
-                                                    <img src="assets/img/product/img_20.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_20.png" alt="">
                                                   </button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link" id="m-profile-tab3" data-bs-toggle="tab" data-bs-target="#m-profile3" type="button" role="tab" aria-controls="m-profile3" aria-selected="false">
-                                                    <img src="assets/img/product/img_21.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_21.png" alt="">
                                                   </button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link" id="m-contact-tab3" data-bs-toggle="tab" data-bs-target="#m-contact3" type="button" role="tab" aria-controls="m-contact3" aria-selected="false">
-                                                    <img src="assets/img/product/img_22.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_22.png" alt="">
                                                   </button>
                                                 </li>
                                               </ul>
@@ -2495,7 +2312,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_23.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_23.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2516,7 +2333,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_24.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_24.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2537,7 +2354,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_25.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_25.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2558,7 +2375,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_26.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_26.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2587,7 +2404,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_15.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_15.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2608,7 +2425,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_16.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_16.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2629,7 +2446,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_17.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_17.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2650,7 +2467,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_18.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_18.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2677,21 +2494,21 @@
                                             <div class="tab-pane fade show active" id="m-home4" role="tabpanel" aria-labelledby="m-home-tab4">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="m-profile4" role="tabpanel" aria-labelledby="m-profile-tab4">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="m-contact4" role="tabpanel" aria-labelledby="m-contact-tab4">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2721,17 +2538,17 @@
                                             <ul class="nav nav-tabs rd-img-nav" id="m-myTab4" role="tablist">
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link active" id="m-home-tab4" data-bs-toggle="tab" data-bs-target="#m-home4" type="button" role="tab" aria-controls="m-home4" aria-selected="true">
-                                                    <img src="assets/img/product/img_20.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_20.png" alt="">
                                                   </button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link" id="m-profile-tab4" data-bs-toggle="tab" data-bs-target="#m-profile4" type="button" role="tab" aria-controls="m-profile4" aria-selected="false">
-                                                    <img src="assets/img/product/img_21.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_21.png" alt="">
                                                   </button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link" id="m-contact-tab4" data-bs-toggle="tab" data-bs-target="#m-contact4" type="button" role="tab" aria-controls="m-contact4" aria-selected="false">
-                                                    <img src="assets/img/product/img_22.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_22.png" alt="">
                                                   </button>
                                                 </li>
                                               </ul>
@@ -2744,7 +2561,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_23.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_23.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2765,7 +2582,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_24.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_24.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2786,7 +2603,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_25.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_25.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2807,7 +2624,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_26.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_26.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2836,7 +2653,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_15.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_15.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2857,7 +2674,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_16.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_16.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2878,7 +2695,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_17.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_17.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2899,7 +2716,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_18.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_18.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -2926,21 +2743,21 @@
                                             <div class="tab-pane fade show active" id="m-home5" role="tabpanel" aria-labelledby="m-home-tab5">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="m-profile5" role="tabpanel" aria-labelledby="m-profile-tab5">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="m-contact5" role="tabpanel" aria-labelledby="m-contact-tab5">
                                                 <div class="img text-center">
                                                     <a href="#!">
-                                                        <img src="assets/img/product/img_19.png" alt="">
+                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_19.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2970,17 +2787,17 @@
                                             <ul class="nav nav-tabs rd-img-nav" id="m-myTab5" role="tablist">
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link active" id="m-home-tab5" data-bs-toggle="tab" data-bs-target="#m-home5" type="button" role="tab" aria-controls="m-home5" aria-selected="true">
-                                                    <img src="assets/img/product/img_20.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_20.png" alt="">
                                                   </button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link" id="m-profile-tab5" data-bs-toggle="tab" data-bs-target="#m-profile5" type="button" role="tab" aria-controls="m-profile5" aria-selected="false">
-                                                    <img src="assets/img/product/img_21.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_21.png" alt="">
                                                   </button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
                                                   <button class="nav-link" id="m-contact-tab5" data-bs-toggle="tab" data-bs-target="#m-contact5" type="button" role="tab" aria-controls="m-contact5" aria-selected="false">
-                                                    <img src="assets/img/product/img_22.png" alt="">
+                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_22.png" alt="">
                                                   </button>
                                                 </li>
                                               </ul>
@@ -2993,7 +2810,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_23.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_23.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -3014,7 +2831,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_24.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_24.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -3035,7 +2852,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product has-border pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_25.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_25.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -3056,7 +2873,7 @@
                                         <div class="col-lg-6 col-md-6 mt-30">
                                             <div class="rd-product__item tx-product pos-rel">
                                                 <div class="product__img text-center pos-rel">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_26.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_26.png" alt=""></a>
                                                 </div>
                                                 <div class="product__content">
                                                     <span class="product__available">Available: <span>334</span></span>
@@ -3086,7 +2903,7 @@
             <!-- add start -->
             <div class="add pt-50 pb-50">
                 <div class="container">
-                    <div class="add__wrap bg_img" data-background="assets/img/bg/add_bg_01.jpg">
+                    <div class="add__wrap bg_img" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/add_bg_01.jpg">
                         <div class="add__text">
                             <span><span>10%</span>  Free Shipping On All Order Over <span>$99</span></span>
                         </div>
@@ -3106,7 +2923,7 @@
                                     <div class="hot-deal__item text-center">
                                         <div class="thumb">
                                             <a href="#!">
-                                                <img src="assets/img/product/img_27.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_27.png" alt="">
                                             </a>
                                         </div>
                                         <div class="content">
@@ -3128,7 +2945,7 @@
                                     <div class="hot-deal__item text-center">
                                         <div class="thumb">
                                             <a href="#!">
-                                                <img src="assets/img/product/img_27.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_27.png" alt="">
                                             </a>
                                         </div>
                                         <div class="content">
@@ -3150,7 +2967,7 @@
                                     <div class="hot-deal__item text-center">
                                         <div class="thumb">
                                             <a href="#!">
-                                                <img src="assets/img/product/img_27.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_27.png" alt="">
                                             </a>
                                         </div>
                                         <div class="content">
@@ -3203,17 +3020,17 @@
                                                         <div class="tab-content" id="mf1-tabContent1">
                                                             <div class="tab-pane fade show active" id="mf1-home1" role="tabpanel" aria-labelledby="mf1-home-tab1">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf1-profile1" role="tabpanel" aria-labelledby="mf1-profile-tab1">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf1-contact1" role="tabpanel" aria-labelledby="mf1-contact-tab1">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3253,17 +3070,17 @@
                                                         <div class="tab-content" id="mf1-tabContent2">
                                                             <div class="tab-pane fade show active" id="mf1-home2" role="tabpanel" aria-labelledby="mf1-home-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf1-profile2" role="tabpanel" aria-labelledby="mf1-profile-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf1-contact2" role="tabpanel" aria-labelledby="mf1-contact-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3302,7 +3119,7 @@
                                             <div class="col-lg-4">
                                                 <div class="rd-monthly__item tx-product text-center mt-30">
                                                     <div class="image pos-rel">
-                                                        <a href="shop-single.html"><img src="assets/img/product/img_32.png" alt=""></a>
+                                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_32.png" alt=""></a>
                                                         <ul class="product__action style-2 ul_li">
                                                             <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
                                                             <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
@@ -3338,17 +3155,17 @@
                                                         <div class="tab-content" id="mf1-tabContent3">
                                                             <div class="tab-pane fade show active" id="mf1-home3" role="tabpanel" aria-labelledby="mf1-home-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf1-profile3" role="tabpanel" aria-labelledby="mf1-profile-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf1-contact3" role="tabpanel" aria-labelledby="mf1-contact-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3388,17 +3205,17 @@
                                                         <div class="tab-content" id="mf1-tabContent4">
                                                             <div class="tab-pane fade show active" id="mf1-home4" role="tabpanel" aria-labelledby="mf1-home-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf1-profile4" role="tabpanel" aria-labelledby="mf1-profile-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf1-contact4" role="tabpanel" aria-labelledby="mf1-contact-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3444,17 +3261,17 @@
                                                         <div class="tab-content" id="mf2-tabContent1">
                                                             <div class="tab-pane fade show active" id="mf2-home1" role="tabpanel" aria-labelledby="mf2-home-tab1">
                                                                 <div class="rd-product__img1">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf2-profile1" role="tabpanel" aria-labelledby="mf2-profile-tab1">
                                                                 <div class="rd-product__img1">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf2-contact1" role="tabpanel" aria-labelledby="mf2-contact-tab1">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3494,17 +3311,17 @@
                                                         <div class="tab-content" id="mf2-tabContent2">
                                                             <div class="tab-pane fade show active" id="mf2-home2" role="tabpanel" aria-labelledby="mf2-home-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf2-profile2" role="tabpanel" aria-labelledby="mf2-profile-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf2-contact2" role="tabpanel" aria-labelledby="mf3-contact-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3543,7 +3360,7 @@
                                             <div class="col-lg-4">
                                                 <div class="rd-monthly__item tx-product text-center mt-30">
                                                     <div class="image pos-rel">
-                                                        <a href="shop-single.html"><img src="assets/img/product/img_32.png" alt=""></a>
+                                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_32.png" alt=""></a>
                                                         <ul class="product__action style-2 ul_li">
                                                             <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
                                                             <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
@@ -3579,17 +3396,17 @@
                                                         <div class="tab-content" id="mf2-tabContent3">
                                                             <div class="tab-pane fade show active" id="mf2-home3" role="tabpanel" aria-labelledby="mf2-home-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf2-profile3" role="tabpanel" aria-labelledby="mf2-profile-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf2-contact3" role="tabpanel" aria-labelledby="mf2-contact-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3629,17 +3446,17 @@
                                                         <div class="tab-content" id="mf2-tabContent4">
                                                             <div class="tab-pane fade show active" id="mf2-home4" role="tabpanel" aria-labelledby="mf2-home-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf2-profile4" role="tabpanel" aria-labelledby="mf2-profile-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf2-contact4" role="tabpanel" aria-labelledby="mf2-contact-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3685,17 +3502,17 @@
                                                         <div class="tab-content" id="mf3-tabContent1">
                                                             <div class="tab-pane fade show active" id="mf3-home1" role="tabpanel" aria-labelledby="mf3-home-tab1">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf3-profile1" role="tabpanel" aria-labelledby="mf3-profile-tab1">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf3-contact1" role="tabpanel" aria-labelledby="mf3-contact-tab1">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3735,17 +3552,17 @@
                                                         <div class="tab-content" id="mf3-tabContent2">
                                                             <div class="tab-pane fade show active" id="mf3-home2" role="tabpanel" aria-labelledby="mf3-home-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf3-profile2" role="tabpanel" aria-labelledby="mf3-profile-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf3-contact2" role="tabpanel" aria-labelledby="mf3-contact-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3784,7 +3601,7 @@
                                             <div class="col-lg-4">
                                                 <div class="rd-monthly__item tx-product text-center mt-30">
                                                     <div class="image pos-rel">
-                                                        <a href="shop-single.html"><img src="assets/img/product/img_32.png" alt=""></a>
+                                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_32.png" alt=""></a>
                                                         <ul class="product__action style-2 ul_li">
                                                             <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
                                                             <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
@@ -3820,17 +3637,17 @@
                                                         <div class="tab-content" id="mf3-tabContent3">
                                                             <div class="tab-pane fade show active" id="mf3-home3" role="tabpanel" aria-labelledby="mf3-home-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf3-profile3" role="tabpanel" aria-labelledby="mf3-profile-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf3-contact3" role="tabpanel" aria-labelledby="mf3-contact-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3870,17 +3687,17 @@
                                                         <div class="tab-content" id="mf3-tabContent4">
                                                             <div class="tab-pane fade show active" id="mf3-home4" role="tabpanel" aria-labelledby="mf3-home-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf3-profile4" role="tabpanel" aria-labelledby="mf3-profile-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf3-contact4" role="tabpanel" aria-labelledby="mf3-contact-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3926,17 +3743,17 @@
                                                         <div class="tab-content" id="mf4-tabContent1">
                                                             <div class="tab-pane fade show active" id="mf4-home1" role="tabpanel" aria-labelledby="mf4-home-tab1">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf4-profile1" role="tabpanel" aria-labelledby="mf4-profile-tab1">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf4-contact1" role="tabpanel" aria-labelledby="mf4-contact-tab1">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3976,17 +3793,17 @@
                                                         <div class="tab-content" id="mf4-tabContent2">
                                                             <div class="tab-pane fade show active" id="mf4-home2" role="tabpanel" aria-labelledby="mf4-home-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf4-profile2" role="tabpanel" aria-labelledby="mf4-profile-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf4-contact2" role="tabpanel" aria-labelledby="mf4-contact-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -4025,7 +3842,7 @@
                                             <div class="col-lg-4 col-md-6">
                                                 <div class="rd-monthly__item tx-product text-center mt-30">
                                                     <div class="image pos-rel">
-                                                        <a href="shop-single.html"><img src="assets/img/product/img_32.png" alt=""></a>
+                                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_32.png" alt=""></a>
                                                         <ul class="product__action style-2 ul_li">
                                                             <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
                                                             <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
@@ -4061,17 +3878,17 @@
                                                         <div class="tab-content" id="mf4-tabContent3">
                                                             <div class="tab-pane fade show active" id="mf4-home3" role="tabpanel" aria-labelledby="mf4-home-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf4-profile3" role="tabpanel" aria-labelledby="mf4-profile-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf4-contact3" role="tabpanel" aria-labelledby="mf4-contact-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -4111,17 +3928,17 @@
                                                         <div class="tab-content" id="mf4-tabContent4">
                                                             <div class="tab-pane fade show active" id="mf4-home4" role="tabpanel" aria-labelledby="mf4-home-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf4-profile4" role="tabpanel" aria-labelledby="mf4-profile-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf4-contact4" role="tabpanel" aria-labelledby="mf4-contact-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -4167,17 +3984,17 @@
                                                         <div class="tab-content" id="mf5-tabContent1">
                                                             <div class="tab-pane fade show active" id="mf5-home1" role="tabpanel" aria-labelledby="mf5-home-tab1">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf5-profile1" role="tabpanel" aria-labelledby="mf5-profile-tab1">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf5-contact1" role="tabpanel" aria-labelledby="mf5-contact-tab1">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_28.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_28.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -4217,17 +4034,17 @@
                                                         <div class="tab-content" id="mf5-tabContent2">
                                                             <div class="tab-pane fade show active" id="mf5-home2" role="tabpanel" aria-labelledby="mf5-home-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf5-profile2" role="tabpanel" aria-labelledby="mf5-profile-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf5-contact2" role="tabpanel" aria-labelledby="mf5-contact-tab2">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_29.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_29.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -4266,7 +4083,7 @@
                                             <div class="col-lg-4">
                                                 <div class="rd-monthly__item tx-product text-center mt-30">
                                                     <div class="image pos-rel">
-                                                        <a href="shop-single.html"><img src="assets/img/product/img_32.png" alt=""></a>
+                                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_32.png" alt=""></a>
                                                         <ul class="product__action style-2 ul_li">
                                                             <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
                                                             <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
@@ -4302,17 +4119,17 @@
                                                         <div class="tab-content" id="mf5-tabContent3">
                                                             <div class="tab-pane fade show active" id="mf5-home3" role="tabpanel" aria-labelledby="mf5-home-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf5-profile3" role="tabpanel" aria-labelledby="mf5-profile-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf5-contact3" role="tabpanel" aria-labelledby="mf5-contact-tab3">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_30.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_30.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -4352,17 +4169,17 @@
                                                         <div class="tab-content" id="mf5-tabContent4">
                                                             <div class="tab-pane fade show active" id="mf5-home4" role="tabpanel" aria-labelledby="mf5-home-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf5-profile4" role="tabpanel" aria-labelledby="mf5-profile-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-pane fade" id="mf5-contact4" role="tabpanel" aria-labelledby="mf5-contact-tab4">
                                                                 <div class="rd-product__img">
-                                                                    <a href="shop-single.html"><img src="assets/img/product/img_31.png" alt=""></a>
+                                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_31.png" alt=""></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -4420,34 +4237,34 @@
                                         <div class="tab-content" id="fc-myTabContent">
                                             <div class="tab-pane fade show active" id="fc-home" role="tabpanel" aria-labelledby="fc-home-tab">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_33.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_33.png" alt=""></a>                
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="fc-profile" role="tabpanel" aria-labelledby="fc-profile-tab">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_34.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_34.png" alt=""></a>                
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="fc-contact" role="tabpanel" aria-labelledby="fc-contact-tab">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_35.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_35.png" alt=""></a>                
                                                 </div>
                                             </div>
                                         </div>
                                         <ul class="nav product-cat__nav nav-tabs" id="fc-myTab" role="tablist">
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link active" id="fc-home-tab" data-bs-toggle="tab" data-bs-target="#fc-home" type="button" role="tab" aria-controls="home" aria-selected="true">
-                                                <img src="assets/img/product/img_33.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_33.png" alt="">
                                             </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="fc-profile-tab" data-bs-toggle="tab" data-bs-target="#fc-profile" type="button" role="tab" aria-controls="fc-profile" aria-selected="false">
-                                                <img src="assets/img/product/img_34.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_34.png" alt="">
                                             </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="fc-contact-tab" data-bs-toggle="tab" data-bs-target="#fc-contact" type="button" role="tab" aria-controls="fc-contact" aria-selected="false">
-                                                <img src="assets/img/product/img_35.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_35.png" alt="">
                                             </button>
                                             </li>
                                         </ul>
@@ -4469,34 +4286,34 @@
                                         <div class="tab-content" id="fc-myTabContent2">
                                             <div class="tab-pane fade show active" id="fc-home2" role="tabpanel" aria-labelledby="fc-home-tab2">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_34.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_34.png" alt=""></a>                
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="fc-profile2" role="tabpanel" aria-labelledby="fc-profile-tab2">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_35.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_35.png" alt=""></a>                
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="fc-contact2" role="tabpanel" aria-labelledby="fc-contact-tab2">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_36.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_36.png" alt=""></a>                
                                                 </div>
                                             </div>
                                         </div>
                                         <ul class="nav product-cat__nav nav-tabs" id="fc-myTab2" role="tablist">
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link active" id="fc-home-tab2" data-bs-toggle="tab" data-bs-target="#fc-home2" type="button" role="tab" aria-controls="fc-home2" aria-selected="true">
-                                                <img src="assets/img/product/img_34.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_34.png" alt="">
                                             </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="fc-profile-tab2" data-bs-toggle="tab" data-bs-target="#fc-profile2" type="button" role="tab" aria-controls="fc-profile2" aria-selected="false">
-                                                <img src="assets/img/product/img_35.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_35.png" alt="">
                                             </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="fc-contact-tab2" data-bs-toggle="tab" data-bs-target="#fc-contact2" type="button" role="tab" aria-controls="fc-contact2" aria-selected="false">
-                                                <img src="assets/img/product/img_36.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_36.png" alt="">
                                             </button>
                                             </li>
                                         </ul>
@@ -4520,34 +4337,34 @@
                                         <div class="tab-content" id="fc-myTabContent3">
                                             <div class="tab-pane fade show active" id="fc-home3" role="tabpanel" aria-labelledby="fc-home-tab3">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_35.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_35.png" alt=""></a>                
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="fc-profile3" role="tabpanel" aria-labelledby="fc-profile-tab3">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_36.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_36.png" alt=""></a>                
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="fc-contact3" role="tabpanel" aria-labelledby="fc-contact-tab3">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_37.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_37.png" alt=""></a>                
                                                 </div>
                                             </div>
                                         </div>
                                         <ul class="nav product-cat__nav nav-tabs" id="fc-myTab3" role="tablist">
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link active" id="fc-home-tab3" data-bs-toggle="tab" data-bs-target="#fc-home3" type="button" role="tab" aria-controls="fc-home3" aria-selected="true">
-                                                <img src="assets/img/product/img_35.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_35.png" alt="">
                                             </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="fc-profile-tab3" data-bs-toggle="tab" data-bs-target="#fc-profile3" type="button" role="tab" aria-controls="fc-profile3" aria-selected="false">
-                                                <img src="assets/img/product/img_36.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_36.png" alt="">
                                             </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="fc-contact-tab3" data-bs-toggle="tab" data-bs-target="#fc-contact3" type="button" role="tab" aria-controls="fc-contact3" aria-selected="false">
-                                                <img src="assets/img/product/img_37.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_37.png" alt="">
                                             </button>
                                             </li>
                                         </ul>
@@ -4569,34 +4386,34 @@
                                         <div class="tab-content" id="fc-myTabContent4">
                                             <div class="tab-pane fade show active" id="fc-home4" role="tabpanel" aria-labelledby="fc-home-tab4">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_36.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_36.png" alt=""></a>                
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="fc-profile4" role="tabpanel" aria-labelledby="fc-profile-tab4">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_37.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_37.png" alt=""></a>                
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="fc-contact4" role="tabpanel" aria-labelledby="fc-contact-tab4">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_38.png" alt=""></a>          
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_38.png" alt=""></a>          
                                                 </div>
                                             </div>
                                         </div>
                                         <ul class="nav product-cat__nav nav-tabs" id="fc-myTab4" role="tablist">
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link active" id="fc-home-tab4" data-bs-toggle="tab" data-bs-target="#fc-home4" type="button" role="tab" aria-controls="fc-home4" aria-selected="true">
-                                                <img src="assets/img/product/img_36.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_36.png" alt="">
                                             </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="fc-profile-tab4" data-bs-toggle="tab" data-bs-target="#fc-profile4" type="button" role="tab" aria-controls="fc-profile4" aria-selected="false">
-                                                <img src="assets/img/product/img_37.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_37.png" alt="">
                                             </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="fc-contact-tab4" data-bs-toggle="tab" data-bs-target="#fc-contact4" type="button" role="tab" aria-controls="fc-contact4" aria-selected="false">
-                                                <img src="assets/img/product/img_38.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_38.png" alt="">
                                             </button>
                                             </li>
                                         </ul>
@@ -4620,34 +4437,34 @@
                                         <div class="tab-content" id="fc-myTabContent5">
                                             <div class="tab-pane fade show active" id="fc-home5" role="tabpanel" aria-labelledby="fc-home-tab5">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_37.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_37.png" alt=""></a>                
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="fc-profile5" role="tabpanel" aria-labelledby="fc-profile-tab5">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_38.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_38.png" alt=""></a>                
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="fc-contact5" role="tabpanel" aria-labelledby="fc-contact-tab5">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_34.png" alt=""></a>             
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_34.png" alt=""></a>             
                                                 </div>
                                             </div>
                                         </div>
                                         <ul class="nav product-cat__nav nav-tabs" id="fc-myTab5" role="tablist">
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link active" id="fc-home-tab5" data-bs-toggle="tab" data-bs-target="#fc-home5" type="button" role="tab" aria-controls="fc-home5" aria-selected="true">
-                                                <img src="assets/img/product/img_37.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_37.png" alt="">
                                             </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="fc-profile-tab5" data-bs-toggle="tab" data-bs-target="#fc-profile5" type="button" role="tab" aria-controls="fc-profile5" aria-selected="false">
-                                                <img src="assets/img/product/img_38.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_38.png" alt="">
                                             </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="fc-contact-tab5" data-bs-toggle="tab" data-bs-target="#fc-contact5" type="button" role="tab" aria-controls="fc-contact5" aria-selected="false">
-                                                <img src="assets/img/product/img_34.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_34.png" alt="">
                                             </button>
                                             </li>
                                         </ul>
@@ -4669,34 +4486,34 @@
                                         <div class="tab-content" id="fc-myTabContent6">
                                             <div class="tab-pane fade show active" id="fc-home6" role="tabpanel" aria-labelledby="fc-home-tab6">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_38.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_38.png" alt=""></a>                
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="fc-profile6" role="tabpanel" aria-labelledby="fc-profile-tab6">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_35.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_35.png" alt=""></a>                
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="fc-contact6" role="tabpanel" aria-labelledby="fc-contact-tab6">
                                                 <div class="product-cat__img">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_36.png" alt=""></a>                
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_36.png" alt=""></a>                
                                                 </div>
                                             </div>
                                         </div>
                                         <ul class="nav product-cat__nav nav-tabs" id="fc-myTab6" role="tablist">
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link active" id="fc-home-tab6" data-bs-toggle="tab" data-bs-target="#fc-home6" type="button" role="tab" aria-controls="fc-home6" aria-selected="true">
-                                                <img src="assets/img/product/img_38.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_38.png" alt="">
                                             </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="fc-profile-tab6" data-bs-toggle="tab" data-bs-target="#fc-profile6" type="button" role="tab" aria-controls="fc-profile6" aria-selected="false">
-                                                <img src="assets/img/product/img_35.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_35.png" alt="">
                                             </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="fc-contact-tab6" data-bs-toggle="tab" data-bs-target="#fc-contact6" type="button" role="tab" aria-controls="fc-contact6" aria-selected="false">
-                                                <img src="assets/img/product/img_36.png" alt="">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_36.png" alt="">
                                             </button>
                                             </li>
                                         </ul>
@@ -4725,7 +4542,7 @@
                 <div class="container">
                     <div class="row mt-none-30">
                         <div class="col-lg-3 col-md-6 mt-30">
-                            <div class="add-banner add-banner__3 bg_img add-banner__h555" data-background="assets/img/bg/bg_01.jpg">
+                            <div class="add-banner add-banner__3 bg_img add-banner__h555" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/bg_01.jpg">
                                 <div class="add-banner__content">
                                     <span>Widesceen 4k</span>
                                     <h3>Waterma Watch <br> Beats Studio</h3>
@@ -4733,7 +4550,7 @@
                                     <a class="add-banner__btn" href="#!">Buy Now</a>
                                 </div>
                                 <div class="add-banner__img">
-                                    <img src="assets/img/product/img_48.png" alt="">
+                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_48.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -4761,7 +4578,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_39.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_39.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -4779,7 +4596,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_40.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_40.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -4797,7 +4614,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_41.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_41.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -4815,7 +4632,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_42.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_42.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -4833,7 +4650,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_43.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_43.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -4851,7 +4668,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_44.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_44.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -4869,7 +4686,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_45.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_45.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -4887,7 +4704,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_46.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_46.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -4905,7 +4722,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_47.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_47.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -4927,7 +4744,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_39.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_39.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -4945,7 +4762,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_40.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_40.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -4963,7 +4780,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_41.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_41.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -4981,7 +4798,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_42.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_42.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -4999,7 +4816,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_43.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_43.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5017,7 +4834,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_44.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_44.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5035,7 +4852,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_45.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_45.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5053,7 +4870,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_46.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_46.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5071,7 +4888,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_47.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_47.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5093,7 +4910,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_39.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_39.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5111,7 +4928,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_40.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_40.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5129,7 +4946,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_41.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_41.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5147,7 +4964,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_42.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_42.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5165,7 +4982,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_43.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_43.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5183,7 +5000,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_44.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_44.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5201,7 +5018,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_45.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_45.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5219,7 +5036,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_46.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_46.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5237,7 +5054,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_47.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_47.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5259,7 +5076,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_39.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_39.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5277,7 +5094,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_40.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_40.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5295,7 +5112,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_41.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_41.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5313,7 +5130,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_42.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_42.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5331,7 +5148,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_43.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_43.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5349,7 +5166,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_44.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_44.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5367,7 +5184,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_45.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_45.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5385,7 +5202,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_46.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_46.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5403,7 +5220,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="recent-product__item tx-product ul_li mt-30">
                                                 <div class="thumb">
-                                                    <a href="shop-single.html"><img src="assets/img/product/img_47.png" alt=""></a>
+                                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_47.png" alt=""></a>
                                                 </div>
                                                 <div class="recent-product__content">
                                                     <ul class="rating-star ul_li mr-10">
@@ -5433,7 +5250,7 @@
                 <div class="container">
                     <div class="row mt-none-30">
                         <div class="col-lg-7 mt-30">
-                            <div class="vd-banner__single pos-rel ul_li_between bg_img" data-background="assets/img/bg/bg_02.jpg">
+                            <div class="vd-banner__single pos-rel ul_li_between bg_img" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/bg_02.jpg">
                                 <div class="content">
                                     <h2>Buy One. Get Free delivery</h2>
                                     <p>Reference site about Lorem Ipsum</p>
@@ -5448,7 +5265,7 @@
                                     </div>
                                 </div>
                                 <div class="thumb">
-                                    <img src="assets/img/product/img_49.png" alt="">
+                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_49.png" alt="">
                                 </div>
                                 <div class="vd-banner__offer">
                                     <span class="offer">25% <br> <span>off</span></span>
@@ -5456,7 +5273,7 @@
                             </div>
                         </div>
                         <div class="col-lg-5 mt-30">
-                            <div class="vd-banner__single vd-banner__single-two pos-rel ul_li_between bg_img" data-background="assets/img/bg/bg_03.jpg">
+                            <div class="vd-banner__single vd-banner__single-two pos-rel ul_li_between bg_img" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/bg_03.jpg">
                                 <div class="content">
                                     <h2>Buy One. Get Free</h2>
                                     <p>Widescreen 4k ultra Laptop</p>
@@ -5470,7 +5287,7 @@
                                     </div>
                                 </div>
                                 <div class="thumb">
-                                    <img src="assets/img/product/img_50.png" alt="">
+                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_50.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -5484,7 +5301,7 @@
                 <div class="container">
                     <div class="row mt-none-30">
                         <div class="col-lg-6 col-md-12 mt-30">
-                            <div class="rd-banner ul_li" data-background="assets/img/bg/bg_05.jpg">
+                            <div class="rd-banner ul_li" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/bg_05.jpg">
                                 <div class="rd-banner__content">
                                     <span>Widesceen 4k .......</span>
                                     <h3>Digital Slr Camera <br> High Defination</h3>
@@ -5507,14 +5324,14 @@
                                     </div>
                                 </div>
                                 <div class="rd-banner__img">
-                                    <img src="assets/img/product/img_51.png" alt="">
+                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_51.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 mt-30">
                             <div class="rd-category__wrap">
                                 <h2 class="section-heading mb-25"><span>Camera & Dslr Item</span></h2>
-                                <ul class="rd-category__list list-unstyled" data-background="assets/img/bg/bg_04.jpg">
+                                <ul class="rd-category__list list-unstyled" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/bg_04.jpg">
                                     <li class="title">Action Camera</li>
                                     <li><a href="#!">Bluetooth speaker</a></li>
                                     <li><a href="#!">Robotics vacuum </a></li>
@@ -5529,7 +5346,7 @@
                         <div class="col-lg-3 col-md-6 mt-30">
                             <div class="rd-category__wrap">
                                 <h2 class="section-heading mb-25"><span>Home Accesories</span></h2>
-                                <ul class="rd-category__list list-unstyled" data-background="assets/img/bg/bg_04.jpg">
+                                <ul class="rd-category__list list-unstyled" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/bg_04.jpg">
                                     <li class="title">Action Camera</li>
                                     <li><a href="#!">Bluetooth speaker</a></li>
                                     <li><a href="#!">Robotics vacuum </a></li>
@@ -5552,37 +5369,37 @@
                     <div class="brand__active">
                         <div class="brand__item">
                             <a href="#!">
-                                <img src="assets/img/brand/img_01.png" alt="">
+                                <img src="<?= BASE_URL ?>assets/client/assets/img/brand/img_01.png" alt="">
                             </a>
                         </div>
                         <div class="brand__item">
                             <a href="#!">
-                                <img src="assets/img/brand/img_02.png" alt="">
+                                <img src="<?= BASE_URL ?>assets/client/assets/img/brand/img_02.png" alt="">
                             </a>
                         </div>
                         <div class="brand__item">
                             <a href="#!">
-                                <img src="assets/img/brand/img_03.png" alt="">
+                                <img src="<?= BASE_URL ?>assets/client/assets/img/brand/img_03.png" alt="">
                             </a>
                         </div>
                         <div class="brand__item">
                             <a href="#!">
-                                <img src="assets/img/brand/img_04.png" alt="">
+                                <img src="<?= BASE_URL ?>assets/client/assets/img/brand/img_04.png" alt="">
                             </a>
                         </div>
                         <div class="brand__item">
                             <a href="#!">
-                                <img src="assets/img/brand/img_05.png" alt="">
+                                <img src="<?= BASE_URL ?>assets/client/assets/img/brand/img_05.png" alt="">
                             </a>
                         </div>
                         <div class="brand__item">
                             <a href="#!">
-                                <img src="assets/img/brand/img_06.png" alt="">
+                                <img src="<?= BASE_URL ?>assets/client/assets/img/brand/img_06.png" alt="">
                             </a>
                         </div>
                         <div class="brand__item">
                             <a href="#!">
-                                <img src="assets/img/brand/img_03.png" alt="">
+                                <img src="<?= BASE_URL ?>assets/client/assets/img/brand/img_03.png" alt="">
                             </a>
                         </div>
                     </div>
@@ -5593,158 +5410,37 @@
         </main>
 
         <!-- footer start -->
-        <footer class="footer" data-background="assets/img/bg/footer_bg.jpg">
-            <div class="newslater newslater__border pt-30 pb-30">
-                <div class="container">
-                    <div class="newslater__two ul_li">
-                        <div class="newslater__content">
-                            <h2 class="title">We are ready to <span>help</span></h2>
-                            <p>For information Consult with our expert members</p>
-                        </div>
-                        <form class="newslater__form" action="#!">
-                            <input placeholder="Enter your Email" type="text">
-                            <button>Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="footer__main pt-90 pb-90">
-                    <div class="row mt-none-40">
-                        <div class="footer__widget col-lg-3 col-md-6 mt-40">
-                            <div class="footer__logo mb-20">
-                                <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
-                            </div>
-                            <p>4517 Washington Ave. Manchester, Kentucky 39495 ashington Ave. Manchester,</p>
-                            <ul class="footer__info mt-30">
-                                <li><i class="far fa-map-marker-alt"></i>254 Lillian Blvd, Holbrook</li>
-                                <li><i class="fas fa-phone"></i>1-800-654-3210</li>
-                            </ul>
-                            <div class="apps-img mt-15 ul_li">
-                                <div class="app mt-15">
-                                    <a href="#!"><img src="assets/img/icon/google_play.png" alt=""></a>
-                                </div>
-                                <div class="app mt-15">
-                                    <a href="#!"><img src="assets/img/icon/app_store.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="footer__widget col-lg-3 col-md-6 mt-40">
-                            <h2 class="title">Find It Fast</h2>
-                            <ul class="quick-links">
-                                <li><a href="#!">Laptops & Computers</a></li>
-                                <li><a href="#!">Cameras & Photography</a></li>
-                                <li><a href="#!">Smart Phones & Tablets</a></li>
-                                <li><a href="#!">Video Games & Consoles</a></li>
-                                <li><a href="#!">TV & Audio</a></li>
-                                <li><a href="#!">Gadgets</a></li>
-                                <li><a href="#!">Waterproof Headphones</a></li>
-                            </ul>
-                        </div>
-                        
-                        <div class="footer__widget col-lg-3 col-md-6 mt-40">
-                            <h2 class="title">Quick Links</h2>
-                            <ul class="quick-links">
-                                <li><a href="#!">Your Account</a></li>
-                                <li><a href="#!">Returns & Exchanges</a></li>
-                                <li><a href="#!">Return Center</a></li>
-                                <li><a href="#!">Purchase Hisotry</a></li>
-                                <li><a href="#!">App Download</a></li>
-                                <li><a href="#!">Latest News Blog</a></li>
-                                <li><a href="#!">Shipping & Delivery</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__widget col-lg-3 col-md-6 mt-40">
-                            <h2 class="title">Service us</h2>
-                            <ul class="category">
-                                <li><a href="#!">Support Center</a></li>
-                                <li><a href="#!">Term & Conditions</a></li>
-                                <li><a href="#!">Shipping</a></li>
-                                <li><a href="#!">Privacy Policy</a></li>
-                                <li><a href="#!">Help</a></li>
-                                <li><a href="#!">Products Return</a></li>
-                                <li><a href="#!">FAQS</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer__bottom ul_li_center">
-                    <div class="footer__copyright mt-15">
-                        &copy; 2022 <a href="#!">Themexriver</a> . All Rights Reserved.
-                    </div>
-                    <div class="footer__social mt-15">
-                        <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#!"><i class="fab fa-twitter"></i></a>
-                        <a href="#!"><i class="fab fa-instagram"></i></a>
-                        <a href="#!"><i class="fab fa-youtube"></i></a>
-                        <a href="#!"><i class="fab fa-pinterest"></i></a>
-                    </div>
-                    <div class="payment_method mt-15">
-                        <img src="assets/img/bg/payment_method.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?php require_once  "layouts/footer.php"; ?>
+        
         <!-- footer end -->
 
         <!-- start newsletter-popup-area-section -->
-        <section class="newsletter-popup-area-section">
-            <div class="newsletter-popup-area">
-                <div class="newsletter-popup-ineer">
-                    <button class="btn newsletter-close-btn"><i class="fal fa-times"></i></button>
-                    <div class="img-holder">
-                        <img src="assets/img/bg/newsletter.jpg" alt>
-                    </div>
-                    <div class="details">
-                        <h4>Get 45% discount shipped to your inbox</h4>
-                        <p>Subscribe to the radios eCommerce newsletter to receive timely updates to your favorite products</p>
-                        <form>
-                            <div>
-                                <input type="email" placeholder="Enter your email" />
-                                <button type="submit">Subscribe</button>
-                            </div>
-                            <div>
-                                <label class="checkbox-holder"> Don't show this popup again!
-                                    <input type="checkbox" class="show-message">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div> 
-        </section>
+
         <!-- end newsletter-popup-area-section -->
 
 
         <!-- start cookies-area -->    
-        <div class="cookies-area">
-            <p> This website uses cookies to improve your experience. By using this website you agree to our <a href="#">Data Protection Policy</a>. </p>
-            <a href="#" class="read-more">Read more</a>
-            <div>
-                <button class="cookie-btn">Accept</button>
-            </div>
-        </div>
+        
         <!-- end cookies-area -->
 
 
     </div>
 
     <!-- jquery include -->
-    <script src="assets/js/jquery-3.5.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/backToTop.js"></script>
-    <script src="assets/js/uikit.min.js"></script>
-    <script src="assets/js/resize-sensor.min.js"></script>
-    <script src="assets/js/theia-sticky-sidebar.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jqueryui.js"></script>
-    <script src="assets/js/touchspin.js"></script>
-    <script src="assets/js/countdown.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/metisMenu.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="<?= BASE_URL ?>assets/client/assets/js/jquery-3.5.1.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/client/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/client/assets/js/slick.js"></script>
+    <script src="<?= BASE_URL ?>assets/client/assets/js/backToTop.js"></script>
+    <script src="<?= BASE_URL ?>assets/client/assets/js/uikit.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/client/assets/js/resize-sensor.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/client/assets/js/theia-sticky-sidebar.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/client/assets/js/wow.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/client/assets/js/jqueryui.js"></script>
+    <script src="<?= BASE_URL ?>assets/client/assets/js/touchspin.js"></script>
+    <script src="<?= BASE_URL ?>assets/client/assets/js/countdown.js"></script>
+    <script src="<?= BASE_URL ?>assets/client/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/client/assets/js/metisMenu.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/client/assets/js/main.js"></script>
 </body>
 
 

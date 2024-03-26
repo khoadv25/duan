@@ -51,28 +51,42 @@
                         </tr>
                     </tfoot>
                     <tbody>
-                       
 
-                            <tr>
-                                <td><?= $productDetail['id'] ?? '' ?></td>
-                                <td><?= $productDetail['size_id']?? ''  ?></td>
-                                <td><?= $productDetail['quantity']?? ''  ?></td>
-                                <td><?= $productDetail['color_id'] ?? '' ?></td>
-                                <td><?= $productDetail['price']?? ''  ?></td>
-                                <td>
-                                    <img src="<?= BASE_URL . $value['image_id']?? ''  ?>" alt="" width="100px">
-                                </td>
-                                <td><?= $productDetail['product_id']?? ''  ?></td>
-                                <td><?= $productDetail['sale'] ?? '' ?></td>
-                           
-                                <td>
-                                    <!-- <a href="<?= BASE_URL_ADMIN ?>?act=product-s" class="btn btn-info">.</a> -->
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=product-s-update&id=<?= $productDetail['id'] ?>" class="btn btn-warning">Update</a>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=product-delete&id=<?= $productDetail['id'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')" class="btn btn-danger">Delete</a>
-                                </td>
+                   <?php foreach ($show as $key => $show) :?>
+                        <tr>
+                            <td><?= $show['id'] ?? '' ?></td>
+                            <td><?= $show['size_name'] ?? ''  ?></td>
+                            <td><?= $show['quantity'] ?? ''  ?></td>
+                            <td><?= $show['color_name'] ?? '' ?></td>
+                            <td><?= $show['price'] ?? ''  ?></td>
 
-                            
-                           
+                            <td>
+                                <img src="<?= BASE_URL . $show['image_url'] ?? ''  ?>" alt="" width="100px">
+                            </td>
+
+                            <td class="text-center">
+                                
+                                    <div>
+                                        <img src="<?= BASE_URL . $show['image_product'] ?? ''  ?>" alt="" width="50px">
+                                    </div>
+
+                                    <div>
+                                        <?= $show['product_name'] ?? ''  ?>
+                                    </div>
+                                
+                            </td>
+
+                            <td><?= $show['sale'] ?? 'Không' ?></td>
+
+                            <td>
+                                <a href="<?= BASE_URL_ADMIN ?>?act=product" class="btn btn-info">Back</a>
+                                <a href="<?= BASE_URL_ADMIN ?>?act=product-s-update&id=<?= $productDetail['id'] ?>" class="btn btn-warning">Update</a>
+                                <a href="<?= BASE_URL_ADMIN ?>?act=product-delete&id=<?= $productDetail['id'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')" class="btn btn-danger">Delete</a>
+                            </td>
+
+
+                            <?php endforeach;?>
+
 
                     </tbody>
                 </table>
