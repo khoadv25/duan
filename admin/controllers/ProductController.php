@@ -177,7 +177,13 @@ function productUpdate($id)
        
         $img = $_FILES['avatar'];
         if (!empty($img)) {
-            $data['thumbnail'] = upload_file($img, 'uploads/product/');    
+            if (!empty($img['name']) && $img['size'] > 0){
+                $data['thumbnail'] = upload_file($img, 'uploads/product/');    
+            }else{
+                $data['thumbnail'] =$product['thumbnail'] ;    
+
+            }
+            
         }
         
 

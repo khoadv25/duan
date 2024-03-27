@@ -80,8 +80,8 @@
 
                             <td>
                                 <a href="<?= BASE_URL_ADMIN ?>?act=product" class="btn btn-info">Back</a>
-                                <a href="<?= BASE_URL_ADMIN ?>?act=product-s-update&id=<?= $productDetail['id'] ?>" class="btn btn-warning">Update</a>
-                                <a href="<?= BASE_URL_ADMIN ?>?act=product-delete&id=<?= $productDetail['id'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')" class="btn btn-danger">Delete</a>
+                                <a href="<?= BASE_URL_ADMIN ?>?act=product-s-update&id=<?= $show['id'] ?>" class="btn btn-warning">Update</a>
+                                <a href="<?= BASE_URL_ADMIN ?>?act=product-delete&id=<?= $show['id'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')" class="btn btn-danger">Delete</a>
                             </td>
 
 

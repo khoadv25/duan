@@ -7,7 +7,10 @@
             <div class="cart_sidebar">
                 <button type="button" class="cart_close_btn"><i class="fal fa-times"></i></button>
                 <h2 class="heading_title text-uppercase">Cart Items - <span>4</span></h2>
+
+
                 <div class="cart_items_list">
+
                     <div class="cart_item">
                         <div class="item_image">
                             <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt="image_not_found">
@@ -20,6 +23,8 @@
                             <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
                         </div>
                     </div>
+
+
                     <div class="cart_item">
                         <div class="item_image">
                             <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt="image_not_found">
@@ -32,6 +37,8 @@
                             <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
                         </div>
                     </div>
+
+
                     <div class="cart_item">
                         <div class="item_image">
                             <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt="image_not_found">
@@ -44,6 +51,8 @@
                             <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
                         </div>
                     </div>
+
+
                     <div class="cart_item">
                         <div class="item_image">
                             <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt="image_not_found">
@@ -56,6 +65,8 @@
                             <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
                         </div>
                     </div>
+
+                    
                 </div>
                 <div class="total_price text-uppercase">
                     <span>Sub Total:</span>
@@ -77,6 +88,9 @@
                 </ul>
             </div>
             <!-- sidebar-info end -->
+
+
+
 
             <!-- side-mobile-menu start -->
             <nav class="side-mobile-menu">

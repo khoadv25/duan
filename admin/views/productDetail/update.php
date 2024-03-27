@@ -63,6 +63,10 @@
                         <div class="mb-3 mt-3">
                             <label for="avatar" class="form-label">image:</label>
                             <input type="file" class="form-control" id="avatar" name="images">
+                            <div>
+                                <img src="<?= BASE_URL . $image['image_url'] ?>" alt="" width="100px">
+
+                            </div>
                         </div>
 
                         <div class="mb-3 mt-3">

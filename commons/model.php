@@ -15,7 +15,7 @@ if (!function_exists('get_virtual_params')) {
         foreach($keys as $key) {
             $tmp[] = ":$key";
         }
-        
+
         return implode(',', $tmp);
     }
 }

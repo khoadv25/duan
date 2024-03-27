@@ -82,7 +82,7 @@ function productsDetailCreate()
 
         $_SESSION['success'] = 'Thao tác thành công!';
 
-        // header('Location: ' . BASE_URL_ADMIN . '?act=product');
+        header('Location: ' . BASE_URL_ADMIN . '?act=product');
         exit();
     }
 
@@ -108,7 +108,10 @@ function validateProductsDetailCreate($data)
 
 function productsDetailUpdate($id)
 {
+    $title = 'Cập nhật product Detail: ' ;
+    $view = 'productDetail/update';
     $productDetail = showOne('product_detail', $id);
+    // $show = showBienThe($id);
     $image = showOne('image', $id);
     $size = listAll('size');
     $color = listAll('color');
@@ -116,23 +119,25 @@ function productsDetailUpdate($id)
         e404();
     }
 
-    $title = 'Cập nhật product Detail: ' ;
-    $view = 'productDetail/update';
+    
 
     if (!empty($_POST)) {
         $data = [
             'image_url' => $_FILES['images']['name'] ? $_FILES['images']['name'] : $image['image_url'],
             'product_id' => $productDetail['product_id'],
         ];
-        // print_r($data['image_url']);
-        // die;
-        // co bảng image : gồm name và product_id
-        $img = $_FILES['images'] ? $_FILES['images'] : $image['image_url'] ;
+       
+        $img = $_FILES['images'];
         if (!empty($img)) {
-            $data['image_url'] = upload_file($img, 'uploads/product/');    
+            if (!empty($img['name']) && $img['size'] > 0){
+                $data['image_url'] = upload_file($img, 'uploads/product/');    
+            }else{
+                $data['image_url'] = $image['image_url'] ;    
+
+            }
+            
         }
-        // print_r($data['image_url']);
-        // die;
+
        $img = $image['id'];
         $image_id = update('image', $img, $data);
 
@@ -153,7 +158,7 @@ function productsDetailUpdate($id)
         $_SESSION['success'] = 'Thao tác thành công!';
         
 
-        header('Location: ' . BASE_URL_ADMIN . '?act=product-s&id=' . $id);
+        header('Location: ' . BASE_URL_ADMIN . '?act=product-s&id=' . $productDetail['product_id']);
         exit();
     }
 

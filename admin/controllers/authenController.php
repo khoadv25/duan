@@ -9,24 +9,24 @@ function authenShowFormLogin() {
 }
 
 function authenLogin() {
-    $user = getUserAdminByEmailAndPassword($_POST['email'], $_POST['password']);
+    $admin = getUserAdminByEmailAndPassword($_POST['email'], $_POST['password']);
 
-    if (empty($user)) {
+    if (empty($admin)) {
         $_SESSION['error'] = 'Email hoặc password chưa đúng!';
 
         header('Location: ' . BASE_URL_ADMIN . '?act=login');
         exit();
     }
 
-    $_SESSION['user'] = $user;
+    $_SESSION['admin'] = $admin;
 
     header('Location: ' . BASE_URL_ADMIN);
     exit();
 }
 
 function authenLogout() {
-    if (!empty($_SESSION['user'])) {
-        session_destroy();
+    if (!empty($_SESSION['admin'])) {
+        unset($_SESSION['admin']);
     }
 
     // header('Location: ' . BASE_URL);
