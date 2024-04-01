@@ -1,0 +1,7 @@
+/// bảng cart user_id + product_id + quantity 
+
+/// 1 user có thể có nhiều product_id
+// 1 product_id có thể co nhiều user_id
+
+
+// nếu user 1 có 2 product_id

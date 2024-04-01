@@ -1,168 +1,166 @@
 <main>
 
-            <!-- hero start -->
-            <div class="hero hero__height ul_li" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/hero_bg.jpg">
-                <div class="container">
-                    <div class="row align-items-center mt-none-30">
-                        <div class="col-lg-9 mt-30">
-                            <div class="row align-items-center flex-row-reverse mt-none-30">
-                                <div class="col-lg-7 mt-30">
-                                    <div class="hero__product">
-                                        <div class="hero__product-wrap">
-                                            <div class="hero__product-carousel">
-                                                <div class="hero__product-item">
-                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_52.png" alt="">
-                                                </div>
-                                                <div class="hero__product-item">
-                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_53.png" alt="">
-                                                </div>
-                                                <div class="hero__product-item">
-                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_54.png" alt="">
-                                                </div>
-                                                <div class="hero__product-item">
-                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_52.png" alt="">
-                                                </div>
-                                                <div class="hero__product-item">
-                                                    <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_54.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="hero__product-carousel-nav">
-                                                <div class="hero__product-item-nav">
-                                                    <div class="image">
-                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_52.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="hero__product-item-nav">
-                                                    <div class="image">
-                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_53.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="hero__product-item-nav">
-                                                    <div class="image">
-                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_54.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="hero__product-item-nav">
-                                                    <div class="image">
-                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_52.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="hero__product-item-nav">
-                                                    <div class="image">
-                                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_54.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <span class="hero__product-offer">
-                                                <span class="discount">29<span>%</span></span>
-                                                <span>off</span>
-                                            </span>
+    <!-- hero start -->
+    <div class="hero hero__height ul_li" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/hero_bg.jpg">
+        <div class="container">
+            <div class="row align-items-center mt-none-30">
+                <div class="col-lg-9 mt-30">
+                    <div class="row align-items-center flex-row-reverse mt-none-30">
+                        <div class="col-lg-7 mt-30">
+                            <div class="hero__product">
+                                <div class="hero__product-wrap">
+                                    <div class="hero__product-carousel">
+                                        <div class="hero__product-item">
+                                            <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_52.png" alt="">
+                                        </div>
+                                        <div class="hero__product-item">
+                                            <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_53.png" alt="">
+                                        </div>
+                                        <div class="hero__product-item">
+                                            <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_54.png" alt="">
+                                        </div>
+                                        <div class="hero__product-item">
+                                            <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_52.png" alt="">
+                                        </div>
+                                        <div class="hero__product-item">
+                                            <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_54.png" alt="">
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-5 mt-30">
-                                    <div class="hero__content">
-                                        <span class="subtitle">100% Best Product</span>
-                                        <h2 class="title">Waterma Watch <br> Beats Studio</h2>
-                                        <p>Widescreen 4k ultra Laptop</p>
-                                        <h3 class="price">$ 1800.99 / <span>$2860</span></h3>
-                                        <div class="mxw_343 mb-20">
-                                            <div class="product__progress progress h-16 color-primary">
-                                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                            <div class="ul_li_between mb-6">
-                                                <span class="product__available">Available: <span>334</span></span>
-                                                <span class="product__available">Stock: <span>180</span></span>
+                                    <div class="hero__product-carousel-nav">
+                                        <div class="hero__product-item-nav">
+                                            <div class="image">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_52.png" alt="">
                                             </div>
                                         </div>
-                                        <a class="hero__btn" href="#!">Shop Now <i class="far fa-long-arrow-right"></i></a>
+                                        <div class="hero__product-item-nav">
+                                            <div class="image">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_53.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="hero__product-item-nav">
+                                            <div class="image">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_54.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="hero__product-item-nav">
+                                            <div class="image">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_52.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="hero__product-item-nav">
+                                            <div class="image">
+                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_54.png" alt="">
+                                            </div>
+                                        </div>
                                     </div>
+                                    <span class="hero__product-offer">
+                                        <span class="discount">29<span>%</span></span>
+                                        <span>off</span>
+                                    </span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 mt-30">
-                            <div class="hot-deal__slide-wrap style-2 bg-white ">
-                                <h2 class="section-heading mb-25"><span>Top Product</span></h2>
-                                <div class="hot-deal__slide tx-arrow">
-                                    <div class="hot-deal__item text-center">
-                                        <div class="thumb">
-                                            <a href="#!">
-                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_55.png" alt="">
-                                            </a>
+                        <div class="col-lg-5 mt-30">
+                            <div class="hero__content">
+                                <span class="subtitle">100% Best Product</span>
+                                <h2 class="title">Waterma Watch <br> Beats Studio</h2>
+                                <p>Widescreen 4k ultra Laptop</p>
+                                <h3 class="price">$ 1800.99 / <span>$2860</span></h3>
+                                <div class="mxw_343 mb-20">
+                                    <div class="product__progress progress h-16 color-primary">
+                                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="ul_li_between mb-6">
+                                        <span class="product__available">Available: <span>334</span></span>
+                                        <span class="product__available">Stock: <span>180</span></span>
+                                    </div>
+                                </div>
+                                <a class="hero__btn" href="#!">Shop Now <i class="far fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-30">
+                    <div class="hot-deal__slide-wrap style-2 bg-white ">
+                        <h2 class="section-heading mb-25"><span>Top Product</span></h2>
+                        <div class="hot-deal__slide tx-arrow">
+                            <div class="hot-deal__item text-center">
+                                <div class="thumb">
+                                    <a href="#!">
+                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_55.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <ul class="rating-star ul_li_center mr-10">
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                    </ul>
+                                    <h2 class="title mb-15"><a href="#!">Asus 2022 Vivobook</a></h2>
+                                    <h4 class="product__price mb-20"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
+                                    <div class="mxw_216 m-auto">
+                                        <div class="product__progress progress mb-6 h-8 color-primary">
+                                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                        <div class="content">
-                                            <ul class="rating-star ul_li_center mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <h2 class="title mb-15"><a href="#!">Asus 2022 Vivobook</a></h2>
-                                            <h4 class="product__price mb-20"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                            <div class="mxw_216 m-auto">
-                                                <div class="product__progress progress mb-6 h-8 color-primary">
-                                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                                <div class="ul_li_between">
-                                                    <span class="product__available">Available: <span>334</span></span>
-                                                    <span class="product__available">Sold: <span>180</span></span>
-                                                </div>
-                                            </div>
+                                        <div class="ul_li_between">
+                                            <span class="product__available">Available: <span>334</span></span>
+                                            <span class="product__available">Sold: <span>180</span></span>
                                         </div>
                                     </div>
-                                    <div class="hot-deal__item text-center">
-                                        <div class="thumb">
-                                            <a href="#!">
-                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_55.png" alt="">
-                                            </a>
+                                </div>
+                            </div>
+                            <div class="hot-deal__item text-center">
+                                <div class="thumb">
+                                    <a href="#!">
+                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_55.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <ul class="rating-star ul_li_center mr-10">
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                    </ul>
+                                    <h2 class="title mb-15"><a href="#!">Asus 2022 Vivobook</a></h2>
+                                    <h4 class="product__price mb-20"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
+                                    <div class="mxw_216 m-auto">
+                                        <div class="product__progress progress mb-6 h-8 color-primary">
+                                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                        <div class="content">
-                                            <ul class="rating-star ul_li_center mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <h2 class="title mb-15"><a href="#!">Asus 2022 Vivobook</a></h2>
-                                            <h4 class="product__price mb-20"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                            <div class="mxw_216 m-auto">
-                                                <div class="product__progress progress mb-6 h-8 color-primary">
-                                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                                <div class="ul_li_between">
-                                                    <span class="product__available">Available: <span>334</span></span>
-                                                    <span class="product__available">Sold: <span>180</span></span>
-                                                </div>
-                                            </div>
+                                        <div class="ul_li_between">
+                                            <span class="product__available">Available: <span>334</span></span>
+                                            <span class="product__available">Sold: <span>180</span></span>
                                         </div>
                                     </div>
-                                    <div class="hot-deal__item text-center">
-                                        <div class="thumb">
-                                            <a href="#!">
-                                                <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_55.png" alt="">
-                                            </a>
+                                </div>
+                            </div>
+                            <div class="hot-deal__item text-center">
+                                <div class="thumb">
+                                    <a href="#!">
+                                        <img src="<?= BASE_URL ?>assets/client/assets/img/product/img_55.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <ul class="rating-star ul_li_center mr-10">
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                    </ul>
+                                    <h2 class="title mb-15"><a href="#!">Asus 2022 Vivobook</a></h2>
+                                    <h4 class="product__price mb-20"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
+                                    <div class="mxw_216 m-auto">
+                                        <div class="product__progress progress mb-6 h-8 color-primary">
+                                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                        <div class="content">
-                                            <ul class="rating-star ul_li_center mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <h2 class="title mb-15"><a href="#!">Asus 2022 Vivobook</a></h2>
-                                            <h4 class="product__price mb-20"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                            <div class="mxw_216 m-auto">
-                                                <div class="product__progress progress mb-6 h-8 color-primary">
-                                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                                <div class="ul_li_between">
-                                                    <span class="product__available">Available: <span>334</span></span>
-                                                    <span class="product__available">Sold: <span>180</span></span>
-                                                </div>
-                                            </div>
+                                        <div class="ul_li_between">
+                                            <span class="product__available">Available: <span>334</span></span>
+                                            <span class="product__available">Sold: <span>180</span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -171,1409 +169,1268 @@
                     </div>
                 </div>
             </div>
-            <!-- hero end -->
-            
-            <!-- feature start -->
-            <div class="feature pt-40 pb-30">
-                <div class="container">
-                    <div class="feature__wrap ul_li">
-                        <div class="feature__item ul_li">
-                            <div class="icon">
-                                <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_01.svg" alt="">
-                            </div>
-                            <div class="content">
-                                <h3>Free Shipping</h3>
-                                <p>Free shipping over $100</p>
-                            </div>
-                        </div>
-                        <div class="feature__item ul_li">
-                            <div class="icon">
-                                <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_02.svg" alt="">
-                            </div>
-                            <div class="content">
-                                <h3>Payment Secure</h3>
-                                <p>Got 100% Payment Safe</p>
-                            </div>
-                        </div>
-                        <div class="feature__item ul_li">
-                            <div class="icon">
-                                <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_03.svg" alt="">
-                            </div>
-                            <div class="content">
-                                <h3>Support 24/7</h3>
-                                <p>Top quialty 24/7 Support</p>
-                            </div>
-                        </div>
-                        <div class="feature__item ul_li">
-                            <div class="icon">
-                                <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_04.svg" alt="">
-                            </div>
-                            <div class="content">
-                                <h3>100% Money Back</h3>
-                                <p>Cutomers Money Backs</p>
-                            </div>
-                        </div>
-                        <div class="feature__item ul_li">
-                            <div class="icon">
-                                <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_05.svg" alt="">
-                            </div>
-                            <div class="content">
-                                <h3>Quality Products</h3>
-                                <p>We Insure Product Quailty</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- feature end -->
+        </div>
+    </div>
+    <!-- hero end -->
 
-            <!-- tab product start -->
-            <div class="tab-product pt-40 pb-40">
-                <div class="container">
-                    <div class="product__nav-wrap ul_li_between mb-20">
-                        <h2 class="section-heading"><span>Hot <span>New Arrival</span> You May Like</span></h2>
-                        <ul class="product__nav rd-tab-nav nav nav-tabs" id="vd-myTab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="vd-tab-01" data-bs-toggle="tab" data-bs-target="#vd-tab1" type="button" role="tab" aria-controls="vd-tab1" aria-selected="true">Recent</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="vd-tab-02" data-bs-toggle="tab" data-bs-target="#vd-tab2" type="button" role="tab" aria-controls="vd-tab2" aria-selected="false">Best Seller</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="vd-tab-03" data-bs-toggle="tab" data-bs-target="#vd-tab3" type="button" role="tab" aria-controls="vd-tab3" aria-selected="false">Top</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="vd-tab-04" data-bs-toggle="tab" data-bs-target="#vd-tab4" type="button" role="tab" aria-controls="vd-tab4" aria-selected="false">New Arrivals</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="vd-tab-05" data-bs-toggle="tab" data-bs-target="#vd-tab5" type="button" role="tab" aria-controls="vd-tab5" aria-selected="false">top rating</button>
-                            </li>
+    <!-- feature start -->
+    <div class="feature pt-40 pb-30">
+        <div class="container">
+            <div class="feature__wrap ul_li">
+                <div class="feature__item ul_li">
+                    <div class="icon">
+                        <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_01.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Free Shipping</h3>
+                        <p>Free shipping over $100</p>
+                    </div>
+                </div>
+                <div class="feature__item ul_li">
+                    <div class="icon">
+                        <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_02.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Payment Secure</h3>
+                        <p>Got 100% Payment Safe</p>
+                    </div>
+                </div>
+                <div class="feature__item ul_li">
+                    <div class="icon">
+                        <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_03.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Support 24/7</h3>
+                        <p>Top quialty 24/7 Support</p>
+                    </div>
+                </div>
+                <div class="feature__item ul_li">
+                    <div class="icon">
+                        <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_04.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>100% Money Back</h3>
+                        <p>Cutomers Money Backs</p>
+                    </div>
+                </div>
+                <div class="feature__item ul_li">
+                    <div class="icon">
+                        <img src="<?= BASE_URL ?>assets/client/assets/img/icon/feat_05.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Quality Products</h3>
+                        <p>We Insure Product Quailty</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature end -->
+
+    <!-- tab product start -->
+    <div class="tab-product pt-40 pb-40">
+        <div class="container">
+
+            <div class="product__nav-wrap ul_li_between mb-20">
+                <h2 class="section-heading"><span><span>Sản Phẩm</span> Bạn có thể thích</span></h2>
+                <ul class="product__nav rd-tab-nav nav nav-tabs" id="vd-myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="vd-tab-01" data-bs-toggle="tab" data-bs-target="#vd-tab1" type="button" role="tab" aria-controls="vd-tab1" aria-selected="true">Tất cả</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="vd-tab-02" data-bs-toggle="tab" data-bs-target="#vd-tab2" type="button" role="tab" aria-controls="vd-tab2" aria-selected="false">Best Seller</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="vd-tab-03" data-bs-toggle="tab" data-bs-target="#vd-tab3" type="button" role="tab" aria-controls="vd-tab3" aria-selected="false">Top</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link " id="vd-tab-04" data-bs-toggle="tab" data-bs-target="#vd-tab4" type="button" role="tab" aria-controls="vd-tab4" aria-selected="false">New Arrivals</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="vd-tab-05" data-bs-toggle="tab" data-bs-target="#vd-tab5" type="button" role="tab" aria-controls="vd-tab5" aria-selected="false">top rating</button>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <div class="vd-products">
+
+
+                <div class="tab-content tab_has_slider" id="vd-myTabContent">
+
+                    <div class="tab-pane fade show active" id="vd-tab1" role="tabpanel" aria-labelledby="vd-tab-01">
+
+
+                            <div class="tab-product__slide tx-arrow">
+
+                                <?php foreach ($product as $key => $value) : ?>
+
+                                <div class="tab-product__item tx-product text-center">
+                                    <div class="thumb ">
+                                        <a href="<?= BASE_URL . '?act=chitiet&id='. $value['id'] ?>"><img src="<?= BASE_URL . $value['thumbnail'] ?>  " alt="" width="100"></a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126)</span>
+                                        </div>
+                                        <h3 class="title"><a href="shop-single.html"><?= $value['name'] ?></a></h3>
+                                        <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                    </div>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
+                                </div>
+                                    <?php endforeach; ?>
+
+                            </div>
+
+                    </div>
+                   
+
+
+                    <div class="tab-pane fade" id="vd-tab2" role="tabpanel" aria-labelledby="vd-tab-02">
+                        <div class="tab-product__slide tx-arrow">
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Portable 2TB External Hard Drive Portable HDD</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Ninja Compact Smoothie & Food Processing Blender</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Galaxy S20 FE 5G Cell Phone, Factory Unlocked</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_05.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Rokinon Xeen CF 16mm T2.6 Pro Cinema Wide</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_06.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Amazon Basics Window Air Conditioner Control</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">JBL Tune 510BT Wireless On-Ear Head phones Blue</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="tab-pane fade" id="vd-tab3" role="tabpanel" aria-labelledby="vd-tab-03">
+                        <div class="tab-product__slide tx-arrow">
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Portable 2TB External Hard Drive Portable HDD</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Ninja Compact Smoothie & Food Processing Blender</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Galaxy S20 FE 5G Cell Phone, Factory Unlocked</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_05.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Rokinon Xeen CF 16mm T2.6 Pro Cinema Wide</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_06.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Amazon Basics Window Air Conditioner Control</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">JBL Tune 510BT Wireless On-Ear Head phones Blue</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="tab-pane fade " id="vd-tab4" role="tabpanel" aria-labelledby="vd-tab-04">
+                        <div class="tab-product__slide tx-arrow">
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Portable 2TB External Hard Drive Portable HDD</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Ninja Compact Smoothie & Food Processing Blender</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Galaxy S20 FE 5G Cell Phone, Factory Unlocked</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_05.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Rokinon Xeen CF 16mm T2.6 Pro Cinema Wide</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_06.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Amazon Basics Window Air Conditioner Control</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">JBL Tune 510BT Wireless On-Ear Head phones Blue</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="tab-pane fade" id="vd-tab5" role="tabpanel" aria-labelledby="vd-tab-05">
+                        <div class="tab-product__slide tx-arrow">
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Portable 2TB External Hard Drive Portable HDD</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Ninja Compact Smoothie & Food Processing Blender</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Galaxy S20 FE 5G Cell Phone, Factory Unlocked</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_05.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Rokinon Xeen CF 16mm T2.6 Pro Cinema Wide</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_06.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Amazon Basics Window Air Conditioner Control</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">JBL Tune 510BT Wireless On-Ear Head phones Blue</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                            <div class="tab-product__item tx-product text-center">
+                                <div class="thumb">
+                                    <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
+                                </div>
+                                <div class="content">
+                                    <div class="product__review ul_li_center">
+                                        <ul class="rating-star ul_li mr-10">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                        </ul>
+                                        <span>(126)</span>
+                                    </div>
+                                    <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
+                                    <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
+                                </div>
+                                <ul class="product__action">
+                                    <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                    <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <span class="badge-skew">New</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- tab product end -->
+
+    <!-- rd slide product start -->
+    <div class="rd-slide-product">
+        <div class="container">
+            <div class="row mt-none-30">
+                <div class="col-lg-3 mt-30">
+                    <div class="product-category" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/cat_bg.jpg">
+                        <h2 class="section-heading mb-25"><span><span>Catagory</span></span></h2>
+                        <ul class="list-unstyled">
+                            <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_01.svg" alt="">Bluetooth speaker</a></li>
+                            <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_02.svg" alt="">Digital camera</a></li>
+                            <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_03.svg" alt="">Laser printer</a></li>
+                            <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_04.svg" alt="">Electric frying pan</a></li>
+                            <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_05.svg" alt="">Robotics vacuum</a></li>
+                            <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_06.svg" alt="">external hard drive</a></li>
+                            <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_07.svg" alt="">Electric razor</a></li>
+                            <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_08.svg" alt="">Washing machine</a></li>
+                            <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_09.svg" alt="">Rice cooker</a></li>
+                            <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_10.svg" alt="">Telivsion & Monitor</a></li>
+                            <li class="more-item"><a href="#!">+ More item</a></li>
                         </ul>
                     </div>
-                    <div class="vd-products">
-                        <div class="tab-content tab_has_slider" id="vd-myTabContent">
-                            <div class="tab-pane fade" id="vd-tab1" role="tabpanel" aria-labelledby="vd-tab-01">
-                                <div class="tab-product__slide tx-arrow">
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Portable 2TB External Hard Drive Portable HDD</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                </div>
+
+                <div class="col-lg-9 mt-30">
+                    <div class="rd-slide-products">
+                        <h2 class="section-heading mb-25"><span>Trending Product</span></h2>
+                        <div class="rd-product__slide tx-arrow">
+                            <div class="rd-product__slide-item">
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_07.png" alt=""></a>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
                                         </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Ninja Compact Smoothie & Food Processing Blender</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                        <h2 class="product__title"><a href="shop-single.html">Ninja Compact Smoothie & Food Processing Blender</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
+                                </div>
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_08.png" alt=""></a>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt=""></a>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
                                         </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Galaxy S20 FE 5G Cell Phone, Factory Unlocked</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                        <h2 class="product__title"><a href="shop-single.html">DEWALT 20V MAX* XR Oscillating Tool Kit</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_05.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Rokinon Xeen CF 16mm T2.6 Pro Cinema Wide</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_06.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Amazon Basics Window Air Conditioner Control</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">JBL Tune 510BT Wireless On-Ear Head phones Blue</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="vd-tab2" role="tabpanel" aria-labelledby="vd-tab-02">
-                                <div class="tab-product__slide tx-arrow">
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Portable 2TB External Hard Drive Portable HDD</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                            <div class="rd-product__slide-item">
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_09.png" alt=""></a>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
                                         </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Ninja Compact Smoothie & Food Processing Blender</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                        <h2 class="product__title"><a href="shop-single.html">Lenovo – Tab P11 Plus – Tablet – 11″ 2K Display</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
+                                </div>
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_10.png" alt=""></a>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt=""></a>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
                                         </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Galaxy S20 FE 5G Cell Phone, Factory Unlocked</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                        <h2 class="product__title"><a href="shop-single.html">Aroma Housewares 4-Cups 1Qt. Rice & Grain</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_05.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Rokinon Xeen CF 16mm T2.6 Pro Cinema Wide</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_06.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Amazon Basics Window Air Conditioner Control</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">JBL Tune 510BT Wireless On-Ear Head phones Blue</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="vd-tab3" role="tabpanel" aria-labelledby="vd-tab-03">
-                                <div class="tab-product__slide tx-arrow">
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Portable 2TB External Hard Drive Portable HDD</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                            <div class="rd-product__slide-item">
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_11.png" alt=""></a>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
                                         </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Ninja Compact Smoothie & Food Processing Blender</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                        <h2 class="product__title"><a href="shop-single.html">SAMSUNG Galaxy A13 5G Cell Phone, Factory Unlocked</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
+                                </div>
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_12.png" alt=""></a>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt=""></a>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
                                         </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Galaxy S20 FE 5G Cell Phone, Factory Unlocked</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                        <h2 class="product__title"><a href="shop-single.html">SAMSUNG Galaxy S20 FE 5G Cell Phone, Factory</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_05.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Rokinon Xeen CF 16mm T2.6 Pro Cinema Wide</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_06.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Amazon Basics Window Air Conditioner Control</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">JBL Tune 510BT Wireless On-Ear Head phones Blue</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
                                 </div>
                             </div>
-                            <div class="tab-pane fade show active" id="vd-tab4" role="tabpanel" aria-labelledby="vd-tab-04">
-                                <div class="tab-product__slide tx-arrow">
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Portable 2TB External Hard Drive Portable HDD</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                            <div class="rd-product__slide-item">
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_13.png" alt=""></a>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
                                         </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Ninja Compact Smoothie & Food Processing Blender</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                        <h2 class="product__title"><a href="shop-single.html">Sceptre 24″ Professional Thin 75Hz 1080p LED Monitor</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
+                                </div>
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_14.png" alt=""></a>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt=""></a>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
                                         </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Galaxy S20 FE 5G Cell Phone, Factory Unlocked</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                        <h2 class="product__title"><a href="shop-single.html">Panasonic Cordless Phone System, Expandable</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_05.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Rokinon Xeen CF 16mm T2.6 Pro Cinema Wide</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_06.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Amazon Basics Window Air Conditioner Control</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">JBL Tune 510BT Wireless On-Ear Head phones Blue</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="vd-tab5" role="tabpanel" aria-labelledby="vd-tab-05">
-                                <div class="tab-product__slide tx-arrow">
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_01.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Portable 2TB External Hard Drive Portable HDD</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                            <div class="rd-product__slide-item">
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_08.png" alt=""></a>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
                                         </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Ninja Compact Smoothie & Food Processing Blender</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                        <h2 class="product__title"><a href="shop-single.html">CLB 510BT Wireless Headphones with Purebass</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
+                                </div>
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_09.png" alt=""></a>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_04.png" alt=""></a>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
                                         </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Galaxy S20 FE 5G Cell Phone, Factory Unlocked</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
+                                        <h2 class="product__title"><a href="shop-single.html">BenQ HT2050A 1080P Home Theater Projector Lumens</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_05.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Rokinon Xeen CF 16mm T2.6 Pro Cinema Wide</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_06.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Amazon Basics Window Air Conditioner Control</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_02.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">JBL Tune 510BT Wireless On-Ear Head phones Blue</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
-                                    <div class="tab-product__item tx-product text-center">
-                                        <div class="thumb">
-                                            <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_03.png" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <div class="product__review ul_li_center">
-                                                <ul class="rating-star ul_li mr-10">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <span>(126)</span>
-                                            </div>
-                                            <h3 class="title"><a href="shop-single.html">Skullcandy Dime True In-Ear Earbuds – Golden Red</a></h3>
-                                            <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
-                                        </div>
-                                        <ul class="product__action">
-                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                        </ul>
-                                        <span class="badge-skew">New</span>
-                                    </div>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
-            <!-- tab product end -->
+        </div>
+    </div>
+    <!-- rd slide product end -->
 
-            <!-- rd slide product start -->
-            <div class="rd-slide-product">
-                <div class="container">
-                    <div class="row mt-none-30">
-                        <div class="col-lg-3 mt-30">
-                            <div class="product-category" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/cat_bg.jpg">
-                                <h2 class="section-heading mb-25"><span><span>Catagory</span></span></h2>
-                                <ul class="list-unstyled">
-                                    <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_01.svg" alt="">Bluetooth speaker</a></li>
-                                    <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_02.svg" alt="">Digital camera</a></li>
-                                    <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_03.svg" alt="">Laser printer</a></li>
-                                    <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_04.svg" alt="">Electric frying pan</a></li>
-                                    <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_05.svg" alt="">Robotics vacuum</a></li>
-                                    <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_06.svg" alt="">external hard drive</a></li>
-                                    <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_07.svg" alt="">Electric razor</a></li>
-                                    <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_08.svg" alt="">Washing machine</a></li>
-                                    <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_09.svg" alt="">Rice cooker</a></li>
-                                    <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_10.svg" alt="">Telivsion & Monitor</a></li>
-                                    <li class="more-item"><a href="#!">+ More item</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-9 mt-30">
-                            <div class="rd-slide-products">
-                                <h2 class="section-heading mb-25"><span>Trending Product</span></h2>
-                                <div class="rd-product__slide tx-arrow">
-                                    <div class="rd-product__slide-item">
-                                        <div class="product__item">
-                                            <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_07.png" alt=""></a>
-                                            </div>
-                                            <div class="product__content">
-                                                <div class="product__review ul_li_center">
-                                                    <ul class="rating-star ul_li mr-10">
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                    </ul>
-                                                    <span>(126) Review</span>
-                                                </div>
-                                                <h2 class="product__title"><a href="shop-single.html">Ninja Compact Smoothie & Food Processing Blender</a></h2>
-                                                <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                            </div>
-                                            <ul class="product__action">
-                                                <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                            </ul>
-                                            <span class="badge-skew">New</span>
-                                        </div>
-                                        <div class="product__item">
-                                            <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_08.png" alt=""></a>
-                                            </div>
-                                            <div class="product__content">
-                                                <div class="product__review ul_li_center">
-                                                    <ul class="rating-star ul_li mr-10">
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                    </ul>
-                                                    <span>(126) Review</span>
-                                                </div>
-                                                <h2 class="product__title"><a href="shop-single.html">DEWALT 20V MAX* XR Oscillating Tool Kit</a></h2>
-                                                <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                            </div>
-                                            <ul class="product__action">
-                                                <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                            </ul>
-                                            <span class="badge-skew">New</span>
-                                        </div>
-                                    </div>
-                                    <div class="rd-product__slide-item">
-                                        <div class="product__item">
-                                            <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_09.png" alt=""></a>
-                                            </div>
-                                            <div class="product__content">
-                                                <div class="product__review ul_li_center">
-                                                    <ul class="rating-star ul_li mr-10">
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                    </ul>
-                                                    <span>(126) Review</span>
-                                                </div>
-                                                <h2 class="product__title"><a href="shop-single.html">Lenovo – Tab P11 Plus – Tablet – 11″ 2K Display</a></h2>
-                                                <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                            </div>
-                                            <ul class="product__action">
-                                                <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                            </ul>
-                                            <span class="badge-skew">New</span>
-                                        </div>
-                                        <div class="product__item">
-                                            <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_10.png" alt=""></a>
-                                            </div>
-                                            <div class="product__content">
-                                                <div class="product__review ul_li_center">
-                                                    <ul class="rating-star ul_li mr-10">
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                    </ul>
-                                                    <span>(126) Review</span>
-                                                </div>
-                                                <h2 class="product__title"><a href="shop-single.html">Aroma Housewares 4-Cups 1Qt. Rice & Grain</a></h2>
-                                                <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                            </div>
-                                            <ul class="product__action">
-                                                <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                            </ul>
-                                            <span class="badge-skew">New</span>
-                                        </div>
-                                    </div>
-                                    <div class="rd-product__slide-item">
-                                        <div class="product__item">
-                                            <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_11.png" alt=""></a>
-                                            </div>
-                                            <div class="product__content">
-                                                <div class="product__review ul_li_center">
-                                                    <ul class="rating-star ul_li mr-10">
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                    </ul>
-                                                    <span>(126) Review</span>
-                                                </div>
-                                                <h2 class="product__title"><a href="shop-single.html">SAMSUNG Galaxy A13 5G Cell Phone, Factory Unlocked</a></h2>
-                                                <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                            </div>
-                                            <ul class="product__action">
-                                                <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                            </ul>
-                                            <span class="badge-skew">New</span>
-                                        </div>
-                                        <div class="product__item">
-                                            <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_12.png" alt=""></a>
-                                            </div>
-                                            <div class="product__content">
-                                                <div class="product__review ul_li_center">
-                                                    <ul class="rating-star ul_li mr-10">
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                    </ul>
-                                                    <span>(126) Review</span>
-                                                </div>
-                                                <h2 class="product__title"><a href="shop-single.html">SAMSUNG Galaxy S20 FE 5G Cell Phone, Factory</a></h2>
-                                                <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                            </div>
-                                            <ul class="product__action">
-                                                <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                            </ul>
-                                            <span class="badge-skew">New</span>
-                                        </div>
-                                    </div>
-                                    <div class="rd-product__slide-item">
-                                        <div class="product__item">
-                                            <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_13.png" alt=""></a>
-                                            </div>
-                                            <div class="product__content">
-                                                <div class="product__review ul_li_center">
-                                                    <ul class="rating-star ul_li mr-10">
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                    </ul>
-                                                    <span>(126) Review</span>
-                                                </div>
-                                                <h2 class="product__title"><a href="shop-single.html">Sceptre 24″ Professional Thin 75Hz 1080p LED Monitor</a></h2>
-                                                <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                            </div>
-                                            <ul class="product__action">
-                                                <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                            </ul>
-                                            <span class="badge-skew">New</span>
-                                        </div>
-                                        <div class="product__item">
-                                            <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_14.png" alt=""></a>
-                                            </div>
-                                            <div class="product__content">
-                                                <div class="product__review ul_li_center">
-                                                    <ul class="rating-star ul_li mr-10">
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                    </ul>
-                                                    <span>(126) Review</span>
-                                                </div>
-                                                <h2 class="product__title"><a href="shop-single.html">Panasonic Cordless Phone System, Expandable</a></h2>
-                                                <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                            </div>
-                                            <ul class="product__action">
-                                                <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                            </ul>
-                                            <span class="badge-skew">New</span>
-                                        </div>
-                                    </div>
-                                    <div class="rd-product__slide-item">
-                                        <div class="product__item">
-                                            <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_08.png" alt=""></a>
-                                            </div>
-                                            <div class="product__content">
-                                                <div class="product__review ul_li_center">
-                                                    <ul class="rating-star ul_li mr-10">
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                    </ul>
-                                                    <span>(126) Review</span>
-                                                </div>
-                                                <h2 class="product__title"><a href="shop-single.html">CLB 510BT Wireless Headphones with Purebass</a></h2>
-                                                <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                            </div>
-                                            <ul class="product__action">
-                                                <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                            </ul>
-                                            <span class="badge-skew">New</span>
-                                        </div>
-                                        <div class="product__item">
-                                            <div class="product__img text-center pos-rel">
-                                                <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_09.png" alt=""></a>
-                                            </div>
-                                            <div class="product__content">
-                                                <div class="product__review ul_li_center">
-                                                    <ul class="rating-star ul_li mr-10">
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                        <li><i class="far fa-star"></i></li>
-                                                    </ul>
-                                                    <span>(126) Review</span>
-                                                </div>
-                                                <h2 class="product__title"><a href="shop-single.html">BenQ HT2050A 1080P Home Theater Projector Lumens</a></h2>
-                                                <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                            </div>
-                                            <ul class="product__action">
-                                                <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                                <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                            </ul>
-                                            <span class="badge-skew">New</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- rd slide product end -->
-
-            <!-- rd tab product start -->
-            <!-- <div class="rd-tab-product mt-60">
+    <!-- rd tab product start -->
+    <!-- <div class="rd-tab-product mt-60">
                 <div class="container">
                     <div class="product__nav-wrap ul_li_between mb-25">
                         <h2 class="section-heading"><span><span>Smartphone</span> / Tablet / Monitor</span></h2>
@@ -2843,10 +2700,10 @@
                     </div>
                 </div>
             </div> -->
-            <!-- rd tab product end -->
+    <!-- rd tab product end -->
 
-            <!-- add start -->
-            <!-- <div class="add pt-50 pb-50">
+    <!-- add start -->
+    <!-- <div class="add pt-50 pb-50">
                 <div class="container">
                     <div class="add__wrap bg_img" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/add_bg_01.jpg">
                         <div class="add__text">
@@ -2855,10 +2712,10 @@
                     </div>
                 </div>
             </div> -->
-            <!-- add end -->
+    <!-- add end -->
 
-            <!-- featured product start -->
-            <!-- <div class="rd-featured-product">
+    <!-- featured product start -->
+    <!-- <div class="rd-featured-product">
                 <div class="container">
                     <div class="row mt-none-30">
                         <div class="col-lg-3 mt-30">
@@ -4168,10 +4025,10 @@
                     </div>
                 </div>
             </div> -->
-            <!-- featured product end -->
+    <!-- featured product end -->
 
-            <!-- product category start -->
-            <!-- <div class="product-cat pt-60">
+    <!-- product category start -->
+    <!-- <div class="product-cat pt-60">
                 <div class="container">
                     <h2 class="section-heading mb-25"><span>Product Catagories</span></h2>
                     <div class="product-cat__wrap">
@@ -4480,10 +4337,10 @@
                     </div>
                 </div>
             </div> -->
-            <!-- product category end -->
+    <!-- product category end -->
 
-            <!-- recent product start -->
-            <!-- <div class="recent-product pt-60 pb-80">
+    <!-- recent product start -->
+    <!-- <div class="recent-product pt-60 pb-80">
                 <div class="container">
                     <div class="row mt-none-30">
                         <div class="col-lg-3 col-md-6 mt-30">
@@ -5188,10 +5045,10 @@
                     </div>
                 </div>
             </div> -->
-            <!-- recent product end -->
+    <!-- recent product end -->
 
-            <!-- banner start -->
-            <!-- <div class="vd-banner">
+    <!-- banner start -->
+    <!-- <div class="vd-banner">
                 <div class="container">
                     <div class="row mt-none-30">
                         <div class="col-lg-7 mt-30">
@@ -5239,10 +5096,10 @@
                     </div>
                 </div>
             </div> -->
-            <!-- banner end -->
+    <!-- banner end -->
 
-            <!-- rd category start -->
-            <!-- <div class="rd-category pt-60">
+    <!-- rd category start -->
+    <!-- <div class="rd-category pt-60">
                 <div class="container">
                     <div class="row mt-none-30">
                         <div class="col-lg-6 col-md-12 mt-30">
@@ -5306,10 +5163,10 @@
                     </div>
                 </div>
             </div> -->
-            <!-- rd category end -->
+    <!-- rd category end -->
 
-            <!-- brand start -->
-            <!-- <div class="brand pt-80 pb-80">
+    <!-- brand start -->
+    <!-- <div class="brand pt-80 pb-80">
                 <div class="container">
                     <div class="brand__active">
                         <div class="brand__item">
@@ -5350,6 +5207,6 @@
                     </div>
                 </div>
             </div> -->
-            <!-- brand end -->
+    <!-- brand end -->
 
-        </main>
+</main>
