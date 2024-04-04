@@ -4,9 +4,9 @@
             <div class="header__top-info ul_li_between mt-none-10">
                 <ul class="ul_li mt-10">
                     <li><i class="far fa-map-marker-alt"></i>Store Location</li>
-                    <li><i class="far fa-truck"></i>Track Your Order</li>
+                    <!-- <li><i class="far fa-truck"></i>Track Your Order</li>
                     <li><i class="fas fa-phone"></i>Call Us For Enquiry</li>
-                    <li><i class="fas fa-heart"></i>Welcome to Radios. We provides Best Electronics item</li>
+                    <li><i class="fas fa-heart"></i>Welcome to Radios. We provides Best Electronics item</li> -->
                 </ul>
                 <div class="header__top-right ul_li mt-10">
                     <div class="date">
@@ -49,20 +49,7 @@
                 <button type="submit"><i class="far fa-search"></i>
                 </button>
             </form>
-            <!-- <div class="header__lang ul_li">
 
-                <div class="header__language">
-                    <ul>
-                        <li><a href="#!" class="lang-btn"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/usd_flag.png" alt="">English <i class="far fa-chevron-down"></i></a>
-                            <ul class="lang_sub_list">
-                                <li><a href="#">English</a></li>
-                                <li><a href="#">Arabic</a></li>
-                                <li><a href="#">Bangla</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div> -->
             <div class="header__icons ul_li">
 
                 <div class="icon">
@@ -74,7 +61,12 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Thông tin tài khoản</a></li>
                             <li><a class="dropdown-item" href="<?= BASE_URL . '?act=logout' ?>">Đăng xuất</a></li>
+                            <?php if (!isset($_SESSION['user'])): ?>
                             <li><a class="dropdown-item" href="<?= BASE_URL . '?act=login' ?>">Đăng Nhập</a></li>
+                            <?php endif; ?>
+
+                            <li><a class="dropdown-item" href="<?= BASE_URL . '?act=cart-list' ?>">Giỏ Hàng</a></li>
+
                         </ul>
                     </div>
 
@@ -94,7 +86,7 @@
             </div>
         </div>
     </div>
-    <div class="header__cat-wrap" data-uk-sticky="top: 250; animation: uk-animation-slide-top;">
+    <div class="header__cat-wrap" data-uk-sticky="top: 200; animation: uk-animation-slide-top;">
         <div class="container">
             <div class="header__wrap ul_li_between">
                 <div class="header__cat ul_li">
@@ -106,9 +98,8 @@
                         </a>
                     </div>
                     <ul class="category ul_li">
-                        <li><a href="#!"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_01.svg" alt=""></span>Laptops & Computers</a></li>
-                        <li><a href="#!"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_02.svg" alt=""></span>CC Tv & Camera</a></li>
-                        <li><a href="#!"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_03.svg" alt=""></span>Home Equipment</a></li>
+                        <li><a href="<?= BASE_URL ?>"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_01.svg" alt=""></span>Trang Chủ</a></li>
+                        <li><a href="#!"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_02.svg" alt=""></span>Phụ Kiện</a></li>
                         <li><a href="#!"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_04.svg" alt=""></span>Tv & Audios</a></li>
                         <li><a href="#!"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_05.svg" alt=""></span>Printers & Ink</a></li>
                         <li><a href="#!"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_06.svg" alt=""></span>Gaming & Fun</a></li>
@@ -136,8 +127,12 @@
 
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Thông tin tài khoản</a></li>
+                                    
                                     <li><a class="dropdown-item" href="<?= BASE_URL . '?act=logout' ?>">Đăng xuất</a></li>
-                                    <li><a class="dropdown-item" href="<?= BASE_URL . '?act=login' ?>">Đăng Nhập</a></li>
+                                    <li><a class="dropdown-item" href="<?= BASE_URL . '?act=cart-list' ?>">Giỏ Hàng</a></li>
+
+                                   
+                                    
                                 </ul>
                             </div>
                         <?php endif; ?>

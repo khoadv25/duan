@@ -25,54 +25,9 @@
 
 
 
-        <div class="row mt-none-30">
-            <div class="col-lg-6 mt-30">
-                <div class="account__wrap pr-60">
-                    <h2 class="account__title">Sign Up</h2>
-                    <form action="#">
-                        <div class="account__input-field">
-                            <label for="name">Your Name</label>
-                            <input id="name" type="text" placeholder="Enter your name*" name="username">
-                        </div>
-                        <div class="account__input-field">
-                            <label for="name">Full Name</label>
-                            <input id="name" type="text" placeholder="Enter full name*" name="fullname">
-                        </div>
-                        <div class="account__input-field">
-                            <label for="name">Address</label>
-                            <input id="name" type="text" placeholder="Địa chỉ của bạn*" name="address">
-                        </div>
-                        <div class="account__input-field">
-                            <label for="email">Email Address</label>
-                            <input id="email" type="email" placeholder="Địa chỉ Email Address" name="email">
-                        </div>
-                        <div class="account__input-field">
-                            <label for="email">Phone</label>
-                            <input id="email" type="email" placeholder="Number phone" name="phone">
-                        </div>
-                        <div class="account__input-field">
-                            <label for="password">New Password</label>
-                            <input id="password" type="text" placeholder="Create password">
-                        </div>
-                        <div class="account__input-field">
-                            <input class="form-check-input" id="checkbox" type="checkbox" name="check">
-                            <label class="form-check-label" for="checkbox">I agree to al <a href="#!">Terms</a> & <a href="#!">Condition</a> and Feeds</label>
-                        </div>
-                        <div class="account__btn">
-                            <a class="thm-btn thm-btn__2" href="#!">
-                                <span class="btn-wrap">
-                                    <span>Sign Up</span>
-                                    <span>Sign Up</span>
-                                </span>
-                            </a>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        <div class="row mt-none-30 mx-auto">
 
-
-
-            <div class="col-lg-6 mt-30">
+            <div class="mt-30 mx-auto" style="width: 500px;">
                 <div class="account__wrap pl-60">
                     <h2 class="account__title">Login here</h2>
 
@@ -96,16 +51,36 @@
                             <input class="form-check-input" id="lcheckbox" type="checkbox" checked>
                             <label class="form-check-label" for="lcheckbox">Remember Me?</label>
                         </div> -->
-                        <div class="account__btn">
-                            <button class="thm-btn thm-btn__2">
-                                <span class="btn-wrap">
-                                    <span>Login here</span>
-                                    <span>Login here</span>
-                                </span>
-                            </button>
+                        <div class="d-flex justifiy justify-content-evenly">
+                            <div class="account__btn">
+                                <button class="thm-btn thm-btn__2">
+                                    <span class="btn-wrap">
+                                        <span>Login</span>
+                                        <span>Login</span>
+                                    </span>
+                                </button>
 
+                            </div>
+                            <div class="account__btn align-items-end">
+                                <p class="thm-btn thm-btn__2">
+                                    <a class="btn-wrap" href="<?= BASE_URL . '?act=register' ?>">
+                                        <span>Sign Up</span>
+                                        <span>Sign Up</span>
+                                    </a>
+                                </p>
+
+                            </div>
                         </div>
-                        
+                        <div class="account__btn d-flex justify-content-center mt-4 ">
+                                <p class="thm-btn thm-btn__2">
+                                    <a class="btn-wrap" href="<?= BASE_URL . '?act=resetpassword' ?>">
+                                        <span>Quên Mật Khẩu</span>
+                                        <span>Quên Mật Khẩu</span>
+                                    </a>
+                                </p>
+
+                            </div>
+
                     </form>
                 </div>
             </div>

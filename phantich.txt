@@ -5,3 +5,40 @@
 
 
 // nếu user 1 có 2 product_id
+
+
+
+
+
+
+------------------------\
+
+
+// NGUYEN VAN A
+// 9704 0000 0000 0018
+// 03 / 07
+// OTP
+
+
+
+// SAU KHI TT DATA trả về 
+
+/* partnerCode=MOMOBKUN20180529
+&orderId=9392&
+requestId=1712222909
+&amount=10000
+&orderInfo=Thanh+toán+qua+MoMo
+&orderType=momo_wallet
+&transId=4015068538
+&resultCode=0
+&message=Successful.
+&payType=napas&
+responseTime=1712222943200
+&extraData=
+&signature=45002dca93115b7e58dc8ede50f402d7439ed7659435e974fa0e0cb93c1ca64a
+&paymentOption=momo
+
+
+
+
+*/

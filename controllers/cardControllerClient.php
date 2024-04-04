@@ -8,8 +8,9 @@ function cartAdd($productID,$quantity = 0){
     $product = showOneProductDetail($productID);
 
     // 
+    $cartUserAndProduct = showCart($userID,$productID);
 
-    if (!isset($_SESSION['cart'][$productID])) {
+    if (!$cartUserAndProduct) {
         
         $_SESSION['cart'][$productID] = $product;
         // echo '<pre>';
@@ -26,7 +27,7 @@ function cartAdd($productID,$quantity = 0){
         
         $soluong = $_SESSION['cart'][$productID]['quantity'] += $quantity;
         // echo '<pre>';
-        // print_r($soluong);
+        // print_r($soluong);   
         // die;
         updateQuantity($userID,$productID,$soluong);
 
@@ -39,8 +40,37 @@ function cartAdd($productID,$quantity = 0){
 function cartList(){
     // debug($_SESSION['cart']);
     // lấy ra user_id ở session
-    // rồi truy vấn đến cart where user_id
-    // lấy dữ liểu trả về fetchAll
+    if (isset($_SESSION['user']['id'])) {
+        $userID = $_SESSION['user']['id'];  
+    }
+    $cartUserID = showCartUserID($userID);
+    
     $view = 'client/cart';
     require_once PATH_VIEW . 'home.php';
+}
+
+function cartInc($cartID){
+    
+    $cart = showOne('cart',$cartID);
+    $quantity = $cart['quantity'];
+    $quantity += 1;
+    updateQuantityBycartID($cartID,$quantity);
+    header('location:' .BASE_URL . '?act=cart-list');
+
+}
+
+function cartDes($cartID){
+    $cart = showOne('cart',$cartID);
+    $quantity = $cart['quantity'];
+    $quantity -= 1;
+    updateQuantityBycartID($cartID,$quantity);
+    header('location:' .BASE_URL . '?act=cart-list');
+
+}
+
+
+function deleteCartByCartID($cartID){
+    delete2('cart',$cartID);
+    header('location:' .BASE_URL . '?act=cart-list');
+
 }

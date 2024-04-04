@@ -286,7 +286,7 @@
                                     </div>
                                     <ul class="product__action">
                                         <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href=""><i class="far fa-shopping-basket"></i></a></li>
                                         <li><a href="#!"><i class="far fa-heart"></i></a></li>
                                     </ul>
                                     <span class="badge-skew">New</span>

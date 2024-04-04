@@ -37,9 +37,6 @@ function productCreate()
     $color = listAll('color');
 
     if (!empty($_POST)) {   
-       
-        // var_dump($img);
-        // die;
         $data = [
             "name" => $_POST['name'] ?? null,
             "description" => $_POST['mota'] ?? null,
@@ -47,45 +44,14 @@ function productCreate()
             "category_id" => $_POST['cate'] ?? null,
             "thumbnail" => $_FILES['avatar']['name'] ?? null,
         ];
-
-        // print_r($data['thumbnail']);
-       
-        // die;
-
         validateProductCreate($data);
-
-        // print_r($_FILES['avatar']);
-        // die;
         $img = $_FILES['avatar'];
         if (!empty($img)) {
             $data['thumbnail'] = upload_file($img, 'uploads/product/');    
         }
 
         insert('product', $data);
-
-        // $id_product = insert('product', $data);
-        
-        // // var_dump($id_product);
-        // // die;
-        // $data1 = [
-        //     "size_id" => $_POST['size'] ?? null,
-        //     "quantity" => $_POST['soluong'] ?? null,
-        //     "color_id" => $_POST['color'] ?? null,
-        //     "price" => $_POST['price'] ?? null, 
-        //     "image_id" => $_FILES['images'] ?? null,
-        //     "product_id" => $id_product ?? null,
-        //     "sale" => $_FILES['sale'] ?? null,
-        // ];
-        // // var_dump($data1);
-        // // die;
-        // $img = $_FILES['images'] ?? null;
-        // if (!empty($img)) {
-        //     $data['image_id'] = upload_file($img, 'uploads/product/');    
-        // }
-        // insert('product_detail', $data1);
-
         $_SESSION['success'] = 'Thao tác thành công!';
-
         header('Location: ' . BASE_URL_ADMIN . '?act=product');
         exit();
     }
@@ -115,14 +81,9 @@ function validateProductCreate($data) {
         $errors[] = 'Trường mô tả độ dài tối đa 100 ký tự';
     } 
    
-
-
     // if (empty($data['brand_id'])) {
     //     $errors[] = 'Trường brand là bắt buộc';
     // } 
-    
-
-
     // if (empty($data['category_id'])) {
     //     $errors[] = 'Trường cate là bắt buộc';
     // } 

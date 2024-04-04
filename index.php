@@ -20,6 +20,10 @@ $authenRoute = [
     'cart-inc',
     'cart-des',
     'cart-del',
+    'checkout',
+    'oder',
+    'donhang',
+    'checkttMomo',
 ];
 
 middleware_auth_check_client($act, $authenRoute);
@@ -31,13 +35,26 @@ match ($act) {
 
     'login' => authenShowFormLoginClient(),
     'logout' => authenLogoutUser(),
+    'register' => register(),
+    'resetpassword' => resetPass(),
+    'veriUser' => veriUser(),
+    'veriRessetPassword' => veriResetPassword(),
+
+
+
 
     'chitiet' => productDetailClient($_GET['id'], $dungluong = isset($_GET['dungluong']) ? $_GET['dungluong'] : 2),
     'cart-add' => cartAdd($_GET['productID'], $_GET['quantity']),
     'cart-list' => cartList(),
-    'cart-inc' => cartAdd($_GET['id'], $_GET['user']),
-    'cart-des' => cartAdd($_GET['id'], $_GET['user']),
-    'cart-del' => cartAdd($_GET['id'], $_GET['user']),
+    'cart-inc' => cartInc($_GET['cartID']),
+    'cart-des' => cartDes($_GET['cartID']),
+    'cart-del' => deleteCartByCartID($_GET['cartID']),
+
+    'checkout' => checkout(),
+    // 'guimail' => checkmail(),
+    'oder' => oderTrucTiep(),
+    'donhang' => allDonHang(),
+    'checkttMomo' => checkttMomo($_GET['resultCode']),
 };
 
 require_once './commons/disconnect-db.php';
