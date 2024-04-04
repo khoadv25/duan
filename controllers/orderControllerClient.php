@@ -219,7 +219,7 @@ function checkttMomo($resultCode){
             'total_money' => $totalPrice ?? "",
             'status' => 1 ?? "",
             'reciver' => $_POST['fullname'] ?? $fullname,
-            'payment_id' => 0 ?? "",
+            'payment_id' => 1 ?? "",
             'id_voucher' => 0,
             'note' => $_POST['note'] ?? "",
             'status_id' => 1 ?? "",

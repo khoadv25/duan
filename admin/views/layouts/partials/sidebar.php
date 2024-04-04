@@ -27,6 +27,20 @@
         Chức Năng
     </div>
 
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#thongke" aria-expanded="true" aria-controls="collapseThree">
+            <i class="fas fa-user"></i>
+            <span>Thống Kê</span>
+        </a>
+        <div id="thongke" class="collapse" aria-labelledby="headingThree" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=thongke">Tổng Quan</a>
+                <!-- <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=user-create">Thêm mới</a> -->
+            </div>
+        </div>
+    </li>
+
+
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">

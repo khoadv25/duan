@@ -73,12 +73,15 @@ match($act) {
     'color-update' => colorUpdate($_GET['id']),
     'color-delete' => colorDelete($_GET['id']),
     
-    // CRUD author
+    // CRUD donhang
     'donhang' => listAllDonHang(),
-    // 'author-detail' => authorShowOne($_GET['id']),
-    // 'author-create' => authorCreate(),
-    // 'author-update' => authorUpdate($_GET['id']),
-    // 'author-delete' => authorDelete($_GET['id']),
+    'donhang-detail' => detailDonHang($_GET['id']),
+    'donhang-active' => activeDon($_GET['id']),
+    // thong ke
+    'thongke' => tongQuat(),
+
+
+
 };
 
 require_once '../commons/disconnect-db.php';
