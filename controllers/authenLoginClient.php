@@ -5,6 +5,8 @@ function authenShowFormLoginClient() {
         authenLoginClient();
     }
     $view = 'client/login';
+    $cate = listAll('categories');
+
     require_once PATH_VIEW . 'home.php';
 }
 

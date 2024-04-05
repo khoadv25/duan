@@ -100,7 +100,10 @@
                     <ul class="category ul_li">
                         <li><a href="<?= BASE_URL ?>"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_01.svg" alt=""></span>Trang Chủ</a></li>
                         <li><a href="#!"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_02.svg" alt=""></span>Phụ Kiện</a></li>
-                        <li><a href="#!"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_04.svg" alt=""></span>Tv & Audios</a></li>
+                        <?php foreach ($cate as $key => $cate):?>
+                        <li><a href="<?= BASE_URL . '?act=dsspdm&cateID=' . $cate['id'] ?>"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_04.svg" alt=""></span><?=$cate['name'] ?></a></li>
+                        <?php endforeach;?>
+
                         <li><a href="#!"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_05.svg" alt=""></span>Printers & Ink</a></li>
                         <li><a href="#!"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_06.svg" alt=""></span>Gaming & Fun</a></li>
                     </ul>
@@ -126,7 +129,7 @@
                                 </a>
 
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Thông tin tài khoản</a></li>
+                                    <li><a class="dropdown-item" href="<?= BASE_URL . '?act=profile' ?>">Thông tin tài khoản</a></li>
                                     
                                     <li><a class="dropdown-item" href="<?= BASE_URL . '?act=logout' ?>">Đăng xuất</a></li>
                                     <li><a class="dropdown-item" href="<?= BASE_URL . '?act=cart-list' ?>">Giỏ Hàng</a></li>
