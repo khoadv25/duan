@@ -96,7 +96,7 @@
                                         <li class="product">
 
                                             <div class="product-holder">
-                                                <a href="shop-single.html"><img src="<?= BASE_URL . $dssp['thumbnail'] ?>" alt="" width="200px"></a>
+                                                <a href="<?= BASE_URL . '?act=chitiet&id='.$dssp['id'] ?>"><img src="<?= BASE_URL . $dssp['thumbnail'] ?>" alt="" width="200px"></a>
                                                 <ul class="product__action">
                                                     <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
                                                     <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
@@ -122,7 +122,7 @@
                                                     <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                                 <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                                <p class="product-description"><?= $dssp['descriptionx'] ?></p>
+                                                <p class="product-description"><?= $dssp['description'] ?></p>
                                             </div>
                                         </li>
                                         <?php endforeach; ?>

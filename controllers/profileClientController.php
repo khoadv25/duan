@@ -14,7 +14,19 @@ function donHangUserClient() {
     $main = "client/user/lichsudonhang";
     $title = "Lịch sử đơn hàng";
     $UserID = $_SESSION['user']['id'];
-    $billUser = showBillUser($UserID);
+    $trangthai = listAll('status_bill');
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        if (!empty($_POST['status'])) {
+            $status_id = $_POST['status'];
+            $billUser = showBillUserByStatus($status_id);
+        } else {
+            $billUser = showBillUser($UserID);
+
+        }
+    } else {
+        $billUser = showBillUser($UserID);
+
+    }
     require_once PATH_VIEW . 'home.php';
 
 }

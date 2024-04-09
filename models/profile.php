@@ -20,6 +20,50 @@ if (!function_exists('showBillUser')) {
 }
 
 
+if (!function_exists('showBillUserByStatus')) {
+    function showBillUserByStatus($status_id)
+    {
+        try {
+            $sql = "SELECT 
+                bill.id,
+                bill.user_id,
+                bill.order_date,
+                bill.address,
+                bill.total_money,
+                bill.status,
+                bill.reciver,
+                bill.payment_id,
+                bill.id_voucher,
+                bill.note,
+                bill.status_id,
+                bill.full_name,
+                bill.ma_bill,
+                bill.phone,
+                users.email as email_user,
+                status_bill.status_name
+
+            FROM 
+                bill
+            JOIN 
+                users ON bill.user_id = users.id
+            JOIN 
+                status_bill ON bill.status_id = status_bill.id
+            WHERE bill.status_id = :status_id
+            ORDER BY 
+                bill.id DESC";
+
+            $stmt = $GLOBALS['conn']->prepare($sql);
+            $stmt->bindParam(':status_id',$status_id);
+            $stmt->execute();
+            
+            return $stmt->fetchAll(); // Sử dụng fetchAll() để lấy tất cả các dòng dữ liệu
+        } catch (\Exception $e) {
+            debug($e);
+        }
+    }
+}
+
+
 if (!function_exists('chiTietDonHang')) {
     function chiTietDonHang($id)
     {

@@ -1137,33 +1137,20 @@
     <div class="rd-slide-product">
         <div class="container">
             <div class="row mt-none-30">
-                <div class="col-lg-3 mt-30">
-                    <div class="product-category" data-background="<?= BASE_URL ?>assets/client/assets/img/bg/cat_bg.jpg">
-                        <h2 class="section-heading mb-25"><span><span>Catagory</span></span></h2>
-                        <ul class="list-unstyled">
-                            <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_01.svg" alt="">Bluetooth speaker</a></li>
-                            <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_02.svg" alt="">Digital camera</a></li>
-                            <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_03.svg" alt="">Laser printer</a></li>
-                            <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_04.svg" alt="">Electric frying pan</a></li>
-                            <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_05.svg" alt="">Robotics vacuum</a></li>
-                            <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_06.svg" alt="">external hard drive</a></li>
-                            <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_07.svg" alt="">Electric razor</a></li>
-                            <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_08.svg" alt="">Washing machine</a></li>
-                            <li class="cat-item-has-children"><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_09.svg" alt="">Rice cooker</a></li>
-                            <li><a href="#!"><img src="<?= BASE_URL ?>assets/client/assets/img/icon/cat_10.svg" alt="">Telivsion & Monitor</a></li>
-                            <li class="more-item"><a href="#!">+ More item</a></li>
-                        </ul>
-                    </div>
-                </div>
+            
 
-                <div class="col-lg-9 mt-30">
+                <div class="col-lg-12 mt-30">
                     <div class="rd-slide-products">
                         <h2 class="section-heading mb-25"><span>Trending Product</span></h2>
                         <div class="rd-product__slide tx-arrow">
+
                             <div class="rd-product__slide-item">
+
+                            
+
                                 <div class="product__item">
                                     <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_07.png" alt=""></a>
+                                        <a href="shop-single.html"><img src="<?= BASE_URL . $value['thumbnail'] ?>" alt="" width="100px"></a>
                                     </div>
                                     <div class="product__content">
                                         <div class="product__review ul_li_center">
@@ -1177,6 +1164,34 @@
                                             <span>(126) Review</span>
                                         </div>
                                         <h2 class="product__title"><a href="shop-single.html">Ninja Compact Smoothie & Food Processing Blender</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
+                                    </div>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
+                                </div>
+                                
+
+
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_08.png" alt=""></a>
+                                    </div>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
+                                        </div>
+                                        <h2 class="product__title"><a href="shop-single.html">DEWALT 20V MAX* XR Oscillating Tool Kit</a></h2>
                                         <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
                                     <ul class="product__action">
@@ -1212,7 +1227,9 @@
                                     <span class="badge-skew">New</span>
                                 </div>
                             </div>
+
                             <div class="rd-product__slide-item">
+
                                 <div class="product__item">
                                     <div class="product__img text-center pos-rel">
                                         <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_09.png" alt=""></a>
@@ -1229,6 +1246,32 @@
                                             <span>(126) Review</span>
                                         </div>
                                         <h2 class="product__title"><a href="shop-single.html">Lenovo – Tab P11 Plus – Tablet – 11″ 2K Display</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
+                                    </div>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
+                                </div>
+
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_10.png" alt=""></a>
+                                    </div>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
+                                        </div>
+                                        <h2 class="product__title"><a href="shop-single.html">Aroma Housewares 4-Cups 1Qt. Rice & Grain</a></h2>
                                         <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
                                     <ul class="product__action">
@@ -1264,7 +1307,9 @@
                                     <span class="badge-skew">New</span>
                                 </div>
                             </div>
+
                             <div class="rd-product__slide-item">
+
                                 <div class="product__item">
                                     <div class="product__img text-center pos-rel">
                                         <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_11.png" alt=""></a>
@@ -1281,6 +1326,32 @@
                                             <span>(126) Review</span>
                                         </div>
                                         <h2 class="product__title"><a href="shop-single.html">SAMSUNG Galaxy A13 5G Cell Phone, Factory Unlocked</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
+                                    </div>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
+                                </div>
+
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_12.png" alt=""></a>
+                                    </div>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
+                                        </div>
+                                        <h2 class="product__title"><a href="shop-single.html">SAMSUNG Galaxy S20 FE 5G Cell Phone, Factory</a></h2>
                                         <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
                                     <ul class="product__action">
@@ -1316,7 +1387,10 @@
                                     <span class="badge-skew">New</span>
                                 </div>
                             </div>
+
+
                             <div class="rd-product__slide-item">
+
                                 <div class="product__item">
                                     <div class="product__img text-center pos-rel">
                                         <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_13.png" alt=""></a>
@@ -1333,6 +1407,32 @@
                                             <span>(126) Review</span>
                                         </div>
                                         <h2 class="product__title"><a href="shop-single.html">Sceptre 24″ Professional Thin 75Hz 1080p LED Monitor</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
+                                    </div>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
+                                </div>
+
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_14.png" alt=""></a>
+                                    </div>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
+                                        </div>
+                                        <h2 class="product__title"><a href="shop-single.html">Panasonic Cordless Phone System, Expandable</a></h2>
                                         <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
                                     <ul class="product__action">
@@ -1368,7 +1468,10 @@
                                     <span class="badge-skew">New</span>
                                 </div>
                             </div>
+
+
                             <div class="rd-product__slide-item">
+
                                 <div class="product__item">
                                     <div class="product__img text-center pos-rel">
                                         <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_08.png" alt=""></a>
@@ -1385,6 +1488,32 @@
                                             <span>(126) Review</span>
                                         </div>
                                         <h2 class="product__title"><a href="shop-single.html">CLB 510BT Wireless Headphones with Purebass</a></h2>
+                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
+                                    </div>
+                                    <ul class="product__action">
+                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                    <span class="badge-skew">New</span>
+                                </div>
+
+                                <div class="product__item">
+                                    <div class="product__img text-center pos-rel">
+                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_09.png" alt=""></a>
+                                    </div>
+                                    <div class="product__content">
+                                        <div class="product__review ul_li_center">
+                                            <ul class="rating-star ul_li mr-10">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>(126) Review</span>
+                                        </div>
+                                        <h2 class="product__title"><a href="shop-single.html">BenQ HT2050A 1080P Home Theater Projector Lumens</a></h2>
                                         <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
                                     <ul class="product__action">

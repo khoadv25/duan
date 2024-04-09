@@ -59,7 +59,7 @@
                                     <img src="<?= BASE_URL . $product['thumbnail'] ?>" alt="" width="100px">
                                 </td>
                                 <td>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=product-s&id=<?= $product['id'] ?>" class="btn btn-info">Show Biến thể</a>
+                                    <a href="<?= BASE_URL_ADMIN ?>?act=product-s&id=<?= $product['id'] ?>" class="btn btn-info">Detail</a>
                                     <a href="<?= BASE_URL_ADMIN ?>?act=product-update&id=<?= $product['id'] ?>" class="btn btn-warning">Update</a>
                                     <a href="<?= BASE_URL_ADMIN ?>?act=product-delete&id=<?= $product['id'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')" class="btn btn-danger">Delete</a>
                                 </td>

@@ -7,8 +7,10 @@ function productsListAll()
     $script = 'datatable';
     $script2 = 'product/script';
     $style = 'datatable';
-    
+
     $product = showList('product');
+
+
 
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
 }
@@ -17,7 +19,7 @@ function productShowOne($id)
 {
     $product = showOne('product', $id);
 
-    if(empty($tag)) {
+    if (empty($tag)) {
         e404();
     }
 
@@ -36,7 +38,7 @@ function productCreate()
     $size = listAll('size');
     $color = listAll('color');
 
-    if (!empty($_POST)) {   
+    if (!empty($_POST)) {
         $data = [
             "name" => $_POST['name'] ?? null,
             "description" => $_POST['mota'] ?? null,
@@ -47,7 +49,7 @@ function productCreate()
         validateProductCreate($data);
         $img = $_FILES['avatar'];
         if (!empty($img)) {
-            $data['thumbnail'] = upload_file($img, 'uploads/product/');    
+            $data['thumbnail'] = upload_file($img, 'uploads/product/');
         }
 
         insert('product', $data);
@@ -59,35 +61,33 @@ function productCreate()
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
 }
 
-function validateProductCreate($data) {
+function validateProductCreate($data)
+{
     // name - bắt buộc, độ dài tối đa 50 ký tự, Không được trùng
 
     $errors = [];
 
     if (empty($data['name'])) {
         $errors[] = 'Trường name là bắt buộc';
-    } 
-    else if(strlen($data['name']) > 50) {
+    } else if (strlen($data['name']) > 50) {
         $errors[] = 'Trường name độ dài tối đa 50 ký tự';
-    } 
-    else if(! checkUniqueName('product', $data['name'])) {
+    } else if (!checkUniqueName('product', $data['name'])) {
         $errors[] = 'Name đã được sử dụng';
     }
 
     if (empty($data['description'])) {
         $errors[] = 'Trường mô tả là bắt buộc';
-    } 
-    else if(strlen($data['description']) > 100) {
+    } else if (strlen($data['description']) > 100) {
         $errors[] = 'Trường mô tả độ dài tối đa 100 ký tự';
-    } 
-   
+    }
+
     // if (empty($data['brand_id'])) {
     //     $errors[] = 'Trường brand là bắt buộc';
     // } 
     // if (empty($data['category_id'])) {
     //     $errors[] = 'Trường cate là bắt buộc';
     // } 
-   
+
     if (!empty($data['thumbnail']['name']) && $data['thumbnail']['size'] > 0) {
         $typeImage = ['image/png', 'image/jpg', 'image/jpeg'];
 
@@ -115,8 +115,8 @@ function productUpdate($id)
     $product = showOne('product', $id);
     $brand = listAll('brand');
     $categories = listAll('categories');
-    
-    if(empty($product)) {
+
+    if (empty($product)) {
         e404();
     }
     // var_dump($product['thumbnail']);
@@ -126,7 +126,7 @@ function productUpdate($id)
 
     if (!empty($_POST)) {
 
-       
+
         $data = [
             "name" => $_POST['name'] ?? $product['name'],
             "description" => $_POST['mota'] ?? $product['description'],
@@ -135,30 +135,27 @@ function productUpdate($id)
             "thumbnail" => $_FILES['avatar']['name'] ? $_FILES['avatar']['name'] : $product['thumbnail'],
 
         ];
-       
+
         $img = $_FILES['avatar'];
         if (!empty($img)) {
-            if (!empty($img['name']) && $img['size'] > 0){
-                $data['thumbnail'] = upload_file($img, 'uploads/product/');    
-            }else{
-                $data['thumbnail'] =$product['thumbnail'] ;    
-
+            if (!empty($img['name']) && $img['size'] > 0) {
+                $data['thumbnail'] = upload_file($img, 'uploads/product/');
+            } else {
+                $data['thumbnail'] = $product['thumbnail'];
             }
-            
         }
-        
+
 
         $errors = validateProductUpdate($id, $data);
         if (!empty($errors)) {
             $_SESSION['errors'] = $errors;
-        } 
-        else {
+        } else {
             update('product', $id, $data);
 
             $_SESSION['success'] = 'Thao tác thành công!';
         }
 
-       
+
 
         header('Location: ' . BASE_URL_ADMIN . '?act=product-update&id=' . $id);
         exit();
@@ -167,15 +164,15 @@ function productUpdate($id)
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
 }
 
-function validateProductUpdate($id, $data) {
+function validateProductUpdate($id, $data)
+{
     // name - bắt buộc, độ dài tối đa 50 ký tự, Không được trùng
 
     $errors = [];
 
     if (empty($data['name'])) {
         $errors[] = 'Trường name là bắt buộc';
-    } 
-    else if(strlen($data['name']) > 50) {
+    } else if (strlen($data['name']) > 50) {
         $errors[] = 'Trường name độ dài tối đa 50 ký tự';
     }
     // else if(! checkUniqueNameForUpdate('product', $id, $data['name'])) {
@@ -209,7 +206,7 @@ function productDelete($id)
     delete2('product', $id);
 
     $_SESSION['success'] = 'Thao tác thành công!';
-    
+
     header('Location: ' . BASE_URL_ADMIN . '?act=product');
     exit();
 }

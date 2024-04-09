@@ -44,6 +44,7 @@ function cartList(){
         $userID = $_SESSION['user']['id'];  
     }
     $cartUserID = showCartUserID($userID);
+    $cate = listAll('categories');
     
     $view = 'client/cart';
     require_once PATH_VIEW . 'home.php';

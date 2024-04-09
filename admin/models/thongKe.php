@@ -1,18 +1,42 @@
 <?php
 
 
+// if (!function_exists('doanhThuTheoNgay')) {
+//     function doanhThuTheoNgay()
+//     {
+//         try {
+//             $sql = "SELECT SUM(total_money) AS total
+//                     FROM bill
+//                     WHERE status_id = 5
+//                     AND order_date >= CURDATE() - INTERVAL 1 DAY
+//                     AND order_date < CURDATE()
+//                     GROUP BY DATE(order_date);";
+
+//             $stmt = $GLOBALS['conn']->prepare($sql);
+//             $stmt->execute();
+            
+//             return $stmt->fetchAll(PDO::FETCH_ASSOC);
+//         } catch (\Exception $e) {
+//             debug($e);
+//         }
+//     }
+// }
+
 if (!function_exists('doanhThuTheoNgay')) {
     function doanhThuTheoNgay()
     {
         try {
+            $today = date('Y-m-d');
+            $startOfDay = $today . ' 00:00:00';
+            $endOfDay = $today . ' 23:59:59';
+
             $sql = "SELECT SUM(total_money) AS total
                     FROM bill
-                    WHERE status_id = 5
-                    AND order_date >= CURDATE() - INTERVAL 1 DAY
-                    AND order_date < CURDATE()
-                    GROUP BY DATE(order_date);";
+                    WHERE pay_date BETWEEN :startOfDay AND :endOfDay";
 
             $stmt = $GLOBALS['conn']->prepare($sql);
+            $stmt->bindParam(":startOfDay", $startOfDay);
+            $stmt->bindParam(":endOfDay", $endOfDay);
             $stmt->execute();
             
             return $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -23,6 +47,8 @@ if (!function_exists('doanhThuTheoNgay')) {
 }
 
 
+
+
 // if (!function_exists('doanhThuTheoThang')) {
 //     function doanhThuTheoThang()
 //     {
@@ -30,8 +56,7 @@ if (!function_exists('doanhThuTheoNgay')) {
 //             $sql = "SELECT YEAR(order_date) AS year, MONTH(order_date) AS month, SUM(total_money) AS total
 //                     FROM bill
 //                     WHERE status_id = 5
-//                     AND YEAR(order_date) = YEAR(CURRENT_DATE - INTERVAL 1 MONTH)
-//                     AND MONTH(order_date) = MONTH(CURRENT_DATE - INTERVAL 1 MONTH)
+//                     AND order_date >= DATE_FORMAT(NOW(), '%Y-%m-01')
 //                     GROUP BY YEAR(order_date), MONTH(order_date)";
 
 //             $stmt = $GLOBALS['conn']->prepare($sql);
@@ -44,18 +69,21 @@ if (!function_exists('doanhThuTheoNgay')) {
 //     }
 // }
 
-
 if (!function_exists('doanhThuTheoThang')) {
     function doanhThuTheoThang()
     {
         try {
-            $sql = "SELECT YEAR(order_date) AS year, MONTH(order_date) AS month, SUM(total_money) AS total
+            $currentMonth = date('Y-m-01');
+            $nextMonth = date('Y-m-d', strtotime('first day of next month'));
+
+            $sql = "SELECT SUM(total_money) AS total
                     FROM bill
-                    WHERE status_id = 5
-                    AND order_date >= DATE_FORMAT(NOW(), '%Y-%m-01')
-                    GROUP BY YEAR(order_date), MONTH(order_date)";
+                    WHERE pay_date >= :start_date
+                    AND pay_date < :end_date";
 
             $stmt = $GLOBALS['conn']->prepare($sql);
+            $stmt->bindParam(':start_date', $currentMonth);
+            $stmt->bindParam(':end_date', $nextMonth);
             $stmt->execute();
             
             return $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -64,6 +92,7 @@ if (!function_exists('doanhThuTheoThang')) {
         }
     }
 }
+
 
 
 if (!function_exists('tongUser')) {

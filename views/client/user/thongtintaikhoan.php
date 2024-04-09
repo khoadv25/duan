@@ -50,7 +50,7 @@
             <div class="col-md-12 has-textbox hide">
                 <div class="form-group row">
                     <spam class="col-md-3 col-xs-6 control-label bb ar">Nhóm tài khoản:</spam>
-                    <spam class="col-md-8 col-xs-6 control-label al"></spam>
+                    <spam class="col-md-8 col-xs-6 control-label al"><?= $user['role'] == 0 ? "Thành Viên" : "vip" ?></spam>
                 </div>
             </div>
 

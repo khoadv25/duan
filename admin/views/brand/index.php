@@ -41,18 +41,18 @@
                         </tr>
                     </tfoot>
                     <tbody>
-                        <?php foreach ($detail as $detail) : ?>
+                        <?php foreach ($brand as $brand) : ?>
                             <tr>
-                                <td><?= $detail['id'] ?></td>
-                                <td><?= $detail['name'] ?></td>
-                                <td><?= $detail['status']
+                                <td><?= $brand['id'] ?></td>
+                                <td><?= $brand['name'] ?></td>
+                                <td><?= $brand['status']
                                         ? '<span class="badge badge-success">Hoạt động</span>'
                                         : '<span class="badge badge-warning">Ngưng Hoạt động</span>' ?>
                                 </td>
                                 <td>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=detail-detail&id=<?= $detail['id'] ?>" class="btn btn-info">Show</a>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=detail-update&id=<?= $brand['id'] ?>" class="btn btn-warning">Update</a>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=detail-delete&id=<?= $brand['id'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')" class="btn btn-danger">Delete</a>
+                                    <a href="<?= BASE_URL_ADMIN ?>?act=brand-detail&id=<?= $brand['id'] ?>" class="btn btn-info">Show</a>
+                                    <a href="<?= BASE_URL_ADMIN ?>?act=brand-update&id=<?= $brand['id'] ?>" class="btn btn-warning">Update</a>
+                                    <a href="<?= BASE_URL_ADMIN ?>?act=brand-update&id=<?= $brand['id'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')" class="btn btn-danger">Delete</a>
                                 </td>
                             </tr>
                         <?php endforeach; ?>

@@ -4,6 +4,7 @@
 function productDetailClient($id,$dungluong) {
     
     $view = 'client/productDetail';
+    $cate = listAll('categories');
 
     $product = showProductOne($id);
     $idDetail = $product['id'];

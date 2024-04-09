@@ -15,7 +15,7 @@ function brandListAll()
 
 function brandShowOne($id)
 {
-    $color = showOne('brand', $id);
+    $brand = showOne('brand', $id);
 
     if (empty($brand)) {
         e404();

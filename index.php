@@ -24,6 +24,11 @@ $authenRoute = [
     'oder',
     'donhang',
     'checkttMomo',
+    'profile',
+    'changepassword',
+    'lichsudonhang',
+    'chitietdonhang',
+    'huydon',
 ];
 
 middleware_auth_check_client($act, $authenRoute);
@@ -44,6 +49,7 @@ match ($act) {
 
     // list-cart
     'chitiet' => productDetailClient($_GET['id'], $dungluong = isset($_GET['dungluong']) ? $_GET['dungluong'] : 2),
+
     'cart-add' => cartAdd($_GET['productID'], $_GET['quantity']),
     'cart-list' => cartList(),
     'cart-inc' => cartInc($_GET['cartID']),
@@ -55,7 +61,7 @@ match ($act) {
     'oder' => oderTrucTiep(),
     'donhang' => allDonHang(),
     'checkttMomo' => checkttMomo($_GET['resultCode']),
-    
+
     /// profile
     'profile' => thongTinUser(),
     'changepassword' => thongTinUser(),

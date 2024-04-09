@@ -4,6 +4,7 @@
 function checkout()
 {
     $view = 'client/checkout';
+    $cate = listAll('categories');
 
     if (isset($_SESSION['user']['id'])) {
         $userID = $_SESSION['user']['id'];
@@ -76,7 +77,7 @@ function oderTrucTiep()
             $subtotal = $value['cart_quantity'] * $value['product_price'];
             $totalPrice += $subtotal;
         }
-
+        
         // Sử dụng hàm để tạo mã ngẫu nhiên có chứa cả chữ và số
         $maBill = generateRandomString(10);
 
@@ -97,6 +98,10 @@ function oderTrucTiep()
             'Phone' => $_POST['Phone'] ?? $phone,
         ];
 
+        // $billByUserCheckStatus = checkBillByUserId($userID);
+        // if (isset($billByUserCheckStatus)) {
+        //     $data['status_id'] = 2;
+        // }
 
         $billID = insert('bill', $data);
         // cần làm sau khi insert thành công
@@ -126,8 +131,9 @@ function oderTrucTiep()
         // sau khi thêm tất cả thành công thì phải xóa cart thuộc userID đó 
         deleteCartWhereUserID('cart', $userID);
 
-        header('Location: ' . BASE_URL);
+        header('Location: ' . BASE_URL . '?act=lichsudonhang');
         die;
+
     } elseif ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['payUrl'])) {
 
         $endpoint = "https://test-payment.momo.vn/v2/gateway/api/create";
@@ -201,6 +207,7 @@ function checkttMomo($resultCode){
             $userID = $_SESSION['user']['id'];
             $fullname = $_SESSION['user']['fullname'];
             $phone = $_SESSION['user']['phone'];
+            $address = $_SESSION['user']['address'];
         }
 
         $cartByUserID = showCartUserID($userID);
@@ -215,17 +222,18 @@ function checkttMomo($resultCode){
         $data  = [
             'user_id' => $userID,
             'order_date' =>  $date ?? "",
-            'Address' => $_POST['Address'] ?? "",
+            'Address' => $_POST['address'] ?? $address,
             'total_money' => $totalPrice ?? "",
             'status' => 1 ?? "",
             'reciver' => $_POST['fullname'] ?? $fullname,
-            'payment_id' => 1 ?? "",
+            'payment_id' => 2 ?? "",
             'id_voucher' => 0,
             'note' => $_POST['note'] ?? "",
             'status_id' => 1 ?? "",
             'full_name' => $_POST['fullname'] ?? $fullname,
             'ma_bill' => $maBill,
             'Phone' => $_POST['Phone'] ?? $phone,
+            'pay_date' => $date ?? date('Y-m-d H:i:s'),
         ];
 
 
@@ -257,7 +265,7 @@ function checkttMomo($resultCode){
         // sau khi thêm tất cả thành công thì phải xóa cart thuộc userID đó 
         deleteCartWhereUserID('cart', $userID);
 
-        header('Location: ' . BASE_URL);
+        header('Location: ' . BASE_URL . "?act=lichsudonhang");
         die;
     }
 }

@@ -98,7 +98,7 @@
                             <span>(2 Customer review)</span>
                         </div>
                         <div class="price">
-                            <span class="current"><?= $value['price'] ?> VND</span>
+                            <span class="current"><?= number_format($value['price']) ?> VND</span>
                             <span class="old"><?= $value['sale'] ?></span>
                         </div>
                         <p>Mô Tả : <?= $product['description'] ?></p>
