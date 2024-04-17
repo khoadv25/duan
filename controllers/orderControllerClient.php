@@ -143,7 +143,7 @@ function oderTrucTiep()
         $accessKey = 'klm05TvNBzhg7h7j';
         $secretKey = 'at67qH6mk8w5Y1nAyMoYKMWACiEi2bsa';
         $orderInfo = "Thanh toán qua MoMo";
-        $amount = "10000"; // có thể thêm $_SESSION['total'] session tạo ở checkout
+        $amount = $_SESSION['total']; // có thể thêm $_SESSION['total'] session tạo ở checkout
         $orderId = rand(00, 9999);
         $redirectUrl = "http://localhost/duan/?act=checkttMomo"; // ?act=oder
         $ipnUrl = "http://localhost/duan/";
@@ -264,7 +264,9 @@ function checkttMomo($resultCode){
 
         // sau khi thêm tất cả thành công thì phải xóa cart thuộc userID đó 
         deleteCartWhereUserID('cart', $userID);
-
+        if ($_SESSION['total']) {
+            unset($_SESSION['total']);
+        }
         header('Location: ' . BASE_URL . "?act=lichsudonhang");
         die;
     }

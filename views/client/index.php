@@ -1147,10 +1147,11 @@
                             <div class="rd-product__slide-item">
 
                             
+                            <?php foreach ($productByCate as $key => $productByCate) : ?>
 
                                 <div class="product__item">
                                     <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL . $value['thumbnail'] ?>" alt="" width="100px"></a>
+                                        <a href="<?= BASE_URL .  "?act=chitiet&id=".$productByCate['product_id']?>"><img src="<?= BASE_URL . $productByCate['thumbnail'] ?>" alt="" width="100px"></a>
                                     </div>
                                     <div class="product__content">
                                         <div class="product__review ul_li_center">
@@ -1163,7 +1164,7 @@
                                             </ul>
                                             <span>(126) Review</span>
                                         </div>
-                                        <h2 class="product__title"><a href="shop-single.html">Ninja Compact Smoothie & Food Processing Blender</a></h2>
+                                        <h2 class="product__title"><a href="shop-single.html"><?=$productByCate['product_name']?> </a></h2>
                                         <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
                                     </div>
                                     <ul class="product__action">
@@ -1174,58 +1175,9 @@
                                     <span class="badge-skew">New</span>
                                 </div>
                                 
+                                <?php endforeach; ?>
 
 
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_08.png" alt=""></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
-                                        </div>
-                                        <h2 class="product__title"><a href="shop-single.html">DEWALT 20V MAX* XR Oscillating Tool Kit</a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                    </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_08.png" alt=""></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
-                                        </div>
-                                        <h2 class="product__title"><a href="shop-single.html">DEWALT 20V MAX* XR Oscillating Tool Kit</a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                    </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
                             </div>
 
                             <div class="rd-product__slide-item">

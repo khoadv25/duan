@@ -6,6 +6,8 @@ function homeIndex() {
     
     $view = 'client/index';
     
+    $productByCate =showProductDetailByCate() ;
+    // debug($productByCate);
     require_once PATH_VIEW . 'home.php';
 }
 

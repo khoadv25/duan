@@ -129,7 +129,7 @@ function productUpdate($id)
 
         $data = [
             "name" => $_POST['name'] ?? $product['name'],
-            "description" => $_POST['mota'] ?? $product['description'],
+            "description" => $_POST['description'] ?? $product['description'],
             "brand_id" => $_POST['brand'] ?? $product['brand_id'],
             "category_id" => $_POST['cate'] ?? $product['category_id'],
             "thumbnail" => $_FILES['avatar']['name'] ? $_FILES['avatar']['name'] : $product['thumbnail'],

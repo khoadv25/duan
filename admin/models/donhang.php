@@ -140,9 +140,10 @@ if (!function_exists('activeDonHang')) {
 
             $status_id = getStatusId($id);
             $int = 1;
-            $pay_date = date('Y-m-d H:i:s');
+            
             if ($status_id == 4) {
                 $sql = "UPDATE bill SET status_id = $status_id + $int , pay_date = :pay_date WHERE id = :id";
+                $pay_date = date('Y-m-d H:i:s');
             } elseif ($status_id == 5) {
                 $int = 0;
                 $sql = "UPDATE bill SET status_id = $status_id + $int WHERE id = :id";
@@ -153,7 +154,9 @@ if (!function_exists('activeDonHang')) {
 
             $stmt = $GLOBALS['conn']->prepare($sql);
             $stmt->bindParam(':id', $id);
-            $stmt->bindParam(':pay_date', $pay_date);
+            if ($status_id == 4) {
+                $stmt->bindParam(':pay_date', $pay_date);
+            }
             $stmt->execute();
         } catch (\Exception $e) {
             debug($e);

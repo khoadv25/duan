@@ -33,11 +33,12 @@ function detailDonHang($id)
 function activeDon($id)
 {
     $detail = showDetailDonHang($id);
-    foreach ($detail as $detail) {
+    foreach ($detail as $dt) {
+        if ($dt['status_id'] < 5) {
+            activeDonHang($id);
+        }
     }
-    if ($detail['status_id'] < 5) {
-        activeDonHang($id);
-    }
+    
     header("location:" . BASE_URL_ADMIN . "?act=donhang");
     exit;
 }

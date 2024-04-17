@@ -4,6 +4,7 @@ use function App\YourNamespace\guiMail;
 
 function register(){
     $view = 'client/register';
+    $cate = listAll('categories');
         
         
         if ($_SERVER['REQUEST_METHOD']== "POST") {

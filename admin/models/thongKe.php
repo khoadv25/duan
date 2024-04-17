@@ -167,3 +167,63 @@ if (!function_exists('donHangChoSuLi')) {
         }
     }
 }
+
+
+
+function getDonHangByDate($selected_date)
+{
+    try {
+        // Chuẩn bị truy vấn SQL để lấy các đơn hàng theo ngày
+        $sql = "SELECT * FROM bill WHERE pay_date = :selected_date";
+
+        // Chuẩn bị và thực thi truy vấn
+        $stmt = $GLOBALS['conn']->prepare($sql);
+        $stmt->bindParam(':selected_date', $selected_date);
+        $stmt->execute();
+
+        // Trả về kết quả của truy vấn
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } catch (\Exception $e) {
+        debug($e);
+        return false;
+    }
+}
+
+
+
+function getDoanhThuByDate($date) {
+    try {
+        // Lấy doanh thu cho ngày đã chọn
+        $sql = "SELECT SUM(total_money) AS total
+                FROM bill
+                WHERE DATE(order_date) = :date";
+
+        $stmt = $GLOBALS['conn']->prepare($sql);
+        $stmt->bindParam(':date', $date);
+        $stmt->execute();
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } catch (\Exception $e) {
+        debug($e);
+    }
+}
+
+
+function getDoanhThuByMonth($month, $year) {
+    try {
+        // Lấy doanh thu cho tháng và năm đã chọn
+        $sql = "SELECT SUM(total_money) AS total
+                FROM bill
+                WHERE YEAR(order_date) = :year
+                AND MONTH(order_date) = :month";
+
+        $stmt = $GLOBALS['conn']->prepare($sql);
+        $stmt->bindParam(':month', $month);
+        $stmt->bindParam(':year', $year);
+        $stmt->execute();
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } catch (\Exception $e) {
+        debug($e);
+    }
+}

@@ -79,6 +79,7 @@ match($act) {
     'donhang-active' => activeDon($_GET['id']),
     // thong ke
     'thongke' => tongQuat(),
+    'doanhthu' => doanhthu(),
 
 
 

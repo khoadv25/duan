@@ -35,7 +35,7 @@
         <div id="thongke" class="collapse" aria-labelledby="headingThree" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=thongke">Tổng Quan</a>
-                <!-- <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=user-create">Thêm mới</a> -->
+                <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=doanhthu">Doanh Thu</a>
             </div>
         </div>
     </li>

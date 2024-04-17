@@ -58,7 +58,7 @@
                             <td><?= $show['size_name'] ?? ''  ?></td>
                             <td><?= $show['quantity'] ?? ''  ?></td>
                             <td><?= $show['color_name'] ?? '' ?></td>
-                            <td><?= $show['price'] ?? ''  ?></td>
+                            <td><?= number_format($show['price']) ?? ''  ?></td>
 
                             <td>
                                 <img src="<?= BASE_URL . $show['image_url'] ?? ''  ?>" alt="" width="100px">

@@ -5,6 +5,7 @@ use function App\YourNamespace\guiMail;
 function resetPass()
 {
     $view = 'client/quenMatKhau';
+    $cate = listAll('categories');
     
 
     if ($_SERVER['REQUEST_METHOD'] == "POST") {
@@ -78,5 +79,7 @@ function veriResetPassword() {
 
     // Hiển thị trang xác thực với ô input cho người dùng nhập mã
     $view = 'client/veriUser';
+    $cate = listAll('categories');
+    
     require_once PATH_VIEW . 'home.php';
 }
