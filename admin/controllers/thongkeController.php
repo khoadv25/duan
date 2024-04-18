@@ -7,12 +7,13 @@ function tongQuat()
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Kiểm tra xem ngày đã chọn có tồn tại không
-        if (isset($_POST['selected_date'])) {
+        if (isset($_POST['star_date'])) {
             // Lấy ngày đã chọn từ biểu mẫu
-            $selected_date = $_POST['selected_date'];
+            $star_date = $_POST['star_date'];
+            $end_date = $_POST['end_date'];
     
             // Thực hiện truy vấn để lấy các đơn hàng theo ngày đã chọn
-            $donHangTheoNgay = getDonHangByDate($selected_date);
+            $donHangTheoNgay = getDonHangByDateRange($star_date,$end_date);
         } else {
             // Nếu không có ngày được chọn, lấy tất cả các đơn hàng
             $donHangTheoNgay = showDonHang();
@@ -37,26 +38,5 @@ function tongQuat()
 function doanhthu()
 {
     $view = 'thongke/doanhthu';
-
-    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-        // Kiểm tra xem ngày đã chọn có tồn tại không
-        if (isset($_POST['selected_date'])) {
-            // Lấy ngày đã chọn từ biểu mẫu
-            $selected_date = $_POST['selected_date'];
-    
-            // Thực hiện truy vấn để lấy các đơn hàng theo ngày đã chọn
-            $donHangTheoNgay = getDonHangByDate($selected_date);
-        } else {
-            // Nếu không có ngày được chọn, lấy tất cả các đơn hàng
-            $donHangTheoNgay = showDonHang();
-        }
-    } else {
-        // Nếu không có phương thức POST được gửi, mặc định là hiển thị tất cả các đơn hàng
-        $donHangTheoNgay = showDonHang();
-    }
-    
-
-    
-    
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
 }

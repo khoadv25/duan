@@ -235,19 +235,24 @@
                 <h2 class="section-heading"><span><span>Sản Phẩm</span> Bạn có thể thích</span></h2>
                 <ul class="product__nav rd-tab-nav nav nav-tabs" id="vd-myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="vd-tab-01" data-bs-toggle="tab" data-bs-target="#vd-tab1" type="button" role="tab" aria-controls="vd-tab1" aria-selected="true">Tất cả</button>
+                        <button class="nav-link active" id="vd-tab-01" data-bs-toggle="tab" data-bs-target="#vd-tab1" type="button" role="tab" aria-controls="vd-tab1" aria-selected="true">
+                            Tất cả</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="vd-tab-02" data-bs-toggle="tab" data-bs-target="#vd-tab2" type="button" role="tab" aria-controls="vd-tab2" aria-selected="false">Best Seller</button>
+                        <button class="nav-link" id="vd-tab-02" data-bs-toggle="tab" data-bs-target="#vd-tab2" type="button" role="tab" aria-controls="vd-tab2" aria-selected="false">
+                            Best Seller</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="vd-tab-03" data-bs-toggle="tab" data-bs-target="#vd-tab3" type="button" role="tab" aria-controls="vd-tab3" aria-selected="false">Top</button>
+                        <button class="nav-link" id="vd-tab-03" data-bs-toggle="tab" data-bs-target="#vd-tab3" type="button" role="tab" aria-controls="vd-tab3" aria-selected="false">
+                            Top</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link " id="vd-tab-04" data-bs-toggle="tab" data-bs-target="#vd-tab4" type="button" role="tab" aria-controls="vd-tab4" aria-selected="false">New Arrivals</button>
+                        <button class="nav-link " id="vd-tab-04" data-bs-toggle="tab" data-bs-target="#vd-tab4" type="button" role="tab" aria-controls="vd-tab4" aria-selected="false">
+                            New Arrivals</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="vd-tab-05" data-bs-toggle="tab" data-bs-target="#vd-tab5" type="button" role="tab" aria-controls="vd-tab5" aria-selected="false">top rating</button>
+                        <button class="nav-link" id="vd-tab-05" data-bs-toggle="tab" data-bs-target="#vd-tab5" type="button" role="tab" aria-controls="vd-tab5" aria-selected="false">
+                            top rating</button>
                     </li>
                 </ul>
             </div>
@@ -281,7 +286,7 @@
                                             </ul>
                                             <span>(126)</span>
                                         </div>
-                                        <h3 class="title"><a href="shop-single.html"><?= $value['name'] ?></a></h3>
+                                        <h3 class="title"><a href=""><?= $value['name'] ?></a></h3>
                                         <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
                                     </div>
                                     <ul class="product__action">

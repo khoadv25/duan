@@ -8,7 +8,14 @@
     <div>
         <div class="mx-4">
             <form action="" method="POST">
-                <input type="date" name="selected_date" placeholder="tìm theo ngày">
+                <div>
+                    <label for="">từ ngày</label>
+                    <input type="date" name="star_date">
+                </div>
+                <div>
+                    <label for="">đến ngày</label>
+                    <input type="date" name="end_date">
+                </div>
                 <button type="submit" class="btn btn-primary">Tìm kiếm</button>
             </form>
         </div>
@@ -19,7 +26,7 @@
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                Doanh Thu Ngày</div>
+                                Doanh Thu Theo tìm kiếm</div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800"><?= number_format($totalRevenue) ?> $</div>
                         </div>
                         <div class="col-auto">
@@ -30,7 +37,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container-fluid">
         <!-- Page Heading -->
         <!-- DataTales Example -->

@@ -170,15 +170,20 @@ if (!function_exists('donHangChoSuLi')) {
 
 
 
-function getDonHangByDate($selected_date)
-{
+function getDonHangByDateRange($start_date, $end_date) {
     try {
-        // Chuẩn bị truy vấn SQL để lấy các đơn hàng theo ngày
-        $sql = "SELECT * FROM bill WHERE pay_date = :selected_date";
+        // Nếu $end_date rỗng, gán cho nó giá trị ngày hiện tại
+        if (empty($end_date)) {
+            $end_date = date('Y-m-d');
+        }
+
+        // Chuẩn bị truy vấn SQL để lấy các đơn hàng trong khoảng từ ngày đến ngày
+        $sql = "SELECT * FROM bill WHERE pay_date BETWEEN :start_date AND :end_date";
 
         // Chuẩn bị và thực thi truy vấn
         $stmt = $GLOBALS['conn']->prepare($sql);
-        $stmt->bindParam(':selected_date', $selected_date);
+        $stmt->bindParam(':start_date', $start_date);
+        $stmt->bindParam(':end_date', $end_date);
         $stmt->execute();
 
         // Trả về kết quả của truy vấn
@@ -188,6 +193,15 @@ function getDonHangByDate($selected_date)
         return false;
     }
 }
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if (isset($_POST['selected_date'])) {
+        $start_date = $_POST['selected_date'];
+        $end_date = $_POST['selected_date_on'];
+        $donHang = getDonHangByDateRange($start_date, $end_date);
+    }
+}
+
 
 
 
