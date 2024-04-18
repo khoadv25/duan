@@ -1,12 +1,12 @@
 <?php 
 
 function homeIndex() {
-    $product = listAll('product');
+    $product = showListpro();
     $cate = listAll('categories');
     
     $view = 'client/index';
     
-    $productByCate =showProductDetailByCate() ;
+    $productByCate =showProductDetailByCate(2) ;
     // debug($productByCate);
     require_once PATH_VIEW . 'home.php';
 }
@@ -26,7 +26,7 @@ function dsspByCate($id){
     $view = 'client/productByCate';
     $cate = listAll('categories');
     
-    $dsspBycate = showSpByCate($id);
+    $dsspBycate = showProductDetailByCate($id);
     require_once PATH_VIEW . 'home.php';
 }
 

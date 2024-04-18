@@ -96,7 +96,7 @@
                                         <li class="product">
 
                                             <div class="product-holder">
-                                                <a href="<?= BASE_URL . '?act=chitiet&id='.$dssp['id'] ?>"><img src="<?= BASE_URL . $dssp['thumbnail'] ?>" alt="" width="200px"></a>
+                                                <a href="<?= BASE_URL . '?act=chitiet&id='.$dssp['product_id'] ."&dungluong=" . $dssp['size_id']?>"><img src="<?= BASE_URL . $dssp['image_url'] ?>" alt="" width="200px"></a>
                                                 <ul class="product__action">
                                                     <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
                                                     <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
@@ -116,12 +116,12 @@
                                                     <span>(126) Review</span>
                                                 </div>
                                                 
-                                                <h2 class="product__title"><a href=""><?= $dssp['name'] ?></a></h2>
-                                                <span class="product__available">Available: <span>334</span></span>
+                                                <h2 class="product__title"><a href=""><?= $dssp['product_name'] . " " . $dssp['size_name']?></a></h2>
+                                                <span class="product__available">Available: <span><?=$dssp['quantity'] ?></span></span>
                                                 <div class="product__progress progress color-primary">
                                                     <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
-                                                <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
+                                                <h4 class="product__price"><span class="new"><?=number_format($dssp['price']) ?></span><span class="old">$28.52</span></h4>
                                                 <p class="product-description"><?= $dssp['description'] ?></p>
                                             </div>
                                         </li>
@@ -174,91 +174,6 @@
                                         <span></span>
                                         <span></span>
                                         <span></span>
-                                    </div>
-                                </div>
-                                <div class="widget">
-                                    <h2 class="widget__title">
-                                        <span>Category</span>
-                                    </h2>
-                                   <ul class="widget__category">
-                                        <li><a href="#!">Motorbike parts<i class="far fa-chevron-right"></i></a></li>
-                                        <li><a href="#!">Car parts Name<i class="far fa-chevron-right"></i></a></li>
-                                        <li><a href="#!">Bicycle Parts<i class="far fa-chevron-right"></i></a></li>
-                                        <li><a href="#!">Taxi bike parts<i class="far fa-chevron-right"></i></a></li>
-                                        <li><a href="#!">Double decker bus<i class="far fa-chevron-right"></i></a></li>
-                                        <li><a href="#!">Tractor parts<i class="far fa-chevron-right"></i></a></li>
-                                        <li><a href="#!">Bull Dozer<i class="far fa-chevron-right"></i></a></li>
-                                   </ul>
-                                </div>
-                                <div class="widget">
-                                    <div class="widget__add">
-                                        <div class="content">
-                                            <span>Trending</span>
-                                            <h3>2021 <span>Laptop</span> <br> Collection</h3>
-                                            <a class="thm-btn no-icon" href="#!">
-                                                <span class="btn-wrap"> 
-                                                    <span>Buy Now</span>
-                                                    <span>Buy Now</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                        <div class="image">
-                                            <img class="add_img" src="<?= BASE_URL ?>assets/client/assets/img/product/img_177.png" alt="">
-                                            <img class="add_shape" src="<?= BASE_URL ?>assets/client/assets/img/shape/add_shape.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="widget">
-                                    <h2 class="widget__title">
-                                        <span>Brands</span>
-                                    </h2>
-                                    <div class="checkbox">
-                                        <div class="checkbox__item ul_li">
-                                            <input class="form-check-input" type="checkbox" name="checkbox" id="b1" />
-                                            <label for="b1">Samsung</label>
-                                        </div>
-                                        <div class="checkbox__item ul_li">
-                                            <input class="form-check-input" type="checkbox" name="checkbox" id="b2" />
-                                            <label for="b2">Oppo</label>
-                                        </div>
-                                        <div class="checkbox__item ul_li">
-                                            <input class="form-check-input" type="checkbox" name="checkbox" id="b3" />
-                                            <label for="b3">hewaui Galaxy</label>
-                                        </div>
-                                        <div class="checkbox__item ul_li">
-                                            <input class="form-check-input" type="checkbox" name="checkbox" id="b4" />
-                                            <label for="b4">Ryzen 3600</label>
-                                        </div>
-                                        <div class="checkbox__item ul_li">
-                                            <input class="form-check-input" type="checkbox" name="checkbox" id="b5" />
-                                            <label for="b5">intel</label>
-                                        </div>
-                                        <div class="checkbox__item ul_li">
-                                            <input class="form-check-input" type="checkbox" name="checkbox" id="b6" />
-                                            <label for="b6">Mobile Handset</label>
-                                        </div>
-                                        <div class="checkbox__item ul_li">
-                                            <input class="form-check-input" type="checkbox" name="checkbox" id="b7" />
-                                            <label for="b7">Mobile Handset</label>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="widget">
-                                    <h2 class="widget__title">
-                                        <span>Tags</span>
-                                    </h2>
-                                    <div class="tagcloud">
-                                        <a href="#!">symphony</a>
-                                        <a href="#!">nokia</a>
-                                        <a href="#!">nokia</a>
-                                        <a href="#!">landing page</a>
-                                        <a href="#!">Alcatel</a>
-                                        <a href="#!">Samsung</a>
-                                        <a href="#!">Oppos</a>
-                                        <a href="#!">Oppos</a>
-                                        <a href="#!">I phone Pro 12</a>
-                                        <a href="#!">poco X3</a>
                                     </div>
                                 </div>
                             </div>

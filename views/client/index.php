@@ -273,7 +273,7 @@
 
                                 <div class="tab-product__item tx-product text-center">
                                     <div class="thumb ">
-                                        <a href="<?= BASE_URL . '?act=chitiet&id='. $value['id'] ?>"><img src="<?= BASE_URL . $value['thumbnail'] ?>  " alt="" width="100"></a>
+                                        <a href="<?= BASE_URL . '?act=chitiet&id='. $value['product_id'] ."&dungluong=".$value['size_id'] ?>"><img src="<?= BASE_URL . $value['image_url'] ?>  " alt="" width="100"></a>
                                     </div>
                                     <div class="content">
                                         <div class="product__review ul_li_center">
@@ -286,7 +286,7 @@
                                             </ul>
                                             <span>(126)</span>
                                         </div>
-                                        <h3 class="title"><a href=""><?= $value['name'] ?></a></h3>
+                                        <h3 class="title"><a href=""><?= $value['product_name'] . ' ' . $value['size_name']  ?></a></h3>
                                         <span class="price">( $28.52 - <span class="old-price">$30.00</span> )</span>
                                     </div>
                                     <ul class="product__action">
@@ -1156,7 +1156,7 @@
 
                                 <div class="product__item">
                                     <div class="product__img text-center pos-rel">
-                                        <a href="<?= BASE_URL .  "?act=chitiet&id=".$productByCate['product_id']?>"><img src="<?= BASE_URL . $productByCate['thumbnail'] ?>" alt="" width="100px"></a>
+                                        <a href="<?= BASE_URL .  "?act=chitiet&id=".$productByCate['product_id']."&dungluong=".$productByCate['size_id']?>"><img src="<?= BASE_URL . $productByCate['image_url'] ?>" alt="" width="100px"></a>
                                     </div>
                                     <div class="product__content">
                                         <div class="product__review ul_li_center">
@@ -1169,8 +1169,8 @@
                                             </ul>
                                             <span>(126) Review</span>
                                         </div>
-                                        <h2 class="product__title"><a href="shop-single.html"><?=$productByCate['product_name']?> </a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
+                                        <h2 class="product__title"><a href="shop-single.html"><?=$productByCate['product_name'] . " ".  $productByCate['size_name']?> </a></h2>
+                                        <h4 class="product__price"><span class="new"><?=number_format($productByCate['price'])?></span><span class="old">$28.52</span></h4>
                                     </div>
                                     <ul class="product__action">
                                         <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
