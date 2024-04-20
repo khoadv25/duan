@@ -77,7 +77,7 @@ function oderTrucTiep()
             $subtotal = $value['cart_quantity'] * $value['product_price'];
             $totalPrice += $subtotal;
         }
-        
+
         // Sử dụng hàm để tạo mã ngẫu nhiên có chứa cả chữ và số
         $maBill = generateRandomString(10);
 
@@ -133,8 +133,7 @@ function oderTrucTiep()
 
         header('Location: ' . BASE_URL . '?act=lichsudonhang');
         die;
-
-    } elseif ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['payUrl'])) {
+    }elseif($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['payUrl'])) {
 
         $endpoint = "https://test-payment.momo.vn/v2/gateway/api/create";
 
@@ -162,7 +161,7 @@ function oderTrucTiep()
 
             $requestId = time() . "";
             $requestType = "payWithATM";
-            $extraData = ($_POST["extraData"] ? $_POST["extraData"] : "");
+            $extraData = !empty($_POST["extraData"]) ? $_POST["extraData"] : "";
 
             $rawHash = "accessKey=" . $accessKey . "&amount=" . $amount . "&extraData=" . $extraData . "&ipnUrl=" . $ipnUrl . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo . "&partnerCode=" . $partnerCode . "&redirectUrl=" . $redirectUrl . "&requestId=" . $requestId . "&requestType=" . $requestType;
             $signature = hash_hmac("sha256", $rawHash, $serectkey);
@@ -186,19 +185,31 @@ function oderTrucTiep()
             $jsonResult = json_decode($result, true);  // Giải mã JSON
             ////
             // Chuyển hướng đến trang thanh toán MoMo
-            header('Location: ' . $jsonResult['payUrl']);
+            if (isset($jsonResult['payUrl'])) {
+                header('Location: ' . $jsonResult['payUrl']);
+
+                exit;
+            } else {
+                // Xử lí khi không có payUrl
+                // Ví dụ: Hiển thị thông báo lỗi
+                echo "Không thể tạo thanh toán. Vui lòng thử lại sau.";
+                exit;
+            }
+
+
+
             exit;
-          
         }
-        
+
         // Phản hồi từ MoMo
-        
+
     }
 }
 
 
 
-function checkttMomo($resultCode){
+function checkttMomo($resultCode)
+{
     // $resultCode = $_GET['resultCode'];
     if ($resultCode == 0) {
 

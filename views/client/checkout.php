@@ -24,7 +24,7 @@
 
                     <div class="woocommerce">
 
-                        <form name="checkout" method="POST" action="<?= BASE_URL . '?act=oder' ?>" enctype="multipart/form-data" class="checkout woocommerce-checkout" >
+                        <form name="checkout" method="POST" action="<?= BASE_URL . '?act=oder' ?>" enctype="multipart/form-data" class="checkout woocommerce-checkout">
 
 
                             <div class="col2-set" id="customer_details">
@@ -35,21 +35,18 @@
 
                                         <p class="form-row form-row form-row-first validate-required" id="billing_first_name_field">
                                             <label for="billing_first_name" class="">FUll Name <abbr class="required" title="required">*</abbr></label>
-                                            <input type="text" class="input-text " name="fullname" id="billing_first_name" placeholder="" autocomplete="given-name" 
-                                            value="<?= $_SESSION['user']['fullname'] ?>" />
+                                            <input type="text" class="input-text " name="fullname" id="billing_first_name" placeholder="" autocomplete="given-name" value="<?= $_SESSION['user']['fullname'] ?>" />
                                         </p>
 
                                         <p class="form-row form-row form-row-last validate-required validate-phone" id="billing_phone_field">
                                             <label for="billing_phone" class="">Phone <abbr class="required" title="required">*</abbr></label>
-                                            <input type="tel" class="input-text " name="Phone" id="billing_phone" placeholder="" autocomplete="tel" 
-                                            value="<?= $_SESSION['user']['phone'] ?>" />
+                                            <input type="tel" class="input-text " name="Phone" id="billing_phone" placeholder="" autocomplete="tel" value="<?= $_SESSION['user']['phone'] ?>" />
                                         </p>
                                         <div class="clear"></div>
 
                                         <p class="form-row form-row form-row-wide address-field validate-required" id="billing_address_1_field">
                                             <label for="billing_address_1" class="">Address <abbr class="required" title="required">*</abbr></label>
-                                            <input type="text" class="input-text " name="Address" id="billing_address_1" placeholder="Street address" autocomplete="address-line1" 
-                                            value="<?= $_SESSION['user']['address'] ?>" />
+                                            <input type="text" class="input-text " name="Address" id="billing_address_1" placeholder="Street address" autocomplete="address-line1" value="<?= $_SESSION['user']['address'] ?>" />
                                         </p>
 
                                         <div class="clear"></div>
@@ -103,17 +100,16 @@
                                             // Tính tổng số tiền cho từng sản phẩm và cộng vào tổng
                                             $subtotal = $value['cart_quantity'] * $value['product_price'];
                                             $totalPrice += $subtotal;
-                                            $_SESSION['total'] = $totalPrice;
                                         }
 
-                                        // Hiển thị tổng số tiền
-
+                                        $_SESSION['total'] = $totalPrice;
+                                       
                                         ?>
                                         <tr class="cart-subtotal">
                                             <th>Subtotal</th>
-                                            <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"></span><?= number_format($totalPrice) ?>$</span>
-                                            </td>
+                                            <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"></span><?= number_format($totalPrice) ?>$</span></td>
                                         </tr>
+
 
                                         <tr class="shipping">
                                             <th>Shipping</th>
@@ -160,7 +156,7 @@
                                             </span>
                                         </button>
 
-                                        <button class="thm-btn thm-btn__2 no-icon br-0 ml-4" name="payUrl">
+                                        <button class="thm-btn thm-btn__2 no-icon br-0 ml-4" name="payUrl" id="payUrl">
                                             <span class="btn-wrap">
                                                 <span>Thanh toán MoMo</span>
                                                 <span>Thanh toán MoMo</span>
@@ -168,15 +164,15 @@
                                         </button>
 
                                         <div class="mt-4">
-                                        <button class="thm-btn thm-btn__2 no-icon br-0 ml-4" name="vnpay">
-                                            <span class="btn-wrap">
-                                                <span>VNpay</span>
-                                                <span>VNpay</span>
-                                            </span>
-                                        </button>
+                                            <button class="thm-btn thm-btn__2 no-icon br-0 ml-4" name="vnpay">
+                                                <span class="btn-wrap">
+                                                    <span>VNpay</span>
+                                                    <span>VNpay</span>
+                                                </span>
+                                            </button>
                                         </div>
-                                        
-                                        
+
+
                                     </div>
                                 </div>
                             </div>
