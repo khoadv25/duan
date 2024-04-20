@@ -99,7 +99,7 @@
                     </div>
                     <ul class="category ul_li">
                         <li><a href="<?= BASE_URL ?>"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_01.svg" alt=""></span>Trang Chủ</a></li>
-                        <li><a href="#!"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_02.svg" alt=""></span>Phụ Kiện</a></li>
+                        <li><a href="<?= BASE_URL . '?act=allsp' ?>"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_02.svg" alt=""></span>Sản Phẩm</a></li>
                         <?php foreach ($cate as $key => $cate):?>
                         <li><a href="<?= BASE_URL . '?act=dsspdm&cateID=' . $cate['id'] ?>"><span><img src="<?= BASE_URL ?>assets/client/assets/img/icon/hc_04.svg" alt=""></span><?=$cate['name'] ?></a></li>
                         <?php endforeach;?>

@@ -155,8 +155,8 @@
 
                                         <button class="thm-btn thm-btn__2 no-icon br-0" name="tructiep">
                                             <span class="btn-wrap">
-                                                <span>Đặt Hàng</span>
-                                                <span>Đặt Hàng</span>
+                                                <span onclick="confirm('bạn có chắc chắn không')">Đặt Hàng</span>
+                                                <span onclick="confirm('bạn có chắc chắn không')">Đặt Hàng</span>
                                             </span>
                                         </button>
 

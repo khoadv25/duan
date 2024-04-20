@@ -3,6 +3,7 @@
 
 
 <!-- Mirrored from html.themexriver.com/radios/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 10 Mar 2024 12:11:53 GMT -->
+
 <head>
 
     <!--========= Required meta tags =========-->
@@ -13,7 +14,7 @@
 
     <title>Radios - Electronics Store WooCommerce Template</title>
 
-    <link rel="shortcut icon" href="<?= PATH_VIEW ?> client/assets/img/favicon.png" type="images/x-icon"/>
+    <link rel="shortcut icon" href="<?= PATH_VIEW ?> client/assets/img/favicon.png" type="images/x-icon" />
 
     <!-- css include -->
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/client/assets/css/bootstrap.min.css">
@@ -29,16 +30,16 @@
 
 <body>
 
-<div class="body_wrap">
+    <div class="body_wrap">
 
         <!-- preloder start  -->
-        
-        <!-- preloder end  --> 
+
+        <!-- preloder end  -->
 
         <!-- back to top start -->
         <div class="progress-wrap">
             <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
             </svg>
         </div>
         <!-- back to top end -->
@@ -47,21 +48,21 @@
         <?php require_once  "layouts/header.php"; ?>
         <!-- header end -->
 
-         <!-- slide-bar start -->
+        <!-- slide-bar start -->
         <?php require_once  "layouts/sidebar.php"; ?>
-         
+
         <div class="body-overlay"></div>
         <!-- slide-bar end -->
 
-        
-            <main>
+
+        <main>
             <?php require_once PATH_VIEW . $view . '.php'; ?>
-            </main>
-        
+        </main>
+
 
         <!-- footer start -->
         <?php require_once  "layouts/footer.php"; ?>
-        
+
         <!-- footer end -->
 
         <!-- start newsletter-popup-area-section -->
@@ -69,8 +70,8 @@
         <!-- end newsletter-popup-area-section -->
 
 
-        <!-- start cookies-area -->    
-        
+        <!-- start cookies-area -->
+
         <!-- end cookies-area -->
 
 
@@ -91,8 +92,27 @@
     <script src="<?= BASE_URL ?>assets/client/assets/js/jquery.magnific-popup.min.js"></script>
     <script src="<?= BASE_URL ?>assets/client/assets/js/metisMenu.min.js"></script>
     <script src="<?= BASE_URL ?>assets/client/assets/js/main.js"></script>
+
+    <script>
+        $(function() {
+            $("#slider-range").slider({
+                range: true,
+                min: 1000,
+                max: 100000,
+                values: [1000, 100000],
+                slide: function(event, ui) {
+                    $("#price").val("$" + ui.values[0] + " - $" + ui.values[1]);
+                }
+            });
+            $("#price").val("$" + $("#slider-range").slider("values", 0) +
+                " - $" + $("#slider-range").slider("values", 1));
+        });
+    </script>
+
+
 </body>
 
 
 <!-- Mirrored from html.themexriver.com/radios/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 10 Mar 2024 12:11:53 GMT -->
+
 </html>

@@ -180,13 +180,11 @@ function getDonHangByDateRange($start_date, $end_date) {
         // Chuẩn bị truy vấn SQL để lấy các đơn hàng trong khoảng từ ngày đến ngày
         $sql = "SELECT * FROM bill WHERE pay_date BETWEEN :start_date AND :end_date";
 
-        // Chuẩn bị và thực thi truy vấn
         $stmt = $GLOBALS['conn']->prepare($sql);
         $stmt->bindParam(':start_date', $start_date);
         $stmt->bindParam(':end_date', $end_date);
         $stmt->execute();
 
-        // Trả về kết quả của truy vấn
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     } catch (\Exception $e) {
         debug($e);

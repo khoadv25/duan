@@ -75,7 +75,7 @@
                                         <span class="product__available">Stock: <span>180</span></span>
                                     </div>
                                 </div>
-                                <a class="hero__btn" href="#!">Shop Now <i class="far fa-long-arrow-right"></i></a>
+                                <a class="hero__btn" href="<?= BASE_URL . '?act=allsp' ?>">Shop Now <i class="far fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -267,13 +267,13 @@
                     <div class="tab-pane fade show active" id="vd-tab1" role="tabpanel" aria-labelledby="vd-tab-01">
 
 
-                            <div class="tab-product__slide tx-arrow">
+                        <div class="tab-product__slide tx-arrow">
 
-                                <?php foreach ($product as $key => $value) : ?>
+                            <?php foreach ($product as $key => $value) : ?>
 
                                 <div class="tab-product__item tx-product text-center">
                                     <div class="thumb ">
-                                        <a href="<?= BASE_URL . '?act=chitiet&id='. $value['product_id'] ."&dungluong=".$value['size_id'] ?>"><img src="<?= BASE_URL . $value['image_url'] ?>  " alt="" width="100"></a>
+                                        <a href="<?= BASE_URL . '?act=chitiet&id=' . $value['product_id'] . "&dungluong=" . $value['size_id'] ?>"><img src="<?= BASE_URL . $value['image_url'] ?>  " alt="" width="100"></a>
                                     </div>
                                     <div class="content">
                                         <div class="product__review ul_li_center">
@@ -296,12 +296,12 @@
                                     </ul>
                                     <span class="badge-skew">New</span>
                                 </div>
-                                    <?php endforeach; ?>
+                            <?php endforeach; ?>
 
-                            </div>
+                        </div>
 
                     </div>
-                   
+
 
 
                     <div class="tab-pane fade" id="vd-tab2" role="tabpanel" aria-labelledby="vd-tab-02">
@@ -1142,7 +1142,7 @@
     <div class="rd-slide-product">
         <div class="container">
             <div class="row mt-none-30">
-            
+
 
                 <div class="col-lg-12 mt-30">
                     <div class="rd-slide-products">
@@ -1151,35 +1151,35 @@
 
                             <div class="rd-product__slide-item">
 
-                            
-                            <?php foreach ($productByCate as $key => $productByCate) : ?>
 
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="<?= BASE_URL .  "?act=chitiet&id=".$productByCate['product_id']."&dungluong=".$productByCate['size_id']?>"><img src="<?= BASE_URL . $productByCate['image_url'] ?>" alt="" width="100px"></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
+                                <?php foreach ($iphone as $key => $productByCate) : ?>
+
+                                    <div class="product__item">
+                                        <div class="product__img text-center pos-rel">
+                                            <a href="<?= BASE_URL .  "?act=chitiet&id=" . $productByCate['product_id'] . "&dungluong=" . $productByCate['size_id'] ?>"><img src="<?= BASE_URL . $productByCate['image_url'] ?>" alt="" width="100px"></a>
                                         </div>
-                                        <h2 class="product__title"><a href="shop-single.html"><?=$productByCate['product_name'] . " ".  $productByCate['size_name']?> </a></h2>
-                                        <h4 class="product__price"><span class="new"><?=number_format($productByCate['price'])?></span><span class="old">$28.52</span></h4>
+                                        <div class="product__content">
+                                            <div class="product__review ul_li_center">
+                                                <ul class="rating-star ul_li mr-10">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="far fa-star"></i></li>
+                                                    <li><i class="far fa-star"></i></li>
+                                                </ul>
+                                                <span>(126) Review</span>
+                                            </div>
+                                            <h2 class="product__title"><a href="shop-single.html"><?= $productByCate['product_name'] . " " .  $productByCate['size_name'] ?> </a></h2>
+                                            <h4 class="product__price"><span class="new"><?= number_format($productByCate['price']) ?></span><span class="old">$28.52</span></h4>
+                                        </div>
+                                        <ul class="product__action">
+                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                        </ul>
+                                        <span class="badge-skew">New</span>
                                     </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
-                                
+
                                 <?php endforeach; ?>
 
 
@@ -1187,329 +1187,119 @@
 
                             <div class="rd-product__slide-item">
 
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_09.png" alt=""></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
-                                        </div>
-                                        <h2 class="product__title"><a href="shop-single.html">Lenovo – Tab P11 Plus – Tablet – 11″ 2K Display</a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                    </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
 
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_10.png" alt=""></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
+                                <?php foreach ($samsung as $key => $productByCate) : ?>
+
+                                    <div class="product__item">
+                                        <div class="product__img text-center pos-rel">
+                                            <a href="<?= BASE_URL .  "?act=chitiet&id=" . $productByCate['product_id'] . "&dungluong=" . $productByCate['size_id'] ?>"><img src="<?= BASE_URL . $productByCate['image_url'] ?>" alt="" width="100px"></a>
                                         </div>
-                                        <h2 class="product__title"><a href="shop-single.html">Aroma Housewares 4-Cups 1Qt. Rice & Grain</a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                    </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_10.png" alt=""></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
+                                        <div class="product__content">
+                                            <div class="product__review ul_li_center">
+                                                <ul class="rating-star ul_li mr-10">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="far fa-star"></i></li>
+                                                    <li><i class="far fa-star"></i></li>
+                                                </ul>
+                                                <span>(126) Review</span>
+                                            </div>
+                                            <h2 class="product__title"><a href="shop-single.html"><?= $productByCate['product_name'] . " " .  $productByCate['size_name'] ?> </a></h2>
+                                            <h4 class="product__price"><span class="new"><?= number_format($productByCate['price']) ?></span><span class="old">$28.52</span></h4>
                                         </div>
-                                        <h2 class="product__title"><a href="shop-single.html">Aroma Housewares 4-Cups 1Qt. Rice & Grain</a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
+                                        <ul class="product__action">
+                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                        </ul>
+                                        <span class="badge-skew">New</span>
                                     </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
+
+                                <?php endforeach; ?>
+
+
                             </div>
 
                             <div class="rd-product__slide-item">
 
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_11.png" alt=""></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
-                                        </div>
-                                        <h2 class="product__title"><a href="shop-single.html">SAMSUNG Galaxy A13 5G Cell Phone, Factory Unlocked</a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                    </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
 
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_12.png" alt=""></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
+                                <?php foreach ($oppo as $key => $productByCate) : ?>
+
+                                    <div class="product__item">
+                                        <div class="product__img text-center pos-rel">
+                                            <a href="<?= BASE_URL .  "?act=chitiet&id=" . $productByCate['product_id'] . "&dungluong=" . $productByCate['size_id'] ?>"><img src="<?= BASE_URL . $productByCate['image_url'] ?>" alt="" width="100px"></a>
                                         </div>
-                                        <h2 class="product__title"><a href="shop-single.html">SAMSUNG Galaxy S20 FE 5G Cell Phone, Factory</a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                    </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_12.png" alt=""></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
+                                        <div class="product__content">
+                                            <div class="product__review ul_li_center">
+                                                <ul class="rating-star ul_li mr-10">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="far fa-star"></i></li>
+                                                    <li><i class="far fa-star"></i></li>
+                                                </ul>
+                                                <span>(126) Review</span>
+                                            </div>
+                                            <h2 class="product__title"><a href="shop-single.html"><?= $productByCate['product_name'] . " " .  $productByCate['size_name'] ?> </a></h2>
+                                            <h4 class="product__price"><span class="new"><?= number_format($productByCate['price']) ?></span><span class="old">$28.52</span></h4>
                                         </div>
-                                        <h2 class="product__title"><a href="shop-single.html">SAMSUNG Galaxy S20 FE 5G Cell Phone, Factory</a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
+                                        <ul class="product__action">
+                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                        </ul>
+                                        <span class="badge-skew">New</span>
                                     </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
+
+                                <?php endforeach; ?>
+
+
                             </div>
 
 
                             <div class="rd-product__slide-item">
 
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_13.png" alt=""></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
-                                        </div>
-                                        <h2 class="product__title"><a href="shop-single.html">Sceptre 24″ Professional Thin 75Hz 1080p LED Monitor</a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                    </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
 
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_14.png" alt=""></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
+                                <?php foreach ($xiaomi as $key => $productByCate) : ?>
+
+                                    <div class="product__item">
+                                        <div class="product__img text-center pos-rel">
+                                            <a href="<?= BASE_URL .  "?act=chitiet&id=" . $productByCate['product_id'] . "&dungluong=" . $productByCate['size_id'] ?>"><img src="<?= BASE_URL . $productByCate['image_url'] ?>" alt="" width="100px"></a>
                                         </div>
-                                        <h2 class="product__title"><a href="shop-single.html">Panasonic Cordless Phone System, Expandable</a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                    </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_14.png" alt=""></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
+                                        <div class="product__content">
+                                            <div class="product__review ul_li_center">
+                                                <ul class="rating-star ul_li mr-10">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="far fa-star"></i></li>
+                                                    <li><i class="far fa-star"></i></li>
+                                                </ul>
+                                                <span>(126) Review</span>
+                                            </div>
+                                            <h2 class="product__title"><a href="shop-single.html"><?= $productByCate['product_name'] . " " .  $productByCate['size_name'] ?> </a></h2>
+                                            <h4 class="product__price"><span class="new"><?= number_format($productByCate['price']) ?></span><span class="old">$28.52</span></h4>
                                         </div>
-                                        <h2 class="product__title"><a href="shop-single.html">Panasonic Cordless Phone System, Expandable</a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
+                                        <ul class="product__action">
+                                            <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
+                                            <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
+                                            <li><a href="#!"><i class="far fa-heart"></i></a></li>
+                                        </ul>
+                                        <span class="badge-skew">New</span>
                                     </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
+
+                                <?php endforeach; ?>
+
+
                             </div>
 
 
-                            <div class="rd-product__slide-item">
 
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_08.png" alt=""></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
-                                        </div>
-                                        <h2 class="product__title"><a href="shop-single.html">CLB 510BT Wireless Headphones with Purebass</a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                    </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
-
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_09.png" alt=""></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
-                                        </div>
-                                        <h2 class="product__title"><a href="shop-single.html">BenQ HT2050A 1080P Home Theater Projector Lumens</a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                    </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
-                                <div class="product__item">
-                                    <div class="product__img text-center pos-rel">
-                                        <a href="shop-single.html"><img src="<?= BASE_URL ?>assets/client/assets/img/product/img_09.png" alt=""></a>
-                                    </div>
-                                    <div class="product__content">
-                                        <div class="product__review ul_li_center">
-                                            <ul class="rating-star ul_li mr-10">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <span>(126) Review</span>
-                                        </div>
-                                        <h2 class="product__title"><a href="shop-single.html">BenQ HT2050A 1080P Home Theater Projector Lumens</a></h2>
-                                        <h4 class="product__price"><span class="new">$30.52</span><span class="old">$28.52</span></h4>
-                                    </div>
-                                    <ul class="product__action">
-                                        <li><a href="#!"><i class="far fa-compress-alt"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-shopping-basket"></i></a></li>
-                                        <li><a href="#!"><i class="far fa-heart"></i></a></li>
-                                    </ul>
-                                    <span class="badge-skew">New</span>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>

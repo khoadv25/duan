@@ -45,6 +45,7 @@ match ($act) {
     'veriUser' => veriUser(),
     'veriRessetPassword' => veriResetPassword(),
 
+    'allsp' => allProduct(),
     'dsspdm' => dsspByCate($_GET['cateID']),
 
     // list-cart
